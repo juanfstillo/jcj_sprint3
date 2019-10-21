@@ -26,8 +26,9 @@
               <a class="dropdown-item" href="raquetas-babolat.php">Babolat</a>
               <a class="dropdown-item" href="raquetas-tecnifibre.php">Tecnifibre</a>
               <a class="dropdown-item" href="raquetas-head.php">Head</a>
-              <a class="dropdown-item" href="raquetas.php">Wilson</a>
-              <a class="dropdown-item" href="raquetas.php">Yonex</a>
+              <a class="dropdown-item" href="raquetas-wilson.php">Wilson</a>
+              <a class="dropdown-item" href="raquetas-yonex.php">Yonex</a>
+              <a class="dropdown-item" href="raquetas.php">Ver todo</a>
             </div>
           </li>
 
@@ -36,9 +37,10 @@
             Pelotas
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Head</a>
-              <a class="dropdown-item" href="#">Penn</a>
-              <a class="dropdown-item" href="#">Wilson</a>
+              <a class="dropdown-item" href="pelotas-head.php">Head</a>
+              <a class="dropdown-item" href="pelotas-penn.php">Penn</a>
+              <a class="dropdown-item" href="pelotas-wilson.php">Wilson</a>
+              <a class="dropdown-item" href="pelotas.php">Ver todo</a>
           </li>
 
           <li class="nav-item dropdown pr-0">
@@ -46,9 +48,10 @@
             Cuerdas
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="cuerdas.php">Luxilon</a>
-            <a class="dropdown-item" href="cuerdas.php">Kirschbaum</a>
-            <a class="dropdown-item" href="cuerdas.php">Solinco</a>
+            <a class="dropdown-item" href="cuerdas-luxilon.php">Luxilon</a>
+            <a class="dropdown-item" href="cuerdas-kirschbaum.php">Kirschbaum</a>
+            <a class="dropdown-item" href="cuerdas-solinco.php">Solinco</a>
+            <a class="dropdown-item" href="cuerdas.php">Ver todo</a>
           </li>
 
           <li class="nav-item dropdown pr-0">
@@ -57,10 +60,11 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="bolsos-babolat.php">Babolat</a>
-            <a class="dropdown-item" href="bolsos.php">Head</a>
-            <a class="dropdown-item" href="bolsos.php">Tecnifibre</a>
-            <a class="dropdown-item" href="bolsos.php">Wilson</a>
-            <a class="dropdown-item" href="bolsos.php">Yonex</a>
+            <a class="dropdown-item" href="bolsos-head.php">Head</a>
+            <a class="dropdown-item" href="bolsos-tecnifibre.php">Tecnifibre</a>
+            <a class="dropdown-item" href="bolsos-wilson.php">Wilson</a>
+            <a class="dropdown-item" href="bolsos-yonex.php">Yonex</a>
+            <a class="dropdown-item" href="bolsos.php">Ver todo</a>
           </li>
           <li class="nav-item">
            <a class="nav-link" href="accesorios.php">Accesorios</a>

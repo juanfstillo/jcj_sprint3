@@ -114,7 +114,7 @@ a::hover {
 /* -------------- TITLES AND DESCRIPTIONS -------------- */
 
 #main-title, #categories {
-  color: black;
+  color: #FFF;
   margin-top: 0px;
   font-family: 'Staatliches', sans-serif;
   text-transform: uppercase;
@@ -388,6 +388,7 @@ div .col-12 {
 
 #allCategories {
   margin-bottom: 80px;
+  color: #FFF;
 }
 
 

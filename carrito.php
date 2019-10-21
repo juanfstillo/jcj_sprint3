@@ -8,7 +8,7 @@
     <div class="container-fluid">
       <?php include_once('partials/header.php');?>
       <div id="spacer">
-
+      <h1 class="allCategories" id="categories">Carrito de compras</h1>
         <div class="container bg-white pb-3 mt-5 opct opacity-0.7">
     	     <table id="cart" class="table table-hover table-condensed">
 
