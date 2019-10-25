@@ -1,7 +1,7 @@
 <html>
   <head>
     <?php include_once('partials/styles.php');?>
-    <title>JCJ | Raquetas Head</title>
+    <title>JCJ | Cubregrips</title>
   </head>
 
   <body>
@@ -13,23 +13,24 @@
       <div id="spacer">
 
         <main>
-          <h1 class="allCategories" id="categories">Head</h1>
+          <h1 class="allCategories" id="categories">Cubregrips</h1>
+
         <section id="use-cases" class="py-4 my-4">
           <div class="container">
             <div class="row">
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/27735-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
+                  <img src="https://www.tennisplaza.com/prodimages/4983-DEFAULT-m.jpg"class="card-img-top" alt="Pro Overgrip X3">
                   <div class="card-body">
-                    <p class="card-text">HEAD</p>
-                    <h5 class="card-title">Graphene 360 Speed X </h5>
+                    <p class="card-text">WILSON</p>
+                    <h5 class="card-title">Pro Overgrip X3</h5>
 
                     <div class="container">
                       <div class="row">
 
                         <div class="col-12">
-                          <p>$ 13.999</p>
+                          <p>$ 319</p>
                         </div>
 
                         <div class="col-12">
@@ -45,16 +46,16 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/24167-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
+                  <img src="https://www.tennisplaza.com/prodimages/4011-DEFAULT-m.jpg"class="card-img-top" alt="Pro SensatioN X12">
                   <div class="card-body">
-                    <p class="card-text">HEAD</p>
-                    <h5 class="card-title">Graphene 360 Speed Pro</h5>
+                    <p class="card-text">WILSON</p>
+                    <h5 class="card-title">Pro SensatioN X12</h5>
 
                     <div class="container">
                       <div class="row">
 
                         <div class="col-12">
-                          <p>$ 13.000</p>
+                          <p>$ 2.000</p>
                         </div>
 
                         <div class="col-12">
@@ -70,16 +71,16 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/24167-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
+                  <img src="https://www.tennisplaza.com/prodimages/1718-DEFAULT-m.jpg"class="card-img-top" alt="Head Cubre Prestige X3">
                   <div class="card-body">
                     <p class="card-text">HEAD</p>
-                    <h5 class="card-title">Graphene 360 Speed MP</h5>
+                    <h5 class="card-title">Prestige X3 Pro</h5>
 
                     <div class="container">
                       <div class="row">
 
                         <div class="col-12">
-                          <p>$ 13.000</p>
+                          <p>$ 399</p>
                         </div>
 
                         <div class="col-12">
@@ -95,42 +96,16 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/27356-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
+                  <img src="https://www.tennisplaza.com/prodimages/18677-DEFAULT-m.jpg"class="card-img-top" alt="Head Cubre Prime X30">
                   <div class="card-body">
                     <p class="card-text">HEAD</p>
-                    <h5 class="card-title">Graphene 360+ Gravity PRO</h5>
+                    <h5 class="card-title">Prime x30</h5>
 
                     <div class="container">
                       <div class="row">
 
                         <div class="col-12">
-                          <p>$ 13.000</p>
-                        </div>
-
-                        <div class="col-12">
-                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                        </div>
-
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/27356-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
-                  <div class="card-body">
-                    <p class="card-text">HEAD</p>
-                    <h5 class="card-title">Graphene 360+ Gravity MP</h5>
-
-                    <div class="container">
-                      <div class="row">
-
-                        <div class="col-12">
-                          <p>$ 13.000</p>
+                          <p>$ 4.000</p>
                         </div>
 
                         <div class="col-12">
@@ -146,16 +121,41 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/27356-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
+                  <img src="https://www.tennisplaza.com/prodimages/9605-DEFAULT-m.jpg"class="card-img-top" alt="Babolat Cubre Pro Team x3">
                   <div class="card-body">
-                    <p class="card-text">HEAD</p>
-                    <h5 class="card-title">Graphene 360+ Gravity S</h5>
+                    <p class="card-text">BABOLAT</p>
+                    <h5 class="card-title">Pro Team X3</h5>
 
                     <div class="container">
                       <div class="row">
 
                         <div class="col-12">
-                          <p>$ 13.000</p>
+                          <p>$ 429</p>
+                        </div>
+
+                        <div class="col-12">
+                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4 text-center my-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.tennisplaza.com/prodimages/1114-DEFAULT-m.jpg"class="card-img-top" alt="Babolat Cubre VS Original X12">
+                  <div class="card-body">
+                    <p class="card-text">BABOLAT</p>
+                    <h5 class="card-title"> VS Original X12 </h5>
+
+                    <div class="container">
+                      <div class="row">
+
+                        <div class="col-12">
+                          <p>$ 2.000</p>
                         </div>
 
                         <div class="col-12">

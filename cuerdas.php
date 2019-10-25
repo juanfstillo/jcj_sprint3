@@ -12,6 +12,7 @@
       <div id="spacer">
 
       <main>
+        <h1 class="allCategories" id="categories">Cuerdas</h1>
 
       <section id="use-cases" class="py-4 my-4">
         <div class="container">
@@ -26,7 +27,7 @@
                     <div class="row">
 
                       <div class="col-12">
-                        <a href="#" class="btn btn-primary">Ver Todas</a>
+                        <a href="cuerdas-luxilon.php" class="btn btn-primary">Ver Todas</a>
                       </div>
 
                     </div>
@@ -44,7 +45,7 @@
                     <div class="row">
 
                       <div class="col-12">
-                        <a href="#" class="btn btn-primary">Ver Todas</a>
+                        <a href="cuerdas-kirschbaum.php" class="btn btn-primary">Ver Todas</a>
                       </div>
 
                     </div>
@@ -62,7 +63,7 @@
                   <div class="row">
 
                     <div class="col-12">
-                      <a href="#" class="btn btn-primary">Ver Todas</a>
+                      <a href="cuerdas-solinco.php" class="btn btn-primary">Ver Todas</a>
                     </div>
 
                   </div>

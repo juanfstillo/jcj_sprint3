@@ -11,7 +11,8 @@
     <div class="container-fluid">
       <div id="spacer">
 
-
+        <main>
+          <h1 class="allCategories" id="categories">Yonex</h1>
       <section id="use-cases" class="py-4 my-4">
         <div class="container">
           <div class="row">
@@ -169,6 +170,8 @@
         </div>
       </div>
       </section>
+    </main>
+
 
 
     </div>
