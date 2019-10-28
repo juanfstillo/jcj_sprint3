@@ -1,7 +1,7 @@
 <html>
   <head>
     <?php include_once('partials/styles.php');?>
-    <title>JCJ | Bolsos Babolat</title>
+    <title>JCJ | Bolsos Tecnifibre</title>
   </head>
 
   <body>
@@ -15,10 +15,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/23696-DEFAULT-l.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://www.midwestsports.com/images/xxl/40TOU15R00.jpg?v=101774047170-1" class="card-img-top" alt="Tecnifibre bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>
-                    <h5 class="card-title">Pure 12</h5>
+                    <p class="card-text">Tecnifibre</p>
+                    <h5 class="card-title">ATP Tour</h5>
 
                     <div class="container">
                       <div class="row">
@@ -40,10 +40,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/19792-DEFAULT-m.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://www.tennisplaza.com/prodimages/alt_images/medium/40END15R17-2.jpg" class="card-img-top" alt="Tecnifibre bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>
-                    <h5 class="card-title">Pure Aero</h5>
+                    <p class="card-text">Tecnifibre</p>
+                    <h5 class="card-title">Tour Team Blue</h5>
 
                     <div class="container">
                       <div class="row">
@@ -65,10 +65,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.pureracketsport.com/cms/wp-content/uploads/2018/12/Babolat-Pure-Strike-Racket-Bag.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://www.stringersworld.com/images/detailed/45/12_R_black.jpg?t=1565953647" class="card-img-top" alt="Tecnifibre bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>                  
-                    <h5 class="card-title">Pure Play</h5>
+                    <p class="card-text">Tecnifibre</p>                 
+                    <h5 class="card-title">Core Insurance</h5>
 
                     <div class="container">
                       <div class="row">
@@ -91,10 +91,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="http://www.itennis.in/image/cache/data/sports/tennis/babolat/bags/Babolat_Team_Line_Bags_Red_12_Pack/BTLR12RD-1-450x450.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://racquetnetwork.com/wp-content/uploads/TECNIFIBRE-SQUASH-BAG-9.jpg" class="card-img-top" alt="Tecnifibre bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>
-                    <h5 class="card-title">Play Wimbledon</h5>
+                    <p class="card-text">Tecnifibre</p>
+                    <h5 class="card-title">Radical</h5>
 
                       <div class="container">
                         <div class="row">
@@ -116,10 +116,10 @@
 
                 <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                   <div class="card" style="width: 18rem;">
-                    <img src="https://www.directtennis.co.uk/Images/Large/Bab_751141-103.jpg" class="card-img-top" alt="Babolat bolso">
+                    <img src="https://greatracketshop.co.za/wp-content/uploads/2018/10/TEC015-600x600.jpg" class="card-img-top" alt="Tecnifibre bolso">
                     <div class="card-body">
-                      <p class="card-text">Babolat</p>
-                      <h5 class="card-title">Pure Special</h5>
+                      <p class="card-text">Tecnifibre</p>
+                      <h5 class="card-title">Tour Team Pink</h5>
 
                       <div class="container">
                         <div class="row">
@@ -141,10 +141,10 @@
 
                 <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                   <div class="card" style="width: 18rem;">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/61bvgAcegaL._SX466_.jpg" class="card-img-top" alt="Babolat bolso">
+                    <img src="https://www.midwestsports.com/images/xxl/40AIEN9R20.jpg?v=101773966662-1" class="card-img-top" alt="Tecnifibre bolso">
                     <div class="card-body">
-                      <p class="card-text">Babolat</p>
-                      <h5 class="card-title">Basic Blue Pro</h5>
+                      <p class="card-text">Tecnifibre</p>
+                      <h5 class="card-title">Basic WT Pro</h5>
 
                       <div class="container">
                         <div class="row">

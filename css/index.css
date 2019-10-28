@@ -21,6 +21,16 @@ body{
   height: 60px;
 }
 
+.see-all {
+  background-color: #000;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5px;
+  justify-content: center;
+  height: 60px;
+  color: #D4DC00;
+} 
+
 .dropdown-item:hover {
   background-color: #000;
 }

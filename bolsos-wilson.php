@@ -1,7 +1,7 @@
 <html>
   <head>
     <?php include_once('partials/styles.php');?>
-    <title>JCJ | Bolsos Babolat</title>
+    <title>JCJ | Bolsos Wilson</title>
   </head>
 
   <body>
@@ -15,10 +15,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/23696-DEFAULT-l.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://shop.wilson.com/media/catalog/product/cache/38/image/9df78eab33525d08d6e5fb8d27136e95/4/0/4021729b1bcded23c61a513aacc032532696c135_WRZ840809_Super_Tour_2_Comp_Large_INFRARED_Front.jpg" class="card-img-top" alt="Wilson bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>
-                    <h5 class="card-title">Pure 12</h5>
+                    <p class="card-text">Wilson</p>
+                    <h5 class="card-title">ATP Tour</h5>
 
                     <div class="container">
                       <div class="row">
@@ -40,10 +40,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/19792-DEFAULT-m.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://www.midwestsports.com/images/xl/WRZ834806.jpg?v=101773932242-1" class="card-img-top" alt="Wilson bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>
-                    <h5 class="card-title">Pure Aero</h5>
+                    <p class="card-text">Wilson</p>
+                    <h5 class="card-title">Tour Team Blue</h5>
 
                     <div class="container">
                       <div class="row">
@@ -65,10 +65,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.pureracketsport.com/cms/wp-content/uploads/2018/12/Babolat-Pure-Strike-Racket-Bag.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://etennis-ffb7.kxcdn.com/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/w/r/wrz843715-wilson-ultra-15-pack-bag-blue.jpg" class="card-img-top" alt="Wilson bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>                  
-                    <h5 class="card-title">Pure Play</h5>
+                    <p class="card-text">Wilson</p>                 
+                    <h5 class="card-title">Core Insurance</h5>
 
                     <div class="container">
                       <div class="row">
@@ -91,10 +91,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="http://www.itennis.in/image/cache/data/sports/tennis/babolat/bags/Babolat_Team_Line_Bags_Red_12_Pack/BTLR12RD-1-450x450.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://cdn3.volusion.com/s2mhx.7dfsu/v/vspfiles/photos/BAG-WILSON-PRO-STAFF-Z6702-2.jpg" class="card-img-top" alt="Wilson bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>
-                    <h5 class="card-title">Play Wimbledon</h5>
+                    <p class="card-text">Wilson</p>
+                    <h5 class="card-title">Radical</h5>
 
                       <div class="container">
                         <div class="row">
@@ -116,10 +116,10 @@
 
                 <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                   <div class="card" style="width: 18rem;">
-                    <img src="https://www.directtennis.co.uk/Images/Large/Bab_751141-103.jpg" class="card-img-top" alt="Babolat bolso">
+                    <img src="https://www.tennisplaza.com/prodimages/22705-DEFAULT-m.jpg" class="card-img-top" alt="Wilson bolso">
                     <div class="card-body">
-                      <p class="card-text">Babolat</p>
-                      <h5 class="card-title">Pure Special</h5>
+                      <p class="card-text">Wilson</p>
+                      <h5 class="card-title">Tour Team Pink</h5>
 
                       <div class="container">
                         <div class="row">
@@ -141,10 +141,10 @@
 
                 <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                   <div class="card" style="width: 18rem;">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/61bvgAcegaL._SX466_.jpg" class="card-img-top" alt="Babolat bolso">
+                    <img src="https://www.tennisplaza.com/prodimages/26673-DEFAULT-m.jpg" class="card-img-top" alt="Wilson bolso">
                     <div class="card-body">
-                      <p class="card-text">Babolat</p>
-                      <h5 class="card-title">Basic Blue Pro</h5>
+                      <p class="card-text">Wilson</p>
+                      <h5 class="card-title">Basic WT Pro</h5>
 
                       <div class="container">
                         <div class="row">

@@ -1,7 +1,7 @@
 <html>
   <head>
     <?php include_once('partials/styles.php');?>
-    <title>JCJ | Bolsos Babolat</title>
+    <title>JCJ | Bolsos Yonex</title>
   </head>
 
   <body>
@@ -15,10 +15,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/23696-DEFAULT-l.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://www.tennisplaza.com/prodimages/22526-DEFAULT-m.jpg" class="card-img-top" alt="Yonex bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>
-                    <h5 class="card-title">Pure 12</h5>
+                    <p class="card-text">Yonex</p>
+                    <h5 class="card-title">ATP Tour</h5>
 
                     <div class="container">
                       <div class="row">
@@ -40,10 +40,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.tennisplaza.com/prodimages/19792-DEFAULT-m.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/610YHEw6oFL._SX425_.jpg" class="card-img-top" alt="Yonex bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>
-                    <h5 class="card-title">Pure Aero</h5>
+                    <p class="card-text">Yonex</p>
+                    <h5 class="card-title">Tour Team Blue</h5>
 
                     <div class="container">
                       <div class="row">
@@ -65,10 +65,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="https://www.pureracketsport.com/cms/wp-content/uploads/2018/12/Babolat-Pure-Strike-Racket-Bag.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://www.midwestsports.com/images/xl/BAG9829BK.jpg?v=101773034824-1" class="card-img-top" alt="Yonex bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>                  
-                    <h5 class="card-title">Pure Play</h5>
+                    <p class="card-text">Yonex</p>                 
+                    <h5 class="card-title">Core Insurance</h5>
 
                     <div class="container">
                       <div class="row">
@@ -91,10 +91,10 @@
 
               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                 <div class="card" style="width: 18rem;">
-                  <img src="http://www.itennis.in/image/cache/data/sports/tennis/babolat/bags/Babolat_Team_Line_Bags_Red_12_Pack/BTLR12RD-1-450x450.jpg" class="card-img-top" alt="Babolat bolso">
+                  <img src="https://www.midwestsports.com/images/xl/bag9826bp.jpg?v=101773034821-1" class="card-img-top" alt="Yonex bolso">
                   <div class="card-body">
-                    <p class="card-text">Babolat</p>
-                    <h5 class="card-title">Play Wimbledon</h5>
+                    <p class="card-text">Yonex</p>
+                    <h5 class="card-title">Radical</h5>
 
                       <div class="container">
                         <div class="row">
@@ -116,10 +116,10 @@
 
                 <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                   <div class="card" style="width: 18rem;">
-                    <img src="https://www.directtennis.co.uk/Images/Large/Bab_751141-103.jpg" class="card-img-top" alt="Babolat bolso">
+                    <img src="https://cdn.etrias.nl/media/catalog/product/cache/0/image/450x450/9df78eab33525d08d6e5fb8d27136e95/t/e/tennistas_1.jpg" class="card-img-top" alt="Yonex bolso">
                     <div class="card-body">
-                      <p class="card-text">Babolat</p>
-                      <h5 class="card-title">Pure Special</h5>
+                      <p class="card-text">Yonex</p>
+                      <h5 class="card-title">Tour Team Pink</h5>
 
                       <div class="container">
                         <div class="row">
@@ -141,10 +141,10 @@
 
                 <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                   <div class="card" style="width: 18rem;">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/61bvgAcegaL._SX466_.jpg" class="card-img-top" alt="Babolat bolso">
+                    <img src="https://www.khelmart.com/Cricket/zoomer_Image/YO_KB_000074_large_1.jpg" class="card-img-top" alt="Yonex bolso">
                     <div class="card-body">
-                      <p class="card-text">Babolat</p>
-                      <h5 class="card-title">Basic Blue Pro</h5>
+                      <p class="card-text">Yonex</p>
+                      <h5 class="card-title">Basic WT Pro</h5>
 
                       <div class="container">
                         <div class="row">
