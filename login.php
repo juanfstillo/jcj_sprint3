@@ -41,8 +41,7 @@
   <body>
     <div class="container-fluid containerLogin">
       <?php include_once('partials/header.php');?>
-      <div id="spacer">
-      </div>
+
 
       <section class="formularioLogin">
         <div id="formContainer" class="row align-items-center">
