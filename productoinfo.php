@@ -32,24 +32,26 @@
           <img src="https://images-na.ssl-images-amazon.com/images/I/61C6xTH9-oL._SL1001_.jpg" alt="Pure Drive Plus" class="img-fluid "/>
         </div>
 
-        <div class="col-sm-8 bg-white">
+        <div class="col-sm-8 bg-white p-0">
 
-          <p class="mb-0">#2838474</p>
-          <h3 class="nomargin text-uppercase">Babolat</h3>
-          <h5>Raqueta de tenis Pure Drive Plus</h5>
-          <div class="pb-5">
-            <h6 class="font-weight-light">Ofrece los mismos beneficios que la Pure Drive además de un poco más de control. Los marcos se venden en pares, con una diferencia máxima de peso de 1,9 g.
+          <p class="mt-3 mb-1 pl-3">#2838474</p>
+          <h3 class="nomargin text-uppercase bg-dark text-white pl-3">Babolat</h3>
+          <h5 class="pl-3">Raqueta de tenis Pure Drive Plus</h5>
+          <div class="pb-3">
+            <h6 class="font-weight-light pl-3">Ofrece los mismos beneficios que la Pure Drive además de un poco más de control. Los marcos se venden en pares, con una diferencia máxima de peso de 1,9 g.
               <br>
               - Parte de la icónica familia Pure Drive
               <br>
               - Combinación perfecta de potencia y precisión</h6>
           </div>
 
-          <h6 style="color:grey" class="font-weight-light">Stock: 5 unidades</h6>
+          <hr class="m-0 mb-1">
+
+          <h6 style="color:grey" class="font-weight-light pl-3">Stock: 5 unidades</h6>
           <span class="precio">
-            <h2>$13999</h2>
+            <h2 class="pl-3">$13999</h2>
           </span>
-          <button type="button" class="btn btn-outline-success waves-effect">Agregar a carrito</button>
+          <button type="button" class="btn btn-outline-success waves-effect ml-3"><a href="carrito.php" class="text-success waves-effect">Agregar a carrito</a></button>
 
         </div>
         </div>

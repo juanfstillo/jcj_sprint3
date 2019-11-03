@@ -44,8 +44,8 @@
 
 
       <section class="formularioLogin">
-        <div id="formContainer" class="row align-items-center">
-          <div class="col-8 offset-2">
+        <div id="formContainer" class="row align-items-center justify-content-center">
+          <div class="col-8 offset-2 ml-0 p-0">
             <h1 class="main-title" id="main-title">Iniciar sesión</h1>
             <form id="formulario"  class="form" name="formLogin"     novalidate action=""  method="POST" enctype="multipart/form-data" >
 
