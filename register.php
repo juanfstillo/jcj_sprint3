@@ -32,8 +32,8 @@
       <?php include_once('partials/header.php');?>
       <div id="spacer"></div>
       <section class="formulario">
-        <div id="formContainer" class="row align-items-center">
-          <div class="col-8 offset-2  ">
+        <div id="formContainer" class="row align-items-center justify-content-center">
+          <div class="col-8 offset-2 ml-0 p-0">
             <h1>Registrate por primera vez</h1>
 
             <form id="formulario"  class="form" name="formRegistro"     novalidate action=""  method="POST" enctype="multipart/form-data" >

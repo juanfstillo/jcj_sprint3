@@ -8,7 +8,7 @@
       <div class="navbar-brand" href="index.php">
           <a href="index.php"><img class="__imglogo" src="img/__logo/op3ok.svg" alt="JCJ tenis profesional"></a>
       </div>
-      
+
       <div class="w-100 text-right">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
               <span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@
   </div>
 
   <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-      <ul class="navbar-nav ml-auto flex-nowrap __navbar">
+      <ul class="navbar-nav flex-nowrap __navbar text-center">
           <li class="nav-item dropdown pr-0">
             <a class="nav-link dropdown-toggle" href="raquetas.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Raquetas
@@ -76,7 +76,8 @@
         <!--Esto lo estoy colocando para controlar que debe aparecer en las opciones del navbar, dependiendo si el usuario está logueado o no-->
 
         <?php if(!isset($_SESSION["email"])) :?>
-          <form class="form-inline my-2 my-lg-0">
+
+          <form class="form-inline my-2 my-md-0 my-lg-0 d-flex flex-row justify-content-center">
 
             <li class="nav-item o_navitem">
                 <a href="login.php" class="nav-link">Ingresar</a>
@@ -84,10 +85,11 @@
               <li class="nav-item o_navitem">
                 <button type="button" class="d-flex btn btn_register"><a href="register.php">Crear cuenta</a></button>
               </li>
-              <li class="nav-item o_navitem">
+              <li class="nav-item o_navitem pr-0">
                 <a href="carrito.php"><img src="img/shopping-cart-solid.svg" alt="shopping" width="30px"></a>
               </li>
             </form>
+
         <?php else :?>
               <li class="nav-item o_navitem">
                 <button type="button" class="d-flex btn btn_logout"><a href="logout.php">Cerrar sesión</a></button>
