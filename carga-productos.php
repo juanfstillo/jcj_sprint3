@@ -1,11 +1,23 @@
 <?php
   require_once('controladores/funciones.php');
   require_once('helpers.php');
-  
-  if($_POST){
-    
-  }
+?>
 
+<?php
+  $dsn = 'mysql:host=localhost;dbname=jcctenis;charset=utf8mb4;port:3306';
+  $db_user = 'root';
+  $db_pass = 'root';
+  $db = new PDO($dsn, $db_user, $db_pass);
+ ?>
+
+ <?php
+  $conexion = mysqli_connect("127.0.0.1", "root", "root", "jcctenis");
+
+  if (!$conexion) {
+    echo "No se ha podido conectar";
+  } else {
+    echo 'Conectado';
+  }
 ?>
 
 <html>
@@ -18,37 +30,55 @@
     <div class="container">
       <?php include_once('partials/header.php');?>
 
+
+
       <section class="formularioCarga">
         <div id="formContainer" class="row align-items-center justify-content-center">
           <div class="col-8 offset-2 ml-0 p-0">
             <h1 class="main-title" id="main-title">Nuevo producto</h1>
-            <form id="formularioCarga"  class="form" name="formularioCarga" method="POST" enctype="multipart/form-data">
+            <form id="formularioCarga"  class="form" name="formularioCarga" action="productoAlta.php" method="POST" enctype="multipart/form-data">
 
               <div class="form-group">
                 <label for="productType">Tipo de producto</label>
                 </br>
-                <select form="listaProd" id="listaProd" autofocus> 
-                    <option value="Raquetas">Raquetas</option> 
-                    <option value="Pelotas">Pelotas</option> 
-                    <option value="Cuerdas">Cuerdas</option> 
-                    <option value="Bolsos">Bolsos</option> 
-                    <option value="Accesorios">Accesorios</option> 
-                </select> 
+
+                <select form="listaProd" id="listaProd" autofocus>
+                  <option value="0">Seleccionar</option>
+                  <?php
+
+                  $sql = "SELECT name_cat FROM categories";
+                  $listaCat = $conexion -> listaCat($sql);
+
+                  while ($categories = mysqli_fetch_array($conexion, $listaCat)) {
+                    echo '<option value = "'.$categories['name_cat'].'">';
+                  }
+                  ?>
+                </select>
+
+
+
+                <!-- <select form="listaProd" id="listaProd" autofocus>
+                    <option value="Raquetas">Raquetas</option>
+                    <option value="Pelotas">Pelotas</option>
+                    <option value="Cuerdas">Cuerdas</option>
+                    <option value="Bolsos">Bolsos</option>
+                    <option value="Accesorios">Accesorios</option>
+                </select> -->
               </div>
-            
+
                 <div class="form-group">
                   <label for="marcas">Marca</label>
                   </br>
-                  <select form="listaMarcas" id="listaMarcas" autofocus> 
-                    <option value="Raquetas">Babolat</option> 
-                    <option value="Pelotas">Tecnifibre</option> 
-                    <option value="Cuerdas">Head</option> 
-                    <option value="Bolsos">Wilson</option> 
-                    <option value="Accesorios">Yonex</option> 
-                    <option value="Accesorios">Otros</option> 
-                </select> 
+                  <select form="listaMarcas" id="listaMarcas" autofocus>
+                    <option value="Raquetas">Babolat</option>
+                    <option value="Pelotas">Tecnifibre</option>
+                    <option value="Cuerdas">Head</option>
+                    <option value="Bolsos">Wilson</option>
+                    <option value="Accesorios">Yonex</option>
+                    <option value="Accesorios">Otros</option>
+                </select>
                 </div>
-              
+
 
               <div>
                 <!--Aquí les comparto este otro código donde pueden mostrar el error en el mismo lugar donde se produjo, usted decide como desea mostrar los errores-->
@@ -68,7 +98,7 @@
             </form>
         </div>
       </section>
-      
+
     </div>
 
     <?php include_once('partials/footer.php');?>
