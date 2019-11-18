@@ -36,7 +36,7 @@
           <div class="col-8 offset-2 ml-0 p-0">
             <h1>Registrate por primera vez</h1>
 
-            <form id="formulario"  class="form" name="formRegistro"     novalidate action=""  method="POST" enctype="multipart/form-data" >
+            <form id="formulario" class="form" name="formRegistro" novalidate action=""  method="POST" enctype="multipart/form-data" >
               <div class="form-group">
                   <label for="userName">Nombre de usuario</label>
                   <input required name="userName" type="text" value= "<?=isset($errores['username'])? "":old('userName') ;?>" class="form-control" id="userName" placeholder="Nombre de usuario">
@@ -109,6 +109,7 @@
       </div>
       <?php include_once('partials/footer.php');?>
     </div>
+  </div>
   </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
