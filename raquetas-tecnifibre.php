@@ -12,7 +12,7 @@
       <div id="spacer">
 
         <main>
-          <h1 class="allCategories" id="categories">Tecniibre</h1>
+          <h1 class="allCategories" id="categories">Tecnifibre</h1>
       <section id="use-cases" class="py-4 my-4">
         <div class="container">
           <div class="row">
