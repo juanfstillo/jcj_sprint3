@@ -1,20 +1,17 @@
 <?php
   require_once('controladores/funciones.php');
-  require_once('helpers.php');
   // require_once('autoload.php');
 
 ?>
 <nav class="d-flex navbar navbar-expand-lg navbar-dark bg-dark ">
   <div class="d-flex flex-grow-1">
       <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-      <div class="navbar-brand" href="index.php">
-          <a href="index.php"><img class="__imglogo" src="img/__logo/op3ok.svg" alt="JCJ tenis profesional"></a>
-      </div>
+      <a href="index.php"><img class="__imglogo" src="images/op3ok.svg" alt="JCJ tenis profesional"></a>
 
       <div class="w-100 text-right">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+            <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
   </div>
 
@@ -79,18 +76,19 @@
 
         <?php if(!isset($_SESSION["email"])) :?>
 
-          <form class="form-inline my-2 my-md-0 my-lg-0 d-flex flex-row justify-content-center">
+          <form class="form-inline my-2 my-md-0 my-lg-0 d-flex flex-row justify-content-center" id="loginSection">
+            <li class="nav-item o_navitem">
+              <a href="login.php" class="nav-link">Ingresar</a>
+            </li>
 
             <li class="nav-item o_navitem">
-                <a href="login.php" class="nav-link">Ingresar</a>
-              </li>
-              <li class="nav-item o_navitem">
-                <button type="button" class="d-flex btn btn_register"><a href="register.php">Crear cuenta</a></button>
-              </li>
-              <li class="nav-item o_navitem pr-0">
-                <a href="carrito.php"><img src="img/shopping-cart-solid.svg" alt="shopping" width="30px"></a>
-              </li>
-            </form>
+              <a href="register.php" class="nav-link">Crear cuenta</a>
+            </li>
+
+            <li class="nav-item o_navitem pr-0">
+              <a href="carrito.php"><img src="images/shopping-cart-solid.svg" alt="shopping" width="30px"></a>
+            </li>
+          </form>
 
         <?php else :?>
               <li class="nav-item o_navitem">

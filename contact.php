@@ -1,12 +1,12 @@
 <html>
   <head>
     <?php include_once('partials/styles.php');?>
-    <title>JCJ | Crear cuenta</title>
+    <title>JCJ | Contacto</title>
   </head>
 
   <body>
+    <?php include_once('partials/header.php');?>
     <div class="container-fluid">
-      <?php include_once('partials/header.php');?>
       <div id="spacer">
 
     <main>
@@ -52,12 +52,13 @@
         </div>
       </container>
     </main>
-    <!--FOOTER -->
-    <div id="spacer">
     </div>
-    <?php include_once('partials/footer.php');?>
   </div>
-</div>
+
+    <footer>
+      <?php include_once('partials/footer.php');?>
+    </footer>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
