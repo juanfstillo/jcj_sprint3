@@ -7,7 +7,7 @@
             <p><a href="cuerdas.php">Cuerdas</a></p>
             <p><a href="bolsos.php">Bolsos</a></p>
             <p><a href="accesorios.php">Accesorios</a></p>
-            <p>Promociones</p>
+            <p><a href="promos.php">Promociones</a></p>
           </article>
 
           <article class="sucursales col-12 col-md-4 __artpie">
@@ -21,9 +21,13 @@
           </article>
 
           <article class="sucursales col-12 col-md-4 __artpie">
+<<<<<<< HEAD
             <h4 id="footer-title"><a href="faq.php">CONOCENOS</a></h4>
+=======
+            <h4>CONOCENOS</h4>
+>>>>>>> 21c0885eebfc76f8c1f55f70a2b74976407dbdfc
             <p>Contactanos</p>
-            <p>Nuestras políticas</p>
+            <p><a href="faq.php">Preguntas frecuentes</a></p>
             <p>Noticias</p>
 
           </article>

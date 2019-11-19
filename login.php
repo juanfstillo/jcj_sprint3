@@ -1,6 +1,7 @@
 <?php
   require_once('controladores/funciones.php');
   require_once('helpers.php');
+  
   if($_POST){
     $errores = validarLogin($_POST);
     if(count($errores)==0){
@@ -39,8 +40,9 @@
   </head>
 
   <body>
-    <div class="container-fluid containerLogin">
+    <div class="container-fluid">
       <?php include_once('partials/header.php');?>
+      <div id="spacer"></div>
 
 
       <section class="formularioLogin">
