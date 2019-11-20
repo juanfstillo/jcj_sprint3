@@ -17,32 +17,7 @@
 }
 
 .navbar {
-  height: 70px;
-}
-
-#loginSection {
-  padding-left: 50px;
-}
-
-#main-navbar {
-  background-color: #E1E1E1;
-}
-
-.nav-link {
-  color: #000;
-  margin-right: 30px;
-}
-
-.m-3 {
-  font-family: 'Roboto', sans-serif;
-  margin: 0 auto;
-  font-size: 1em;
-}
-
-.__imglogo {
-  align-content: center;
-  margin: 0 auto;
-  margin-left: 50px;
+  height: 100px;
 }
 
 
@@ -53,36 +28,27 @@
 .navbar-brand {
   margin-top: 8px;
   margin-bottom: 0px;
-  position: absolute;
-}
 
-#navbarSupportedContent {
-  margin: 0 auto;
-  padding-left: 150px;
 }
-
 
 .container-fluid a {
   margin: 0px;
   padding: 0px;
 }
 
-.container {
-  padding: 0px;
-}
-
 
 .nav-item {
-  font-family: 'Staatliches', sans-serif;
+  font-family: 'Staatliches', cursive, sans-serif;
   font-size: 1.1em;
-  padding-right: 30px;
+  padding-right: 20px;
   font-weight: 300;
   letter-spacing: 1px;
-  color: #fff;
 }
 
 .dropdown-item {
+  margin: 10px;
   padding: 10px 10px 10px 20px;
+
 }
 
 a {
@@ -106,57 +72,14 @@ a::hover {
   background-size: cover;
 }
 
-.form-group {
-  font-family: 'Roboto', sans-serif;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 20px;
-}
-
-.form-check-label a {
-  color: #4267B2;
-  margin-top: 20px;
-}
-
-.form-check {
-  padding-left: 40px;
-}
-
-.new-user {
-  margin-top: 100px;
-  border-top: solid 1px grey;
-  width: 90%;
-  padding-top: 50px;
-}
-
-#create {
-  margin-left: 20px;
-  margin-top: 30px;
-}
-
-
-h4 #footer-title {
-  font-family: 'Staatliches', sans-serif;
-  margin-bottom: 10px;
-  margin-top: 20px;
-}
 
 
 /* -------------- TITLES AND DESCRIPTIONS -------------- */
 
 #main-title, #categories {
-  color: #FFF;
-  margin-top: 0px;
-  font-family: 'Staatliches', sans-serif;
-  text-transform: uppercase;
-  font-size: 4em;
-  margin-bottom: 30px;
-}
-
-#main-title-black {
-  color: #000;
-  margin-top: 50px;
-  font-family: 'Staatliches', sans-serif;
+  color: black;
+  margin-top: 60px;
+  font-family: 'Staatliches', cursive, sans-serif;
   text-transform: uppercase;
   font-size: 4em;
   margin-bottom: 30px;
@@ -171,28 +94,17 @@ h4 #footer-title {
 }
 
 .main-content {
-  padding: 10px;
+  padding: 20px;
   margin: 0 auto;
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: white;
-  /*height: 40%;*/
-  width: 90%;
+  height: 40%;
+  width: 40%;
   box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
   display: block;
   border-radius: 5px;
 }
-
-#main-title_form {
-  font-family: 'Staatliches', sans-serif;
-  font-size: 3em;
-  padding-left: 20px;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  display: block;
-}
-
 
 .col-form {
   display: inline-flex;
@@ -228,52 +140,32 @@ p .value {
 
 
 
+
 /* -------------- BUTTONS -------------- */
 
 #social-button {
   margin: 20px 0px 20px 0px;
 }
-
-
-.btn-primary {
-  font-family: 'Staatliches', sans-serif;
+.btn {
+  font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
   letter-spacing: 0.2em;
   padding: 10px 15px;
   border: none;
   text-transform: uppercase;
   margin: 10px 25px 10px 0px;
-  width: 25%;
-  text-decoration: none;
+  width: 100%;
   }
 
-.btn-primary:hover {
+.btn:hover {
     box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
 }
-*/
 
-#main-button-yellow {
-    font-family: 'Staatliches', sans-serif;
-    background-color: #D4DC00;
-    font-size: 1em;
-    letter-spacing: 0.2em;
-    color: #000;
-    padding: 10px 15px;
-    border-radius: none;
-    text-transform: uppercase;
-    text-decoration: inherit;
-    margin: 10px 0px 10px 0px;
-    width: 300px;
-    border: none;
-  }
-
-
-
-.google {
-    background-color: #DFDFDF;
+.btn-main-azul {
+    background-color: #4267B2;
     font-size: 0.8em;
     letter-spacing: 0.2em;
-    color: #000;
+    color: #FFFFFF !important;
     padding: 10px 0px;
     border: none;
     text-align: center;
@@ -282,36 +174,29 @@ p .value {
     border-radius: 3px;
   }
 
+.google {
+    background-color: #DFDFDF;
+    font-size: 0.8em;
+    color: black;
+    padding: 10px 0px;
+    border: none;
+    text-align: center;
+    width: 100%;
+  }
+
 #current-id {
   margin-top: 20px;
-  margin-left: 20px;
   font-size: 1em;
+  border-top: solid 1px grey;
   padding-top: 25px;
-  display: inline;
-  margin-right: 50px;
 }
 
 #main-button {
-  font-family: 'Staatliches', sans-serif;
-  background-color: #000;
+  font-family: 'Staatliches', cursive, sans-serif;
+  background-color: #fff;
   font-size: 1em;
   letter-spacing: 0.2em;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: none;
-  text-transform: uppercase;
-  text-decoration: inherit;
-  margin: 10px 0px 10px 0px;
-  width: 90%;
-  border: none;
-}
-
-.btn, #main-button-black {
-  font-family: 'Staatliches', sans-serif;
-  background-color: #000;
-  font-size: 1em;
-  letter-spacing: 0.2em;
-  color: #fff;
+  color: #000;
   padding: 10px 15px;
   border-radius: none;
   text-transform: uppercase;
@@ -321,12 +206,10 @@ p .value {
   border: none;
 }
 
-
 #main-button::hover {
   background-color: #4cff00;
   text-decoration: inherit;
   color: inherit;
-  box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
 }
 
 
@@ -336,24 +219,6 @@ p .value {
 
 }
 
-.pass-group {
-  padding-left: 20px;
-}
-
-.modal-body .btn-link {
-  font-family: 'Staatliches', sans-serif;
-  background-color: rgba(256, 256, 256, 0);
-  font-size: 1em;
-  letter-spacing: 0.2em;
-  color: blue;
-  padding: 10px 15px;
-  border-radius: none;
-  text-transform: uppercase;
-  text-decoration: inherit;
-  margin: 10px 0px 10px 0px;
-  width: 300px;
-  border: none;
-}
 
 /*
 .conoce {
@@ -376,18 +241,15 @@ p .value {
   padding: 0px;
 }
 
+
 .card-title {
-  font-family: 'Staatliches', sans-serif;
+  font-family: 'Staatliches', cursive, sans-serif;
   font-size: 2.4em;
-  color: #000;
+  color: #fff;
   padding: 10px 15px;
   text-transform: uppercase;
   text-decoration: inherit;
   margin: 10px 0px 10px 0px;
-}
-
-.card-text {
-  font-family: 'Roboto', sans-serif;
 }
 
 .card-body {
@@ -431,7 +293,6 @@ div .col-12 {
 
 #allCategories {
   margin-bottom: 80px;
-  color: #FFF;
 }
 
 
@@ -440,8 +301,8 @@ div .col-12 {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("tennis-hero.jpg");
   background-size: cover;
-  height: 100vh;
-  position: absolute;
+  height: 90vh;
+  position: relative;
 }
 
 .hero-text {
@@ -452,7 +313,7 @@ div .col-12 {
 }
 
 .hero-text h1 {
-  font-family: 'Staatliches', sans-serif;
+  font-family: 'Staatliches', cursive, sans-serif;
   text-transform: uppercase;
   color: #fff;
   font-size: 4em;
@@ -471,6 +332,10 @@ div .col-12 {
 }
 
 
+
+
+
+
 .elementostexto {
     position: absolute;
     right: 75%;
@@ -481,17 +346,19 @@ div .col-12 {
     padding: 30px;
     color: white;
     text-align: center;
-}
+
+
+
 
 
 /* -------------- FAQS -------------- */
 
-
+}
 #faqbody {
   background-image: url(http://www.whblisshotel.com/en/pic/gif/1438223709.jpg);
   background-size: cover;
-}
 
+}
 .panel-body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
@@ -500,7 +367,6 @@ div .col-12 {
 .panel {
   border-bottom: solid 1px grey;
 }
-
 .collapse {
   text-decoration: none;
 }
@@ -508,39 +374,6 @@ div .col-12 {
 /*RaquetasBabolat*/
 p#precio  {
   font-size: 90px;
-}
-
-
-/* -------------- FOOTER -------------- */
-
-.page-footer {
-  background-color: #000;
-  padding-top: 100px;
-  padding-bottom: 200px;
-}
-
-#footer .mx-4 {
-  margin-right: 200px;
-}
-
-
-#footer .text-light {
-  font-family: 'Staatliches', sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  margin-bottom: 15px;
-  font-size: 1.1em;
-}
-
-#footer .list-unstyled a {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.0em;
-  font-weight: bold;
-}
-
-.row .fab {
-  font-size: 2em;
-  padding-top: 20px;
 }
 
 
@@ -555,21 +388,24 @@ p#precio  {
   width: 100%;
   box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
   border-radius: 5px;
-  }
-  .elementostexto {
+}
+  .elementostexto{
     display:none;
   }
-  #introfoto {
+#introfoto{
     visibility: hidden;
     display: none;
   }
-  .elementostexto {
+
+  .elementostexto{
     display:none;
     height: 9vh;
+
   }
-  .elementostexto {
+  .elementostexto{
     visibility: hidden;
     height: 9vh;
+
   }
 }
 
