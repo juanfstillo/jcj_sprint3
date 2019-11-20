@@ -54,7 +54,7 @@ $products = Consulta::listar("products", $pdo);
                     <a href="perfilProducto.php?id= <?= $product['id'];?>">Ver</a>
                 </td>
                 <td>
-                    <a href="editarProducto.php?id= <?= $product['id'];?>">Editar</a>
+                    <a href="editarProducto.php?id=<?= $product['id'] ?>">Editar</a>
                 </td>
                 <td>
                     <a href="eliminarProducto.php">Eliminar</a>

@@ -1,7 +1,7 @@
 <?php
 require_once("autoload.php");
 if($_POST){
-    Consulta::eliminarProducto($pdo,'products',$_POST["name_prod"]);
+    Consulta::eliminarProducto($pdo, $_POST["id"]);
     header("location: index.php");
 }
 
@@ -24,10 +24,10 @@ if($_POST){
     <h3 class="card-title" id="main-title_form">Eliminar Producto</h3>
     <div class="row mt-5">
         <div class="col-lg-4 offset-lg-4">
-            <form action="indexProducto.php" method="POST">
+            <form action="eliminarProducto.php" method="POST">
                 <div class="form-group">
-                    <label for="name_prod">Nombre de producto</label>
-                    <input type="text" class="form-control" id="name_prod" name="name_prod" value="">
+                    <label for="id">ID de producto</label>
+                    <input type="text" class="form-control" id="id" name="id" value="">
                 </div>
 
                 <button type="submit" class="btn btn-primary">Eliminar Producto</button>

@@ -65,16 +65,14 @@ class Consulta
         $pdo->prepare("UPDATE products SET $setStr WHERE id = :id")->execute($params);
     }
 
-    static public function eliminarProducto($pdo,$tabla,$products){
-        /*
-        $sql = "delete from $tabla where title = :pelicula";
+    static public function eliminarProducto($pdo,$id){
+        
+        $sql = "delete from products where id = :id";
         $stmt= $pdo->prepare($sql);
-        $stmt->bindValue(':pelicula', $pelicula);
-        $stmt->execute();*/
-        //Otra forma de hacerlo de forma directa
-        $sql = "delete from $tabla where id = '$products'";
-        $pdo->exec($sql);
+        $stmt->bindValue(':id', $id);
+        $stmt->execute();
 
+    
     }
 
 }
