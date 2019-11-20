@@ -21,11 +21,8 @@
           </article>
 
           <article class="sucursales col-12 col-md-4 __artpie">
-<<<<<<< HEAD
             <h4 id="footer-title"><a href="faq.php">CONOCENOS</a></h4>
-=======
-            <h4>CONOCENOS</h4>
->>>>>>> 21c0885eebfc76f8c1f55f70a2b74976407dbdfc
+
             <p>Contactanos</p>
             <p><a href="faq.php">Preguntas frecuentes</a></p>
             <p>Noticias</p>
