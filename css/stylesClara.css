@@ -17,7 +17,32 @@
 }
 
 .navbar {
-  height: 100px;
+  height: 70px;
+}
+
+#loginSection {
+  padding-left: 50px;
+}
+
+#main-navbar {
+  background-color: #E1E1E1;
+}
+
+.nav-link {
+  color: #000;
+  margin-right: 30px;
+}
+
+.m-3 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+.__imglogo {
+  align-content: center;
+  margin: 0 auto;
+  margin-left: 50px;
 }
 
 
@@ -53,12 +78,11 @@
   padding-right: 30px;
   font-weight: 300;
   letter-spacing: 1px;
+  color: #fff;
 }
 
 .dropdown-item {
-  margin: 10px;
   padding: 10px 10px 10px 20px;
-
 }
 
 a {
@@ -111,11 +135,27 @@ a::hover {
 }
 
 
+h4 #footer-title {
+  font-family: 'Staatliches', sans-serif;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+
 /* -------------- TITLES AND DESCRIPTIONS -------------- */
 
 #main-title, #categories {
   color: #FFF;
   margin-top: 0px;
+  font-family: 'Staatliches', sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+
+#main-title-black {
+  color: #000;
+  margin-top: 50px;
   font-family: 'Staatliches', sans-serif;
   text-transform: uppercase;
   font-size: 4em;
@@ -194,8 +234,8 @@ p .value {
   margin: 20px 0px 20px 0px;
 }
 
-/*
-.btn {
+
+.btn-primary {
   font-family: 'Staatliches', sans-serif;
   font-size: 0.8em;
   letter-spacing: 0.2em;
@@ -207,7 +247,7 @@ p .value {
   text-decoration: none;
   }
 
-.btn:hover {
+.btn-primary:hover {
     box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
 }
 */
@@ -253,16 +293,16 @@ p .value {
 
 #main-button {
   font-family: 'Staatliches', sans-serif;
-  background-color: #fff;
+  background-color: #000;
   font-size: 1em;
   letter-spacing: 0.2em;
-  color: #000;
+  color: #fff;
   padding: 10px 15px;
   border-radius: none;
   text-transform: uppercase;
   text-decoration: inherit;
   margin: 10px 0px 10px 0px;
-  width: 300px;
+  width: 90%;
   border: none;
 }
 
@@ -336,15 +376,18 @@ p .value {
   padding: 0px;
 }
 
-
 .card-title {
   font-family: 'Staatliches', sans-serif;
   font-size: 2.4em;
-  color: #fff;
+  color: #000;
   padding: 10px 15px;
   text-transform: uppercase;
   text-decoration: inherit;
   margin: 10px 0px 10px 0px;
+}
+
+.card-text {
+  font-family: 'Roboto', sans-serif;
 }
 
 .card-body {

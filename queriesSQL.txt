@@ -1,0 +1,54 @@
+
+-- CONSULTA DE LOS USUARIOS
+SELECT*
+FROM users;
+
+-- CONSULTA DE PRODUCTOS
+SELECT*
+FROM products;
+
+-- CONSULTA DE MARCAS
+SELECT*
+FROM brands;
+
+-- CONSULTA DE CATEGORIES
+SELECT*
+FROM categories;
+
+-- CONSULTA DE PRODUCTOS CON CAMPOS IMPORTANTES
+SELECT name_prod, detail, price, img_prod, id_cat, id_brand
+FROM products;
+
+-- CONSULTA DONDE LOS PRECIOS SEAN MENORES DE 1000
+SELECT*
+FROM products
+WHERE products.price < 1000;
+
+-- CONSULTA TODOS LOS DATOS DE LOS PRODUCTOS
+SELECT*
+FROM products
+ORDER BY name_prod;
+
+-- CONSULTA DE PRODUCTOS Y CATEGORIAS
+SELECT products.*, categories.name_cat
+FROM products, categories
+WHERE products.id_cat = categories.id;
+
+-- CONSULTA DE PRODUCTOS Y MARCAS
+SELECT products.*, brands.name_brand
+FROM products, brands
+WHERE products.id_brand = brands.id;
+
+-- CONSTULTA DE USUARIO ID
+SELECT*
+FROM users
+WHERE users.id = 5;
+
+-- CONSULTA DE PRODUCTO
+SELECT *
+FROM products
+WHERE name_prod like '%raqueta%';
+
+SELECT *
+FROM products
+WHERE id = x;

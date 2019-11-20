@@ -4,7 +4,7 @@
 ?>
 
 <?php
-  $dsn = 'mysql:host=localhost;dbname=jcctenis;charset=utf8mb4;port:3306';
+  $dsn = 'mysql:host=localhost;dbname=jcctenis;charset=utf8mb4;port:8889';
   $db_user = 'root';
   $db_pass = 'root';
   $db = new PDO($dsn, $db_user, $db_pass);
@@ -18,7 +18,7 @@
   } else {
     echo 'Conectado';
   }
-?>
+?
 
 <html>
   <head>
@@ -30,12 +30,11 @@
     <div class="container">
       <?php include_once('partials/header.php');?>
 
-
-
       <section class="formularioCarga">
         <div id="formContainer" class="row align-items-center justify-content-center">
           <div class="col-8 offset-2 ml-0 p-0">
             <h1 class="main-title" id="main-title">Nuevo producto</h1>
+
             <form id="formularioCarga"  class="form" name="formularioCarga" action="productoAlta.php" method="POST" enctype="multipart/form-data">
 
               <div class="form-group">
@@ -78,6 +77,29 @@
                     <option value="Accesorios">Otros</option>
                 </select>
                 </div>
+
+                <select form="listaProd" id="listaProd" autofocus>
+                    <option value="Raquetas">Raquetas</option>
+                    <option value="Pelotas">Pelotas</option>
+                    <option value="Cuerdas">Cuerdas</option>
+                    <option value="Bolsos">Bolsos</option>
+                    <option value="Accesorios">Accesorios</option>
+                </select>
+              </div>
+
+                <div class="form-group">
+                  <label for="marcas">Marca</label>
+                  </br>
+                  <select form="listaMarcas" id="listaMarcas" autofocus>
+                    <option value="Raquetas">Babolat</option>
+                    <option value="Pelotas">Tecnifibre</option>
+                    <option value="Cuerdas">Head</option>
+                    <option value="Bolsos">Wilson</option>
+                    <option value="Accesorios">Yonex</option>
+                    <option value="Accesorios">Otros</option>
+                </select>
+                </div>
+
 
 
               <div>
