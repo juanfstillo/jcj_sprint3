@@ -1,0 +1,36 @@
+.piedepag{
+  font-family: 'Staatliches', sans-serif;
+  width: 100vw;
+  max-height: 1000px;
+  margin: 0 auto;
+  background-color: #000;
+  /* border-radius: 0px 0px 20px 20px; */
+  justify-content: space-around;
+  /* position: fixed;
+  left: 0;
+  bottom: 0; */
+}
+.__artpie{
+  margin: 15px auto;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+.__artpie h4 {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.__artpie p{
+  color: #ffffff;
+  line-height: 7px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+.__artpie a{
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 10px;
+  margin-bottom: 20px;
+}

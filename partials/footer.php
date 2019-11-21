@@ -1,4 +1,5 @@
-<div class="d-flex bg-dark text-white">
+
+<div class="bg-dark text-white">
         <footer class="piedepag row">
           <article class="sucursales col-12 col-md-4 __artpie">
             <h4 id="footer-title">PRODUCTOS</h4>

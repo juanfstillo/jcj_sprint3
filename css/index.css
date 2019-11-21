@@ -29,7 +29,7 @@ body{
   justify-content: center;
   height: 60px;
   color: #D4DC00;
-} 
+}
 
 .dropdown-item:hover {
   background-color: #000;
@@ -249,4 +249,3 @@ body{
   margin-top: 80px;
   margin-left: 60px;
 }
-
