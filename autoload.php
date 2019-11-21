@@ -10,7 +10,7 @@ require 'classes/Producto.php';
 $host = "localhost";
 $bd = "tenis_db";
 $usuario = "root";
-$password = "root";
+$password = "";
 $puerto = "3306";
 $charset = "utf8mb4";
 //Ojo: Para los que trabajan con MAC: deben colocar el puerto: 8889

@@ -36,7 +36,7 @@
                 <input type="hidden" name="id" value="<?=$id ?>">
                 <div class="form-group">
                     <label for="name_prod">Nombre de producto</label>
-                    <input type="text" class="form-control" name="name_prod">
+                    <input type="text" class="form-control" name="name_prod" value=<?php  ?> >
                 </div>
                 <div class="form-group">
                     <label for="detail">Detalle</label>

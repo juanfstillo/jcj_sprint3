@@ -1,3 +1,8 @@
-# jcc Tennis
-Este corresponde a un Create - Read - Update - Delete, creado completamente con el Lenguaje PHP usando PDO para la conexión a la base de datos.
-Para que todo les funcione correctamente, deben importar la base de datos tenis_db, la misma la tienen en la carpeta db.
+# JCJ Tenis
+Creamos el CRUD (Create, Read, Update, Delete) conectando la base de datos (bd/tenis_db).
+
+Listado completo de productos: /indexProductos.php
+Eliminar productos: /eliminarProducto.php
+Agregar productos: /agregarProducto.php
+Editar productos: /editarProducto.php
+Ver productos: /detalleProducto.php

@@ -3,6 +3,8 @@ require_once('autoload.php');
 
 $id = $_GET['id'];
 $product = Consulta::mostrar($pdo, "products", $id);
+$brand = Consulta::mostrar($pdo, "brands", $product['id_brand']);
+$category = Consulta::mostrar($pdo, "categories", $product['id_cat']);
 
 ?>
 
@@ -32,8 +34,8 @@ $product = Consulta::mostrar($pdo, "products", $id);
                     <li class="list-group-item">Detalle: <?= $product['detail']?></li>
                     <li class="list-group-item">Precio: <?= $product['price']?></li>
                     <li class="list-group-item">Imagen de producto: <?= $product['img_prod']?></li>
-                    <li class="list-group-item">Categoria: <?= $product['id_cat']?></li>
-                    <li class="list-group-item">Marca: <?= $product['id_brand']?></li>
+                    <li class="list-group-item">Categoria: <?= $category['name_cat']?></li>
+                    <li class="list-group-item">Marca: <?= $brand['name_brand']?></li>
                 </ul>
                 <div class="card-body d-flex justify-content-center  btn-primary">
                     <a href="editarProducto.php?id=<?= $product['id']?>" class="card-link">Editar</a>

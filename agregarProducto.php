@@ -2,6 +2,7 @@
     require 'autoload.php';
 
     $categories = Consulta::listar('categories', $pdo);
+    $brands = Consulta::listar('brands',$pdo);
 
     if($_POST) {
         $product = new Producto($_POST['name_prod'], $_POST['detail'], $_POST['price'], $_POST['img_prod'], $_POST['id_cat'], $_POST['id_brand']);
