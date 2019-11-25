@@ -22,17 +22,14 @@
                   <div class="card" style="width: 18rem;">
                     <img src="https://surtenis.cl/wp-content/uploads/2019/03/Babolat-Pure-Aero-300g.jpg"class="card-img-top" alt="Babolatraquect">
                     <div class="card-body">
-                      <h5 class="card-title">Babolat</h5>
-
                       <div class="container">
                         <div class="row">
                           <div class="col-12">
+                            <h5 class="card-title">Babolat</h5>
                             <a href="raquetas-babolat.php" class="btn btn-primary">Ver Todas</a>
                           </div>
-
                         </div>
                       </div>
-
                     </div>
                   </div>
                 </div>
