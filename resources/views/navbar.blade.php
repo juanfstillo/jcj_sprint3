@@ -15,7 +15,7 @@
 
 		  <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
 		      <ul class="navbar-nav flex-nowrap __navbar text-center">
-		          <li class="nav-item dropdown pr-0">
+		         {{--  <li class="nav-item dropdown pr-0">
 		            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		            	Raquetas
 		            </a>
@@ -69,7 +69,7 @@
 		         </li>
 
 		        <div id="products">
-		        </div>
+		        </div> --}}
 
 
 		        <form class="form-inline my-2 my-md-0 my-lg-0 d-flex flex-row justify-content-center">

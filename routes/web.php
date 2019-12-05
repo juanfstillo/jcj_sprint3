@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
 
 // Route::get('/products', 'ProductsController@listCatAll');
 
@@ -21,3 +19,4 @@ Route::get('/', function () {
 Route::get('/categories', 'CategoryController@productCatAll');
 
 Route::get('/products', 'ProductsController@list');
+
