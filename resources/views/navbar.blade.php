@@ -3,7 +3,7 @@
 		  <div class="d-flex flex-grow-1">
 		      <span class="w-100 d-lg-none d-block"></span>
 		      <div class="navbar-brand" href="#">
-		          <a href="#"><img class="__imglogo" src="images/op3ok.svg" alt="JCJ tenis profesional"></a>
+		          <a href="#"><img class="__imglogo" src="img/__logo/op3ok.svg" alt="JCJ tenis profesional"></a>
 		      </div>
 
 		      <div class="w-100 text-right">
