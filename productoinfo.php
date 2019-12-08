@@ -1,8 +1,3 @@
-<html>
-  <head>
-    <?php include_once('partials/styles.php');?>
-    <title>JCJ | Crear cuenta</title>
-  </head>
 
   <body>
     <div class="container-fluid">
