@@ -6,13 +6,6 @@
 
 
 
-<ul>  
-  <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-    <li> 
-      <?php echo e($product->name_prod); ?> 
-    </li>
-  <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-</ul>
 
 	
 

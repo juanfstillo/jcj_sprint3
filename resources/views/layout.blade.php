@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo $__env->yieldContent('title'); ?></title>
+	<title>@yield('title')</title>
 	
 	<link href=“https://fonts.googleapis.com/css?family=Raleway:300,400,500,700” rel=“stylesheet”>
 	<link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
@@ -17,19 +17,19 @@
 
 <body>
 	<header>
-		<?php echo $__env->make('navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>     
+		@include('navbar')     
 	</header>
 
 <!-- MAIN CONTENT -->
 	<main>
-		<?php echo $__env->yieldContent('main'); ?>
+		@yield('main')
 	</main>
 
 
-	<?php echo $__env->make('footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?> 
+	@include('footer') 
 
 
 	<script type="text/javascript" src="/js/app.js"></script>
 
 </body>
-</html><?php /**PATH C:\Program Files\laravel-master\laravel-master\jcj_tenis\resources\views/layout.blade.php ENDPATH**/ ?>
+</html>
