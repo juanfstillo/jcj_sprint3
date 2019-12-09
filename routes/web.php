@@ -14,9 +14,10 @@
 Route::get('/', 'HomeController@index');
 
 // Route::get('/products', 'ProductsController@listCatAll');
+Route::get('/{categoria}', 'CategoryController@index')->name('category');
 
+//Route::get('/{categories}', 'CategoryController@productCatAll');
 
-Route::get('/categories', 'CategoryController@productCatAll');
+//Route::get('/categories', 'CategoryController@productCatAll');
 
-Route::get('/products', 'ProductsController@list');
-
+//Route::get('/products', 'ProductsController@list');
