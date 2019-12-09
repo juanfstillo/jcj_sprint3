@@ -11,6 +11,6 @@ class Category extends Model
     public $guarded = [];
 
     public function prods(){
-    return $this->hasMany("App\Category", "id_cat");
+    return $this->hasMany("App\Product", "id_cat");
 	}
 }

@@ -1,0 +1,467 @@
+/* -------------- HEADER -------------- */
+
+#principalbody {
+  background-image: url(https://sportsbetmagazine.com/wp-content/uploads/2017/08/tennis.jpg);
+  background-size: cover;
+}
+
+.float-lg-right #main-button {
+  width: 150px;
+  margin-left: 50px;
+  background-color: #000;
+  color: #fff;
+}
+
+.float-lg-right #carritosuper {
+  font-size: 1.2em;
+}
+
+.navbar {
+  height: 100px;
+}
+
+
+
+/* -------------- NAV BAR -------------- */
+
+
+.navbar-brand {
+  margin-top: 8px;
+  margin-bottom: 0px;
+
+}
+
+.container-fluid a {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.nav-item {
+  font-family: 'Staatliches', cursive, sans-serif;
+  font-size: 1.1em;
+  padding-right: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.dropdown-item {
+  margin: 10px;
+  padding: 10px 10px 10px 20px;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a::hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+
+/* -------------- FORMS -------------- */
+
+#formsbody {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(https://images5.alphacoders.com/816/816149.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+
+/* -------------- TITLES AND DESCRIPTIONS -------------- */
+
+#main-title, #categories {
+  color: black;
+  margin-top: 60px;
+  font-family: 'Staatliches', cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+
+#description-title {
+  font-size: 0.9em;
+  color: black;
+  font-weight: 300;
+  letter-spacing: inherit;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background-color: white;
+  height: 40%;
+  width: 40%;
+  box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+  display: block;
+  border-radius: 5px;
+}
+
+.col-form {
+  display: inline-flex;
+}
+
+/*Reparar demas p que no sean clari's p
+p {
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+*/
+
+#form-field {
+  margin: 15px 0px 15px 0px;
+}
+
+p .value {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.linked {
+  color: blue;
+  font-size: 12px;
+  text-align: right;
+}
+
+
+.avatar {
+  margin: 30px 0px 20px 0px;
+}
+
+
+
+
+/* -------------- BUTTONS -------------- */
+
+#social-button {
+  margin: 20px 0px 20px 0px;
+}
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  padding: 10px 15px;
+  border: none;
+  text-transform: uppercase;
+  margin: 10px 25px 10px 0px;
+  width: 100%;
+  }
+
+.btn:hover {
+    box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
+}
+
+.btn-main-azul {
+    background-color: #4267B2;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    color: #FFFFFF !important;
+    padding: 10px 0px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+.google {
+    background-color: #DFDFDF;
+    font-size: 0.8em;
+    color: black;
+    padding: 10px 0px;
+    border: none;
+    text-align: center;
+    width: 100%;
+  }
+
+#current-id {
+  margin-top: 20px;
+  font-size: 1em;
+  border-top: solid 1px grey;
+  padding-top: 25px;
+}
+
+#main-button {
+  font-family: 'Staatliches', cursive, sans-serif;
+  background-color: #fff;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: none;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 0px;
+  width: 300px;
+  border: none;
+}
+
+#main-button::hover {
+  background-color: #4cff00;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+
+#main-button::selection {
+  background-color: none;
+  border: solid 1px white;
+
+}
+
+
+/*
+.conoce {
+  font-family: 'Staatliches', cursive, sans-serif;
+  width: 300px;
+  background-color: #fff;
+  height: 45px;
+  color: #000;
+  font-size: 1em;
+  border-radius: none;
+}
+*/
+
+
+
+
+/* -------------- CARDS -------------- */
+
+.product-card {
+  padding: 0px;
+}
+
+
+.card-title {
+  font-family: 'Staatliches', cursive, sans-serif;
+  font-size: 2.4em;
+  color: #fff;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 0px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.card-body h5 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.card-body #main-button {
+  position: absolute;
+  top: 57%;
+  left: 71%;
+  width: 100px;
+  background: rgba(256, 256, 256, 0.7);
+}
+
+div .col-12 {
+  padding: 0px;
+}
+
+
+::selection {
+  background: #6A11EA;
+  color: white;
+}
+
+
+.badge-use-case {
+  background: rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  color: white;
+  padding: 6px 10px;
+  font-size: 9px;
+  letter-spacing: 0.5px;
+}
+
+
+#allCategories {
+  margin-bottom: 80px;
+}
+
+
+/* -------------- HERO IMAGE AND TEXT -------------- */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("tennis-hero.jpg");
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+
+.hero-text {
+  width: 40%;
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
+
+.hero-text h1 {
+  font-family: 'Staatliches', cursive, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+
+.hero-text p {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: lighter;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  width: 75%;
+}
+
+
+
+
+
+
+.elementostexto {
+    position: absolute;
+    right: 75%;
+    top: 21%;
+    width: 300px;
+    height: 40vh;
+    background-color: rgba(255,255,255,0.0);
+    padding: 30px;
+    color: white;
+    text-align: center;
+
+
+
+
+
+/* -------------- FAQS -------------- */
+
+}
+#faqbody {
+  background-image: url(http://www.whblisshotel.com/en/pic/gif/1438223709.jpg);
+  background-size: cover;
+
+}
+.panel-body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+}
+
+.panel {
+  border-bottom: solid 1px grey;
+}
+.collapse {
+  text-decoration: none;
+}
+
+/*RaquetasBabolat*/
+p#precio  {
+  font-size: 90px;
+}
+
+
+
+/* -------------- MEDIA QUERIES -------------- */
+
+@media only screen and (max-width: 360px) {
+  .main-content {
+  padding: 20px;
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+  box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+  border-radius: 5px;
+}
+  .elementostexto{
+    display:none;
+  }
+#introfoto{
+    visibility: hidden;
+    display: none;
+  }
+
+  .elementostexto{
+    display:none;
+    height: 9vh;
+
+  }
+  .elementostexto{
+    visibility: hidden;
+    height: 9vh;
+
+  }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  .main-content {
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background-color: white;
+  height: 40%;
+  width: 90%;
+  box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+  border-radius: 5px;
+}
+
+.elementostexto{
+  display:none;
+  height: 9vh;
+
+}
+.elementostexto{
+  visibility: hidden;
+  height: 9vh;
+
+}
+/*
+#introfoto{
+  visibility: hidden;
+  display: none;
+}
+*/
+}
+@media only screen and (min-width: 768px) {
+  .main-content {
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background-color: white;
+  height: 40%;
+  width: 80%;
+  box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+  display: block;
+  border-radius: 5px;
+}
+.elementostexto{
+  display:none;
+  height: 9vh;
+  visibility: hidden;
+}
+
+/*
+.hero-image{
+  visibility: hidden;
+  display: none;
+}
+*/
