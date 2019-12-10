@@ -22,7 +22,7 @@
 	        <div class="card-body">
 	         <h5 class="card-title">{{ $product->name_prod }}</h5>
 	         <p class="card-text">${{ $product->price }}</p>
-	         <a href={{ $product->slug }} class="btn btn-primary">Ver Más</a>
+	         <a href={{ $product->slug }} class="btn-primary" width="100%">Ver Más</a>
 	        </div>
 	      </div>
 	    </div>

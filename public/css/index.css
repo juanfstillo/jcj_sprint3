@@ -202,19 +202,15 @@ body{
   text-transform: uppercase;
   text-decoration: inherit;
   margin: 10px 0px 10px 0px;
-  min-width: 150px;
   border: none;
 }
 
-.btn_register {
-  font-family: 'Staatliches', sans-serif;
-  background-color: black;
-  letter-spacing: 1px;
-  font-size: 17px;
-  color: #fff;
-  padding: 10px 15px;
-  font-size: 0.9em;
+
+.btn-primary:hover {
+  background-color: #0059FF;
+  text-decoration: none;
 }
+
 
 .btn-link {
   font-size: 19px;

@@ -75,15 +75,12 @@
 .nav-item {
   font-family: 'Staatliches', sans-serif;
   font-size: 1.1em;
-  padding-right: 30px;
+  padding-right: 18px;
   font-weight: 300;
   letter-spacing: 1px;
   color: #fff;
 }
 
-.dropdown-item {
-  padding: 10px 10px 10px 20px;
-}
 
 a {
   color: inherit;
@@ -235,39 +232,41 @@ p .value {
 }
 
 
-.btn-primary {
+.mainButton {
   font-family: 'Staatliches', sans-serif;
-  font-size: 0.8em;
+	background-color:#000000;
+	display:inline-block;
   letter-spacing: 0.2em;
-  padding: 10px 15px;
-  border: none;
-  text-transform: uppercase;
-  margin: 10px 25px 10px 0px;
-  width: 25%;
-  text-decoration: none;
-  }
-
-.btn-primary:hover {
-    box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1em;
+	padding:16px 30px;
+	text-decoration:none;
 }
-*/
 
-#main-button-yellow {
-    font-family: 'Staatliches', sans-serif;
-    background-color: #D4DC00;
-    font-size: 1em;
-    letter-spacing: 0.2em;
-    color: #000;
-    padding: 10px 15px;
-    border-radius: none;
-    text-transform: uppercase;
-    text-decoration: inherit;
-    margin: 10px 0px 10px 0px;
-    width: 300px;
-    border: none;
-  }
+.mainButton:hover {
+	background-color:#0059FF;
+}
 
+.mainButton:active {
+	position:relative;
+	top:1px;
+}
 
+.mainButton #white {
+  font-family: 'Staatliches', sans-serif;
+	background-color:#000000;
+  border: solid 1px #ffffff;
+	display:inline-block;
+  letter-spacing: 0.2em;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1em;
+	padding:16px 30px;
+	text-decoration:none;
+}
 
 .google {
     background-color: #DFDFDF;
@@ -291,50 +290,6 @@ p .value {
   margin-right: 50px;
 }
 
-#main-button {
-  font-family: 'Staatliches', sans-serif;
-  background-color: #000;
-  font-size: 1em;
-  letter-spacing: 0.2em;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: none;
-  text-transform: uppercase;
-  text-decoration: inherit;
-  margin: 10px 0px 10px 0px;
-  width: 90%;
-  border: none;
-}
-
-.btn, #main-button-black {
-  font-family: 'Staatliches', sans-serif;
-  background-color: #000;
-  font-size: 1em;
-  letter-spacing: 0.2em;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: none;
-  text-transform: uppercase;
-  text-decoration: inherit;
-  margin: 10px 0px 10px 0px;
-  width: 300px;
-  border: none;
-}
-
-
-#main-button::hover {
-  background-color: #4cff00;
-  text-decoration: inherit;
-  color: inherit;
-  box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
-}
-
-
-#main-button::selection {
-  background-color: none;
-  border: solid 1px white;
-
-}
 
 .pass-group {
   padding-left: 20px;

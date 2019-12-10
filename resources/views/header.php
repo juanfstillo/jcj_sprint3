@@ -16,7 +16,7 @@
           <a class="dropdown-item" href="#">
             @foreach($brands as $producto)
               <a class="dropdown-item" href="#">  {{ $producto->name_brand }}</a>
-            @endforeach 
+            @endforeach
           </a>
         </div>
       </li>

@@ -2,11 +2,9 @@
 		<nav class="d-flex navbar navbar-expand-lg navbar-dark bg-dark ">
 		  <div class="d-flex flex-grow-1">
 		      <span class="w-100 d-lg-none d-block"></span>
-		      <div class="navbar-brand" href="#">
-		          <a href="/"><img class="__imglogo" src="img/__logo/op3ok.svg" alt="JCJ tenis profesional"></a>
-		      </div>
+		      <a href="/"><img class="__imglogo" src="img/__logo/op3ok.svg" alt="JCJ tenis profesional"></a>
 
-		      <div class="w-100 text-right">
+		      <div class="w-150 text-right">
 		          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
 		              <span class="navbar-toggler-icon"></span>
 		          </button>
@@ -14,8 +12,11 @@
 		  </div>
 
 		  <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-		      <ul class="navbar-nav flex-nowrap __navbar text-center">
-		         {{--  <li class="nav-item dropdown pr-0">
+		      <ul class="navbar-nav flex-nowrap __navbar text-right">
+
+
+
+						 {{--  <li class="nav-item dropdown pr-0">
 		            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		            	Raquetas
 		            </a>
@@ -72,18 +73,18 @@
 		        </div> --}}
 
 
-		        <form class="form-inline my-2 my-md-0 my-lg-0 d-flex flex-row justify-content-center">
+		        <form class="form-inline my-2 my-md-0 my-lg-0 d-flex flex-row justify-content-right">
 
 			        <li class="nav-item o_navitem">
-			        	<a href="login.php" class="nav-link">Ingresar</a>
+								<button type="button" class="d-flex btn btn-primary"><a href="login.php">Ingresar</a></button>
 			        </li>
 
 			        <li class="nav-item o_navitem">
-			        	<button type="button" class="d-flex btn btn_register"><a href="register.php">Crear cuenta</a></button>
+			        	<button type="button" class="d-flex btn btn-primary"><a href="register.php">Crear cuenta</a></button>
 			        </li>
 
 			        <li class="nav-item o_navitem pr-0">
-			        	<a href="carrito.php"><img src="images/shopping-cart-solid.svg" alt="shopping" width="30px"></a>
+			        	<a href="carrito.php"><img src="img/shopping-cart-solid.svg" alt="shopping" width="30px"></a>
 			        </li>
 
 		        </form>
