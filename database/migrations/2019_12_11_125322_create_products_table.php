@@ -17,13 +17,15 @@ class CreateProductsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name', 255);
             $table->string('slug', 255);
-            $table->string('description', 2048);
             $table->string('imageUrl', 255);
             $table->float('price');
             $table->timestamps();
+            $table->unsignedBigInteger('category_id');
 
             $table->unique('name');
             $table->unique('slug');
+
+            $table->foreign('category_id')->references('id')->on('categories');
         });
     }
 
