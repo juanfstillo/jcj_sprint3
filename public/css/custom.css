@@ -26,8 +26,13 @@ a, a:hover {
   width: 150px;
 }
 
-.products-in-cart img {
+.products-in-cart img,
+.products-in-order img {
   width: 100px;
+}
+
+.order-row {
+  cursor: pointer;
 }
 
 .product-category-name a {

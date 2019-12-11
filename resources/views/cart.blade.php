@@ -43,7 +43,8 @@ Carrito de Compras - Reebok Argentina - Tienda Online - Be More Human
                 <td colspan="3" class="text-right h2">Total</td>
                 <td class="h2">${{ Auth::user()->cartTotal() }}</td>
                 <td>
-                  <form action="" method="post">
+                  <form action="{{ route('order') }}" method="post">
+                    {{ csrf_field() }}
                     <button class="btn btn-dark btn-lg" type="submit">Comprar</button>
                   </form>
                 </td>
