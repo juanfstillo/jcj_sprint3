@@ -5,7 +5,7 @@
   ]) }}" class="card">
     <img class="card-img-top" src="{{ $product->imageUrl }}" alt="{{ $product->name }}">
     <div class="card-body">
-      <h5 class="card-title">{{ $product->name }}</h5>
+      <h5 class="card-title">{{ $product->name }} ${{ $product->price }}</h5>
     </div>
   </a>
 </div>

@@ -8,14 +8,10 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>{{ $category->name }}</h1>
-        <div class="container">
-            <div class="row">
-              @foreach($products as $product)
-                @include('product-card', ['product' => $product])
-              @endforeach
-            </div>
-        </div>
+        <h2 class="product-category-name">
+          <a href="{{ route('category', ['categorySlug' => $product->category->slug]) }}">{{ $product->category->name }}</a>
+        </h2>
+        <h1>{{ $product->name }}</h1>
       </div>
     </div>
   </div>
