@@ -23,3 +23,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Bebas Neue';
   color: black;
 }
+
+@media screen and (min-width: 992px) {
+  .dropdown-menu.show {
+    left: -90px;
+  }
+}

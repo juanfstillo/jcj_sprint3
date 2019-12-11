@@ -7,9 +7,21 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="/login">Sign in</a>
-      </li>
+      @guest
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Entrar</a>
+        </li>
+      @else
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ Auth::user()->name }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Carrito</a>
+            <a class="dropdown-item" href="{{ route('logout') }}">Cerrar sesión</a>
+          </div>
+        </li>
+      @endguest
     </ul>
   </div>
 </nav>

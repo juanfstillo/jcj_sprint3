@@ -11,9 +11,11 @@
 |
 */
 
+Auth::routes();
+
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout')->name('logout');
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/{categorySlug}', 'CategoryController@index')->name('category');
 Route::get('/{categorySlug}/{productSlug}', 'ProductController@index')->name('product');
 
-Auth::routes();
 
