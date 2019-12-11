@@ -7,10 +7,9 @@ use App\Category;
 
 class HomeController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         $categories = Category::all();
-        return view('home', [
-            'categories' => $categories
-        ]);
+        return view('home', ['categories' => $categories]);
     }
 }
