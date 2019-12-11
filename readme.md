@@ -10,7 +10,7 @@ cd reebok-ecommerce
 composer install
 # Crear archivo .env a partir del .env.example
 # Crear esquema en la db y configurar .env con el nombre del esquema y la contraseña de la db
-php artisan db:migrate
+php artisan migrate
 php artisan db:seed
 php artisan serve
 ```
