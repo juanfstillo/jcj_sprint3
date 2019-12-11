@@ -17,7 +17,7 @@
             {{ Auth::user()->name }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Carrito</a>
+            <a class="dropdown-item" href="{{ route('cart') }}">Carrito</a>
             <a class="dropdown-item" href="{{ route('logout') }}">Cerrar sesión</a>
           </div>
         </li>

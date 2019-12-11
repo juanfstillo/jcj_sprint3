@@ -26,6 +26,10 @@ a, a:hover {
   width: 150px;
 }
 
+.products-in-cart img {
+  width: 100px;
+}
+
 .product-category-name a {
   text-transform: uppercase;
   font-size: 1rem;

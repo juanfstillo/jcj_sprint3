@@ -23,7 +23,16 @@
         @guest
           <a href="{{ route('login') }}" class="btn btn-dark btn-lg">Agregar al carrito</button>
         @else
-          <form action="" method="post">
+          <form action="{{ route('addProductToCart', ['productId' => $product->id]) }}" method="post">
+            {{ csrf_field() }}
+            <input type="hidden" name="product_id" value="{{ $product->id }}">
+            <label for="count">Cantidad</label>
+            <select id="count" name="count">
+                @for ($i = 1; $i <= 10; $i++)
+                  <option value="{{$i}}">{{$i}}</option>
+                @endfor
+            </select>
+            <br />
             <button type="submit" class="btn btn-dark btn-lg">Agregar al carrito</button>
           </form>
         @endguest

@@ -36,4 +36,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function productsInCart() {
+        return $this->hasMany('App\ProductInCart');
+    }
+
+    public function cartTotal() {
+        $total = $this->productsInCart->reduce(function ($acum, $productInCart) {
+            return $acum + ($productInCart->product->price * $productInCart->count);
+        });
+
+        return $total;
+    }
 }

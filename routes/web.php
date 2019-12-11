@@ -13,9 +13,11 @@
 
 Auth::routes();
 
-Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout')->name('logout');
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/carrito', 'CartController@index')->name('cart')->middleware('auth');
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout')->name('logout');
 Route::get('/{categorySlug}', 'CategoryController@index')->name('category');
 Route::get('/{categorySlug}/{productSlug}', 'ProductController@index')->name('product');
 
-
+Route::post('/cart/{productId}', 'CartController@addProduct')->name('addProductToCart');
+Route::delete('/cart/{productId}', 'CartController@removeProduct')->name('removeProductFromCart');
