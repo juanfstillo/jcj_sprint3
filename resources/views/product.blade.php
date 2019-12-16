@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-  {{$product->name}} - Reebok Argentina - Tienda Online - Be More Human
+  {{$product->name}} - JCJ Tenis - Proshop Online -
 @endsection
 
 @section('main')
@@ -21,7 +21,7 @@
       <div class="col-12 col-lg-6">
         <p class="display-2 font-weight-bold">${{ $product->price }}</p>
         @guest
-          <a href="{{ route('login') }}" class="btn btn-dark btn-lg">Agregar al carrito</button>
+          <a href="{{ route('login') }}" class="btn btn-dark btn-lg">Agregar al carrito</a>
         @else
           <form action="{{ route('addProductToCart', ['productId' => $product->id]) }}" method="post">
             {{ csrf_field() }}

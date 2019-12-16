@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-Mis órdenes - Reebok Argentina - Tienda Online - Be More Human
+- JCJ Tenis - Proshop Online -Tu pedido
 @endsection
 
 @section('main')

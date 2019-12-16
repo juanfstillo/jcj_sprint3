@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-  Reebok Argentina - Tienda Online - Be More Human
+  JCJ Tenis | Proshop Online
 @endsection
 
 @section('main')

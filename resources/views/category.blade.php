@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-  {{$category->name}} - Reebok Argentina - Tienda Online - Be More Human
+  {{$category->name}} JCJ Tenis | Proshop Online
 @endsection
 
 @section('main')

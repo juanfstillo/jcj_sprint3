@@ -1,7 +1,12 @@
 <div class="container">
   <div class="row">
     <div class="col-12 text-right">
-      © 2019 Reebok Argentina
+    Conocenos
     </div>
   </div>
-</div>
+ <div class="row">
+   <div class="col-12 text-right">
+<p class="font-italic"> © Todos los derechos reservados</p>
+ </div>
+  </div>
+  </div>
