@@ -10,12 +10,17 @@ use Auth;
 
 class OrdersController extends Controller
 {
-    public function addOrder() {
+    public function addOrder(Request$req) {
         $user = Auth::user();
 
         $order = new Order();
         $order->user_id = $user->id;
         $order->total = $user->cartTotal();
+        $order->cname = $req['cname'];
+        $order->cnumber = $req['cnumber'];
+        $order->cexpirate = $req['cexp'];
+        $order->cvv = $req['cvv'];
+        $order->cbrand = $req['Cbrand'];
         $order->save();
 
         foreach ($user->productsInCart as $productInCart) {

@@ -45,6 +45,17 @@ JCJ Tenis | Proshop Online
                 <td>
                   <form action="{{ route('order') }}" method="post">
                     {{ csrf_field() }}
+                    <label >Apellido y Nombre</label> <input required type="text" id="cname" name="cname" placeholder="Apellido y Nombre">
+                    <select class="" name="cbrand">
+                      <option value="Mastercard">Mastercard</option>
+                      <option value="Visa">Visa</option>
+                      <option value="Maestro">Maestro</option>
+                      <option value="American Express">American Express</option>
+                    </select>
+                    <label >Numero de tarjeta</label>
+                    <input required type="number" min="16" id="cnumber" name="cnumber" placeholder="1111-2222-3333-4444">
+                    <input required type="string" min="5" id="cexpirate" name="cexp" placeholder="Expiración MM/AA">
+                    <input required type="number" min="3" id="cvv" name="cvv" placeholder="CVV">
                     <button class="btn btn-dark btn-lg" type="submit">Comprar</button>
                   </form>
                 </td>
