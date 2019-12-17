@@ -1,0 +1,159 @@
+main{
+	background-image: url('../images/fondoform.jpg');
+}
+
+/*-------------- ENCABEZADOS Y TITULOS --------------*/
+
+#main-title .black {
+	color: black;
+	margin-top: 0px;
+	font-family: 'Staatliches', sans-serif;
+	text-transform: uppercase;
+	font-size: 4em;
+	margin-bottom: 30px;
+}
+
+
+#main-title .white {
+	color: white;
+}
+
+
+#description-title {
+  font-size: 0.9em;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: inherit;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  background-color: white;
+  width: 90%;
+  box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+  display: block;
+  border-radius: 5px;
+}
+
+
+.linked {
+  color: blue;
+  font-size: 12px;
+  text-align: right;
+  text-decoration: none;
+}
+
+
+
+/*-------------- NAVBAR --------------*/
+
+.navbar {
+  height: 100px;
+}
+
+
+.navbar-brand {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  position: absolute;
+}
+
+
+.nav-item {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1.1em;
+  padding-right: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+
+
+/*-------------- BUTTONS --------------*/
+
+#main-button {
+  font-family: 'Staatliches', sans-serif;
+  background-color: #fff;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: none;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 0px;
+  border: none;
+}
+
+
+#main-button:hover {
+  background-color: #4cff00;
+  text-decoration: inherit;
+  color: inherit;
+  box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
+}
+
+
+#main-button::selection {
+  background-color: none;
+  border: solid 1px white;
+}
+
+
+#main-button .black {
+	background-color: #000;
+	color: #fff;
+}
+
+.card-title {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 2.4em;
+  color: #fff;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 0px;
+}
+
+
+.card-body {
+  padding: 0px;
+}
+
+.card-body h5 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+
+.badge-use-case {
+  background: rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  color: white;
+  padding: 6px 10px;
+  font-size: 9px;
+  letter-spacing: 0.5px;
+}
+
+
+#allCategories {
+  margin-bottom: 80px;
+}

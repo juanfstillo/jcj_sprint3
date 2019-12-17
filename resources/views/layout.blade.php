@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/custom.css">
 
+
     <title>@yield('title')</title>
   </head>
   <body>

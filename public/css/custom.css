@@ -2,12 +2,29 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'Bebas Neue';
+  font-family: 'Staatliches', sans-serif;
   color: black;
+}
+main{
+	background-image: url('../images/fondoform.jpg');
+  background-size: contain;
+}
+
+h1{
+  color: white;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+h2{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 0
 }
 
 a, a:hover {
-  font-family: 'Bebas Neue';
+  font-family: 'Staatliches', sans-serif;
   color: black;
 }
 
@@ -25,12 +42,22 @@ a, a:hover {
 #logo {
   width: 150px;
 }
-
+.btn {
+  background-color:
+}
 .products-in-cart img,
 .products-in-order img {
   width: 100px;
 }
-
+.card-body {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 2.4em;
+  color: #000000;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 0px;
+}
 .order-row {
   cursor: pointer;
 }
@@ -38,7 +65,8 @@ a, a:hover {
 .product-category-name a {
   text-transform: uppercase;
   font-size: 1rem;
-  color: #686868;
+  padding-left: 10px;
+  color: white;
 }
 
 @media screen and (min-width: 992px) {
