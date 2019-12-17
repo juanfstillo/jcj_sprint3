@@ -8,7 +8,7 @@
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form id='registro' method="POST" action="{{ route('register') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -36,6 +36,28 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="country" class="col-md-4 col-form-label text-md-right">{{ __('country') }}</label>
+
+                            <div class="col-md-6">
+                              <select name="country">
+                                <option value="-1">Seleccionar país</option>
+                              </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label id="province" for="province" class="col-md-4 col-form-label text-md-right"></label>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="avatar" class="col-md-4 col-form-label text-md-right">Avatar</label>
+
+                            <div class="col-md-6">
+                                <input required="" name="avatar" type="file" value="" class="form-control" id="avatar">
                             </div>
                         </div>
 
@@ -74,4 +96,6 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" src="{{ URL::asset('js/index.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @endsection
