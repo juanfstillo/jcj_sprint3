@@ -12,6 +12,9 @@
           <a class="nav-link text-light" href="/login">Entrar</a>
         </li>
       @else
+        <div class="imagenavatar" id='imagenavatar'>
+          <img src="/storage/{{ Auth::user()->avatar }}" alt="Foto de perfil" style="width:70px">
+        </div>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ Auth::user()->name }}
