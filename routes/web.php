@@ -25,4 +25,4 @@ Route::post('/cart/{productId}', 'CartController@addProduct')->name('addProductT
 Route::delete('/cart/{productId}', 'CartController@removeProduct')->name('removeProductFromCart');
 Route::get('/{categorySlug}', 'CategoryController@index')->name('category');
 Route::get('/{categorySlug}/{productSlug}', 'ProductController@index')->name('product');
-//Todas las rutas que sean {slug}deben estar colocadas con posterioridad a las que no los sean.
+//Todas las rutas que sean {slug}deben estar colocadas con posterioridad a las que no los sean para no ocasionar errores//

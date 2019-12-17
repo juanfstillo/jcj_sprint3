@@ -6,7 +6,7 @@
   </div>
   <div class="row">
     <div class="col-12 text-right">
- <a style="color:white" href="{{url('contactanos')}}">Contactamos</a> </div>
+ <a style="color:white" href="{{url('contactanos')}}">Contactanos</a> </div>
    </div>
  <div class="row">
    <div class="col-12 text-right">

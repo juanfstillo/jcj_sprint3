@@ -5,7 +5,7 @@ JCJ Tenis | Conocenos
 @endsection
 
 @section('main')
-  <form action="mail.php" method="post">
+  <form action="" method="get">
                           <div class="card border-primary rounded-0">
                               <div class="card-header p-0">
                                   <div class="bg-info text-white text-center py-2">
