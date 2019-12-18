@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-  {{$product->name}} - JCJ Tenis - Tienda Online 
+  {{$product->name}} - JCJ Tenis - Tienda Online
 @endsection
 
 @section('main')
@@ -26,7 +26,7 @@
           <form action="{{ route('addProductToCart', ['productId' => $product->id]) }}" method="post">
             {{ csrf_field() }}
             <input type="hidden" name="product_id" value="{{ $product->id }}">
-            <label for="count">Cantidad</label>
+            <label for="count" id="cantidad">Cantidad</label>
             <select id="count" name="count">
                 @for ($i = 1; $i <= 10; $i++)
                   <option value="{{$i}}">{{$i}}</option>

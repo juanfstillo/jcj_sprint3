@@ -34,36 +34,55 @@ JCJ Tenis | Proshop Online
                     {{ csrf_field() }}
                     <input type="hidden" name="_method" value="DELETE">
                     <input type="hidden" name="product_id" value="{{ $productInCart->product->id }}">
-                    <button class="btn btn-danger" type="submit">Eliminar</button>
+                    <button id="main-button" class="red" type="submit">Eliminar</button>
                   </form>
                 </td>
               </tr>
             @endforeach
               <tr>
-                <td colspan="3" class="text-right h2">Total</td>
-                <td class="h2">${{ Auth::user()->cartTotal() }}</td>
-                <td>
-                  <form action="{{ route('order') }}" method="post">
-                    {{ csrf_field() }}
-                    <label >Apellido y Nombre</label> <input required type="text" id="cname" name="cname" placeholder="Apellido y Nombre">
-                    <select class="" name="cbrand">
-                      <option value="Mastercard">Mastercard</option>
-                      <option value="Visa">Visa</option>
-                      <option value="Maestro">Maestro</option>
-                      <option value="American Express">American Express</option>
-                    </select>
-                    <label >Numero de tarjeta</label>
-                    <input required type="number" min="16" id="cnumber" name="cnumber" placeholder="1111-2222-3333-4444">
-                    <input required type="string" min="5" id="cexpirate" name="cexp" placeholder="Expiración MM/AA">
-                    <input required type="number" min="3" id="cvv" name="cvv" placeholder="CVV">
-                    <button class="btn btn-dark btn-lg" type="submit">Comprar</button>
-                  </form>
-                </td>
+                <td colspan="3" class="form-title" id="white">Total</td>
+                <td class="form-title" id="white">${{ Auth::user()->cartTotal() }}</td>
               </tr>
-            </tbody>
-          </table>
+                <br>
+          </tbody>
+        </table>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="card">
+              <form action="{{ route('order') }}" method="post">
+                {{ csrf_field() }}
+                <div>
+                  <label>Apellido y Nombre</label>
+                  <input required type="text" id="cname" name="cname" placeholder="Tal como aparece en la tarjeta">
+                </div>
+
+                <div>
+                  <select class="" name="cbrand">
+                    <option value="Mastercard">Mastercard</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Maestro">Maestro</option>
+                    <option value="American Express">American Express</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label class="form-label">Número de tarjeta</label>
+                  <input required type="number" min="16" id="cnumber" name="cnumber" placeholder="1111-2222-3333-4444">
+                  <input required type="string" min="5" id="cexpirate" name="cexp" placeholder="Expiración MM/AA">
+                  <input required type="number" min="3" id="cvv" name="cvv" placeholder="CVV">
+                </div>
+
+                <button class="black" id="main-button" type="submit">Comprar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
         @else
-          <p>No hay productos en el carrito</p>
+          <p class="about-description">No hay productos en el carrito</p>
         @endif
     </div>
   </div>

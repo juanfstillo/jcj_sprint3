@@ -8,16 +8,16 @@ JCJ Tenis | Conocenos
   <!-- Header -->
 
 <div class="container">
-  <h1 class="white-about" id="main-title">Acerca de nosotros</h1>
+  <h1 id="main-title" class="white">Acerca de nosotros</h1>
 </div>
 
 <!-- Page Content -->
 <div class="container">
   <div class="row">
     <div class="card">
-      <div class="col-xl-10 col-md-6 mb-4">
+      <div class="col-xl-11 col-md-6 mb-4">
         <p class="about-description">
-          Somos compañeros que nos conocimos en Digital House y fuimos asignados para trabajar juntos en el trabajo integrador. Elegimos realizar una tienda e-commerce de productos de tenis. <br> Para este proyecto, implementamos Bootstrap, PHP, Laravel y MySQL.
+          Somos compañeros que nos conocimos en Digital House y fuimos asignados para trabajar juntos en el trabajo integrador. Elegimos realizar una tienda e-commerce de productos de tenis. <br> Para este proyecto, implementamos HTML, CSS, Bootstrap, PHP, Laravel, Javascript y MySQL.
         </p>
       </div>
     </div>

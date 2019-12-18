@@ -6,7 +6,7 @@ body {
   color: black;
 }
 main{
-  background-image: url('../images/tennis-hero.jpg');
+  background-image: url('../images/tennis-hero-dark.jpg');
   background-repeat: no-repeat;
   height: 700px;
   background-position: fixed;

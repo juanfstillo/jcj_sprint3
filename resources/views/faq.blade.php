@@ -15,23 +15,6 @@ JCJ Tenis | Preguntas Frecuentes
           <!-- Arrancan las preguntas -->
 
           <div class="panel panel-default">
-            <div id="heading1" class="panel-heading p-3 mb-3" role="tab">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                  ¿Tengo que registrarme antes de comprar?
-                </a>
-              </h4>
-            </div>
-
-            <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
-              <div class="panel-body px-3 mb-4">
-                <p id='respuestasfaq'> Podes hacerlo haciendo click <a href="form_registro.html">aqui</a> </p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="panel panel-default">
             <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
               <h4 class="panel-title">
                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
@@ -43,9 +26,9 @@ JCJ Tenis | Preguntas Frecuentes
             <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
               <div class="panel-body px-3 mb-4">
                 <ul>
-                  <li>Tarjeta de crédito - a través de MercadoPago</li>
-                  <li>Contra reembolso (sin recargo)</li>
-                  <li>Tranferencia Bancaria</li>
+                  <li class="faq">Tarjeta de crédito - a través de MercadoPago</li>
+                  <li class="faq">Contra reembolso (sin recargo)</li>
+                  <li class="faq">Tranferencia Bancaria</li>
                 </ul>
               </div>
             </div>
@@ -63,7 +46,7 @@ JCJ Tenis | Preguntas Frecuentes
 
             <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
               <div class="panel-body px-3 mb-4">
-                <p>Cualquier persona en el domicilio de entregar, mayor de 18 años podrá recibir tu compra. Debe presentar DNI al momento de entrega de la compra.</p>
+                <p id='respuestasfaq'>Cualquier persona en el domicilio de entregar, mayor de 18 años podrá recibir tu compra. Debe presentar DNI al momento de entrega de la compra.</p>
               </div>
             </div>
           </div>
@@ -80,7 +63,7 @@ JCJ Tenis | Preguntas Frecuentes
 
             <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
               <div class="panel-body px-3 mb-4">
-                <p>El código de seguridad se encuentra en el dorso de la tarjeta. Son 3 (tres) dígitos expresados en números adicionales que siguen el número de la tarjeta de crédito; a excepción de American Express, que posee 4 (cuatro) dígitos y está en el frente de dicha tarjeta. El mismo es utilizado para verificar que el comprador sea el propietario de la misma.</p>
+                <p id='respuestasfaq'>El código de seguridad se encuentra en el dorso de la tarjeta. Son 3 (tres) dígitos expresados en números adicionales que siguen el número de la tarjeta de crédito; a excepción de American Express, que posee 4 (cuatro) dígitos y está en el frente de dicha tarjeta. El mismo es utilizado para verificar que el comprador sea el propietario de la misma.</p>
               </div>
             </div>
           </div>

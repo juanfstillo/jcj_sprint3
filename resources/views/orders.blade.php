@@ -1,14 +1,14 @@
 @extends('layout')
 
 @section('title')
-- JCJ Tenis - Proshop Online -Tu pedido
+   JCJ Tenis - Tienda Online -Tu pedido
 @endsection
 
 @section('main')
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h1>Mis órdenes</h1>
+      <h1 id="main-title" class="white">Mis órdenes</h1>
       @if (Auth::user()->orders->isNotEmpty())
         <table class="table table-borderless products-in-cart">
           <thead>
@@ -26,8 +26,8 @@
                 <td>${{ $order->total }}</td>
               </tr>
               <tr class="order-{{ $order->id }}-detail d-none">
-                <td colspan="3">
-                  <table class="table table-borderless table-dark products-in-order" style="background-color: #212529; color: #f8fafc">
+                <td colspan="6">
+                  <table class="table table-borderless table-dark products-in-order">
                     <thead>
                       <tr>
                         <th scope="col"></th>
@@ -53,7 +53,7 @@
           </tbody>
         </table>
       @else
-        <p>Aún no hiciste ninguna compra</p>
+        <p class="about-description">Aún no hiciste ninguna compra</p>
       @endif
     </div>
   </div>
