@@ -27,13 +27,14 @@
               </tr>
               <tr class="order-{{ $order->id }}-detail d-none">
                 <td colspan="6">
+
                   <table class="table table-borderless table-dark products-in-order">
                     <thead>
                       <tr>
-                        <th scope="col"></th>
-                        <th scope="col">Producto</th>
-                        <th scope="col">Cantidad</th>
-                        <th scope="col">Precio</th>
+                        <th scope="col" class="items"></th>
+                        <th scope="col" class="items">Producto</th>
+                        <th scope="col" class="items">Cantidad</th>
+                        <th scope="col" class="items">Precio</th>
                       </tr>
                     </thead>
                     <tbody>
