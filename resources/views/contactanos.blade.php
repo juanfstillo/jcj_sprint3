@@ -6,9 +6,9 @@ JCJ Tenis | Conocenos
 
 @section('main')
   <form action="" method="get">
-                          <div class="card border-primary rounded-0">
+                          <div class="card border-warning rounded-0 col-md-8 my-5 px-0 shadow justify-center">
                               <div class="card-header p-0">
-                                  <div class="bg-info text-white text-center py-2">
+                                  <div class="bg-warning text-black text-center py-2">
                                       <h3><i class="fa fa-envelope"></i> Contactanos</h3>
                                       <p class="m-0">Con gusto te ayudaremos</p>
                                   </div>
@@ -43,7 +43,7 @@ JCJ Tenis | Conocenos
                                   </div>
 
                                   <div class="text-center">
-                                      <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2">
+                                      <input type="submit" value="Enviar" class="btn btn-warning btn-block rounded-0 py-2">
                                   </div>
                               </div>
 

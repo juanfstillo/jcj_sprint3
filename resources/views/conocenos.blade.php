@@ -6,9 +6,9 @@ JCJ Tenis | Conocenos
 
 @section('main')
   <!-- Header -->
-<header class="bg-primary text-center py-5 mb-4">
+<header class="bg-warning text-center py-4">
   <div class="container">
-    <h1 class="font-weight-light text-white">Conocenos</h1>
+    <p class="font-weight-light text-black h1 mb-0">Conocenos</p>
   </div>
 </header>
 
@@ -16,7 +16,7 @@ JCJ Tenis | Conocenos
 <div class="container">
   <div class="row">
     <!-- Team Member 1 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 my-4">
       <div class="card border-0 shadow">
         <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="Miembro del equipo">
         <div class="card-body text-center">
@@ -26,7 +26,7 @@ JCJ Tenis | Conocenos
       </div>
     </div>
     <!-- Team Member 2 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 my-4">
       <div class="card border-0 shadow">
         <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="Miembro del equipo">
         <div class="card-body text-center">
@@ -36,7 +36,7 @@ JCJ Tenis | Conocenos
       </div>
     </div>
     <!-- Team Member 3 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 my-4">
       <div class="card border-0 shadow">
         <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="Miembro del equipo">
         <div class="card-body text-center">
@@ -46,7 +46,7 @@ JCJ Tenis | Conocenos
       </div>
     </div>
     <!-- Team Member 4 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 my-4">
       <div class="card border-0 shadow">
         <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="Miembro del equipo">
         <div class="card-body text-center">
