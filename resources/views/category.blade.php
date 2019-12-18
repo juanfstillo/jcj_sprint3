@@ -1,14 +1,14 @@
 @extends('layout')
 
 @section('title')
-  {{$category->name}} JCJ Tenis | Proshop Online
+  {{$category->name}} JCJ Tenis | Tienda Online
 @endsection
 
 @section('main')
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1 class="display-4">{{ $category->name }}</h1>
+        <h1 id="main-title">{{ $category->name }}</h1>
         <div class="container">
           <div class="row">
             @foreach ($category->products as $product)

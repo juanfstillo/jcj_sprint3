@@ -6,8 +6,12 @@ body {
   color: black;
 }
 main{
-	background-image: url('../images/fondoform.jpg');
-  background-size: contain;
+  background-image: url('../images/tennis-hero.jpg');
+  background-repeat: no-repeat;
+  height: 700px;
+  background-position: fixed;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1{

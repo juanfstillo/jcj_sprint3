@@ -1,10 +1,6 @@
-main{
-	background-image: url('../images/fondoform.jpg');
-}
-
 /*-------------- ENCABEZADOS Y TITULOS --------------*/
 
-#main-title .black {
+#main-title {
 	color: black;
 	margin-top: 0px;
 	font-family: 'Staatliches', sans-serif;
@@ -14,8 +10,12 @@ main{
 }
 
 
-#main-title .white {
-	color: white;
+#main-title.white {
+	color: #fff;
+}
+
+h1#main-title .white-about {
+	margin: 30px 0px 40px 0px;
 }
 
 
@@ -27,6 +27,7 @@ main{
   letter-spacing: inherit;
   margin-bottom: 20px;
 }
+
 
 .main-content {
   padding: 10px;
@@ -42,8 +43,10 @@ main{
 
 
 .linked {
+	font-family: 'Staatliches', sans-serif;
+	font-size: 0.6em;
+	margin-left: 25px;
   color: blue;
-  font-size: 12px;
   text-align: right;
   text-decoration: none;
 }
@@ -53,23 +56,40 @@ main{
 /*-------------- NAVBAR --------------*/
 
 .navbar {
-  height: 100px;
+  height: 80px;
 }
 
 
 .navbar-brand {
-  margin-top: 8px;
   margin-bottom: 0px;
-  position: absolute;
 }
 
 
-.nav-item {
+li.nav-item {
   font-family: 'Staatliches', sans-serif;
-  font-size: 1.1em;
+  font-size: 1.4em;
   padding-right: 30px;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+.dropdown-item {
+	font-size: 1.3em;
+  width: 100%;
+	height: 60px;
+  padding: 30px 0px 30px 0px;
+	margin: 0 auto;
+}
+
+
+p.about-description {
+	font-size: 1.6em;
+	text-transform: none;
+	color: #C2C2C2;
+	font-family: 'Staatliches', sans-serif;
+	padding: 15px;
+	letter-spacing: 0.05em;
+	margin-top: 15px;
 }
 
 
@@ -83,18 +103,29 @@ a:hover {
   text-decoration: inherit;
 }
 
+a#navbarDropdown{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: black;
+	font-size: 1.2em;
 
+}
+
+div.imagenavatar img {
+	border-radius: 100%;
+	width:55px;
+
+}
 
 
 /*-------------- BUTTONS --------------*/
 
 #main-button {
   font-family: 'Staatliches', sans-serif;
-  background-color: #fff;
-  font-size: 1em;
-  letter-spacing: 0.2em;
-  color: #000;
-  padding: 10px 15px;
+  background-color: #000;
+  font-size: 0.6em;
+  color: #fff;
+  padding: 10px 25px;
   border-radius: none;
   text-transform: uppercase;
   text-decoration: inherit;
@@ -104,15 +135,14 @@ a:hover {
 
 
 #main-button:hover {
-  background-color: #4cff00;
+  background-color: #d4dc00;
   text-decoration: inherit;
   color: inherit;
-  box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
 }
 
 
 #main-button::selection {
-  background-color: none;
+  background-color: grey;
   border: solid 1px white;
 }
 
@@ -122,25 +152,82 @@ a:hover {
 	color: #fff;
 }
 
-.card-title {
-  font-family: 'Staatliches', sans-serif;
-  font-size: 2.4em;
-  color: #fff;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  text-decoration: inherit;
-  margin: 10px 0px 10px 0px;
+.card {
+	box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
+	margin: 30px 25px 30px 25px;
+	border: none;
 }
 
 
-.card-body {
-  padding: 0px;
+.card-title {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1em;
+  color: #000;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px 0px 10px 0px;
+	line-height : 1.1em;
+}
+
+.card-title#people {
+	padding: 0px;
+	margin: 10px 0px;
+	height: 50px;
+}
+
+p.price {
+	font-family: 'Staatliches', sans-serif;
+	font-size: 0.8em;
+	color: grey;
+	text-align: left;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 10px 0px 10px 0px;
 }
 
 .card-body h5 {
-  position: absolute;
   top: 10%;
   left: 10%;
+	padding: 0px;
+	height: 50px;
+}
+
+.card-body {
+	font-size: 0.8em;
+	padding: 10px 15px;
+}
+
+.card-text {
+	font-size: 0.5em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-title {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 2.8em;
+  color: #DEDEDE;
+	letter-spacing: 0.05em;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px 0px 10px 10px;
+	line-height : 1.1em;
+}
+
+.col-md-6 select{
+	width: 100%;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.5em;
+}
+
+.col-md-6 #file {
+	width: 100%;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.5em;
 }
 
 
@@ -156,4 +243,32 @@ a:hover {
 
 #allCategories {
   margin-bottom: 80px;
+}
+
+
+a.footer-item {
+	color: #fff;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 2em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+
+a.footer-item:hover {
+	color: #d4dc00;
+	text-decoration: none;
+}
+
+
+
+/*--------------- FORMS ---------------*/
+.form-group label {
+	font-family: 'Staatliches', sans-serif;
+	font-size: 0.7em;
+}
+
+.col-md-6 input {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.5em;
 }

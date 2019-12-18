@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="{{ route('home') }}">
-    <img id="logo" src='/images/logoblanco.svg' alt='Reebok logo' />
+    <img id="logo" src='/images/logo.svg' alt='JCJ logo' />
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,11 +9,11 @@
     <ul class="navbar-nav ml-auto">
       @guest
         <li class="nav-item">
-          <a class="nav-link text-light" href="/login">Entrar</a>
+          <a class="nav-link text-dark" href="/login">Ingresar</a>
         </li>
       @else
-        <div class="imagenavatar" id='imagenavatar'>
-          <img src="/storage/{{ Auth::user()->avatar }}" alt="Foto de perfil" style="width:70px">
+        <div class="imagenavatar">
+          <img src="/storage/{{ Auth::user()->avatar }}" alt="Foto de perfil" >
         </div>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

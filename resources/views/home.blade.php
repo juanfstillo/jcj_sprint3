@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-  JCJ Tenis | Proshop Online
+  JCJ Tenis | Tienda Online
 @endsection
 
 @section('main')

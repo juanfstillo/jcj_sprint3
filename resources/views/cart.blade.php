@@ -8,7 +8,7 @@ JCJ Tenis | Proshop Online
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h1>Carrito</h1>
+      <h1 class="white" id="main-title">Carrito</h1>
       @if (Auth::user()->productsInCart->isNotEmpty())
         <table class="table table-borderless products-in-cart">
           <thead>
