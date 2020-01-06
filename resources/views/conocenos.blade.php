@@ -38,7 +38,7 @@ JCJ Tenis | Conocenos
         <img src="/images/juan.jpg" class="card-img-top" alt="Juan Stillo">
         <div class="card-body text-center">
           <h5 class="card-title mb-0" id="people">Juan Stillo</h5>
-          <div class="card-text text-black-50">Programador</div>
+          <div class="card-text text-black-50">Tenista</div>
         </div>
       </div>
     </div>

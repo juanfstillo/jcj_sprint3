@@ -55,7 +55,7 @@ JCJ Tenis | Proshop Online
                 {{ csrf_field() }}
                 <div>
                   <label>Apellido y Nombre</label>
-                  <input required type="text" id="cname" name="cname" placeholder="Tal como aparece en la tarjeta">
+                  <input required type="text" id="cname" name="cname" placeholder="Tu Nombre">
                 </div>
 
                 <div>
@@ -74,7 +74,7 @@ JCJ Tenis | Proshop Online
                   <input required type="number" min="3" id="cvv" name="cvv" placeholder="CVV">
                 </div>
 
-                <button class="black" id="main-button" type="submit">Comprar</button>
+                <button class="btn btn-secondary btn-lg btn-block" type="submit">Comprar</button>
               </form>
             </div>
           </div>

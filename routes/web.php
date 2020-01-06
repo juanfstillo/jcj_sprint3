@@ -17,6 +17,7 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/faq', function(){return view ('/faq');});
 Route::get('/conocenos', function(){return view ('/conocenos');});
 Route::get('/contactanos', function(){return view ('/contactanos');});
+Route::get('/categoriesabm', 'CategoryController@abm','CategoryController@delete');
 Route::get('/carrito', 'CartController@index')->name('cart')->middleware('auth');
 Route::view('/ordenes', 'orders')->name('orders')->middleware('auth');
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout')->name('logout');

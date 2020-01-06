@@ -28,7 +28,7 @@ JCJ Tenis | Preguntas Frecuentes
                 <ul>
                   <li class="faq">Tarjeta de crédito - a través de MercadoPago</li>
                   <li class="faq">Contra reembolso (sin recargo)</li>
-                  <li class="faq">Tranferencia Bancaria</li>
+                  <li class="faq">Transferencia Bancaria</li>
                 </ul>
               </div>
             </div>
