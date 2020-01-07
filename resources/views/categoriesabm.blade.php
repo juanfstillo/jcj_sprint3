@@ -25,7 +25,7 @@
                   <td>{{$cadacategory->name}}</td>
                   <td>{{$cadacategory->slug}}</td>
                   <td>{{$cadacategory->imageUrl}}</td>
-                  <td><a href="<?= url("/delete_product/$cadacategory->id")?>"  class="delete-product px-1 text-danger"><i class="material-icons mr-3">Borrar</i></a></td>
+                  <td><a href="<?= url("/delete_category/$cadacategory->id")?>"  class=" px-1 text-danger"><i class="">Borrar</i></a></td>
                 </tr>
               </tbody>
             @endforeach
@@ -34,6 +34,12 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <a href="<?= url("/add_category")?>"  class="px-3 text-danger"><i class="">Agregar Categoria</i></a>
+
     </div>
   </div>
 @endsection
