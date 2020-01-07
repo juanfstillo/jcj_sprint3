@@ -25,6 +25,7 @@
                   <td>{{$cadacategory->name}}</td>
                   <td>{{$cadacategory->slug}}</td>
                   <td>{{$cadacategory->imageUrl}}</td>
+                  <td><a href="<?= url("/edit_category/{$cadacategory->id}")?>"  class=" px-1 text-primary"><i class="">Editar</i></a></td>
                   <td><a href="<?= url("/delete_category/$cadacategory->id")?>"  class=" px-1 text-danger"><i class="">Borrar</i></a></td>
                 </tr>
               </tbody>
