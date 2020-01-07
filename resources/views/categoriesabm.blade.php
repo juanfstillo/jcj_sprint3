@@ -25,7 +25,7 @@
                   <td>{{$cadacategory->name}}</td>
                   <td>{{$cadacategory->slug}}</td>
                   <td>{{$cadacategory->imageUrl}}</td>
-                  <td><a href="#" onClick="confirmDeletionProd({{$cadacategory->id}})" class="delete-product px-1 text-danger"><i class="material-icons mr-3">Borrar</i></a></td>
+                  <td><a href="<?= url("/delete_product/$cadacategory->id")?>"  class="delete-product px-1 text-danger"><i class="material-icons mr-3">Borrar</i></a></td>
                 </tr>
               </tbody>
             @endforeach

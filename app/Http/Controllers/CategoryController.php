@@ -34,9 +34,8 @@ class CategoryController extends Controller
     $newCategory->save();
   return redirect ("/categoriesabm");
   }
-  public function delete($id_category)  {
-  $category = Category::where("id", "=", $id_category)
-  ->delete();
+  public function deleteCategory($id_category)  {
+  $category = Category::where("id", "=", $id_category)->delete();
   return redirect ("categoriesabm");
   }
 }
