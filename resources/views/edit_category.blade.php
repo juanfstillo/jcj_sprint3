@@ -31,7 +31,7 @@
             <label for="file" class="">Imagen de la Categoria</label>
 
             <div class="col-m">
-                <input id="file" type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
+                <input  type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
 
                 @error('file')
                     <span class="invalid-feedback" role="alert">

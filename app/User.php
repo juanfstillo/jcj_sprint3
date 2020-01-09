@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password','country','province','avatar',
+        'name', 'email', 'password','country','province','avatar','is_admin',
     ];
 
     /**
@@ -52,4 +52,9 @@ class User extends Authenticatable
     public function orders() {
         return $this->hasMany('App\Order');
     }
+
+
+    public function isAdmin(){
+      return $this->admin==29;
+      }
 }
