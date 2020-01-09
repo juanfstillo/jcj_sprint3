@@ -11,6 +11,19 @@
         <li class="nav-item">
           <a class="nav-link text-dark" href="/login">Ingresar</a>
         </li>
+      @elseif(Auth::user()->is_admin == 1)
+        <div class="imagenavatar">
+          <img src="/storage/{{ Auth::user()->avatar }}" alt="Foto de perfil" >
+        </div>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ Auth::user()->name }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ route('categoriesabm') }}">ABM de Categorias</a>
+            <a class="dropdown-item" href="{{ route('logout') }}">Cerrar sesión</a>
+          </div>
+        </li>
       @else
         <div class="imagenavatar">
           <img src="/storage/{{ Auth::user()->avatar }}" alt="Foto de perfil" >

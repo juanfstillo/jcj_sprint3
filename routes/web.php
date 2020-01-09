@@ -24,7 +24,7 @@ Route::get('/contactanos', function(){return view ('/contactanos');});
 //Accesible solo para el administrado//
 Route::group(['middleware' => 'admin'], function () {
 
-Route::get('/categoriesabm', 'CategoryController@abm');
+Route::get('/categoriesabm', 'CategoryController@abm')->name('categoriesabm');
 Route::get('/delete_category/{id_category}', 'CategoryController@deleteCategory');
 Route::view('/add_category', '/add_category');
 Route::post('/add_category', 'CategoryController@AddCategory');
