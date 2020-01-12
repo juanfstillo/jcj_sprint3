@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('main')
-<div class="container">
+<div class="container" id="form-container">
     <div class="row justify-content-center">
         <div class="col-md-8 my-5">
             <div class="card">

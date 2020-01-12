@@ -18,15 +18,10 @@
         <img class="img-fluid p-5" src="{{ $product->imageUrl }}" alt="{{ $product->name }}" />
       </div>
       <div class="col-12 col-lg-7 bg-white">
-<<<<<<< HEAD
-         <h1 class="prod-title">{{ $product->name }}</h1>
-         <p class="price-prod">${{ $product->price }}</p>
-=======
-        <p class="display-3 mt-5">${{ $product->price }}</p>
+        <h1 class="prod-title">{{ $product->name }}</h1>
+        <p class="display-3 mt-5" id="price-prod">${{ $product->price }}</p>
         <p class="display-5 mt-5">{{ $product->description }}</p>
 
-
->>>>>>> 5d8aab1cd3d374e386ca10d54f5cea022725a1d2
         @guest
           <a href="{{ route('login') }}" id="cat-button">Agregar al carrito</a>
         @else
@@ -43,6 +38,7 @@
             <button type="submit" id="cat-button">Agregar al carrito</button>
           </form>
         @endguest
+        
       </div>
     </div>
   </div>

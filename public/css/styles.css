@@ -37,25 +37,31 @@ h1#main-title .white-about {
 
 
 #description-title {
-  font-size: 0.9em;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  letter-spacing: inherit;
-  margin-bottom: 20px;
+	font-size: 0.9em;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	letter-spacing: inherit;
+	margin-bottom: 20px;
 }
 
 
 .main-content {
-  padding: 10px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  background-color: white;
-  width: 90%;
-  box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
-  display: block;
-  border-radius: 5px;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	background-color: white;
+	width: 90%;
+	box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+	display: block;
+	border-radius: 5px;
+}
+
+
+#form-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 
@@ -63,9 +69,9 @@ h1#main-title .white-about {
 	font-family: 'Staatliches', sans-serif;
 	font-size: 0.6em;
 	margin-left: 25px;
-  color: blue;
-  text-align: right;
-  text-decoration: none;
+	color: blue;
+	text-align: right;
+	text-decoration: none;
 }
 
 
@@ -101,7 +107,7 @@ li.nav-item {
 p.about-description {
 	font-size: 1.6em;
 	text-transform: none;
-	color: #C2C2C2;
+	color: #566573;
 	font-family: 'Staatliches', sans-serif;
 	padding: 15px;
 	letter-spacing: 0.05em;
@@ -223,25 +229,27 @@ div.button-send {
 	padding: 10px 0px;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin: 10px 0px 10px 10px;
+	margin: 0px 0px 15px 10px;
 	line-height : 1.1em;
 	display: inline-block;
 }
 
 .prod-title {
 	font-family: 'Staatliches', sans-serif;
-	font-size: 3em;
+	font-size: 1em;
 	color: #000;
 	background-color: none;
 	padding: 10px 0px;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin: 20px 0px 15px 10px;
+	margin: 20px 0px 30px 10px;
 	line-height : 1.1em;
 }
 
 .card-body {
 	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 .button-cat {
@@ -257,8 +265,9 @@ div.button-send {
 }
 
 p.price {
-	font-family: 'Staatliches', sans-serif;
-	font-size: 0.8em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 0.6em;
 	color: #566573;
 	text-align: left;
 	padding: 10px 15px;
@@ -267,7 +276,7 @@ p.price {
 	margin: 10px 0px 10px 0px;
 }
 
-p.price-prod {
+p#price-prod {
 	font-family: 'Staatliches', sans-serif;
 	font-size: 2em;
 	color: #566573;
@@ -288,14 +297,18 @@ p.price-prod {
 
 .card-body {
 	font-size: 0.8em;
-	padding: 10px 15px;
+	padding: 10px;
 }
 
 .card-text {
 	font-size: 0.5em;
 	font-family: 'Roboto', sans-serif;
-	margin: 10px 0px 10px 10px;
+	margin: 0px 0px 10px 0px;
 	text-transform: none;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.5);
+	padding: 10px 0px 0px 0px;
+	display: inline-block;
 }
 
 a.product-category-name {
@@ -379,6 +392,14 @@ a.footer-item {
 a.footer-item:hover {
 	color: #d4dc00;
 	text-decoration: none;
+}
+
+img.icons {
+	width: 25px;
+	opacity: 60%;
+	padding: 0px;
+	margin-right: 0px;
+	align-content: justify;
 }
 
 
