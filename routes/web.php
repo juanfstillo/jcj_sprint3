@@ -23,13 +23,21 @@ Route::get('/contactanos', function(){return view ('/contactanos');});
 
 //Accesible solo para el administrador//
 Route::group(['middleware' => 'admin'], function () {
-
-Route::get('/categoriesabm', 'CategoryController@abm');
+Route::view('/abmgeneral', '/abmgeneral');  
+Route::get('/categoriesabm', 'CategoryController@abm')->name('categoriesabm');
+Route::get('/categoriesabm', 'CategoryController@abm')->name('categoriesabm');
 Route::get('/delete_category/{id_category}', 'CategoryController@deleteCategory');
 Route::view('/add_category', '/add_category');
 Route::post('/add_category', 'CategoryController@AddCategory');
 Route::get('/edit_category/{id_category}', 'CategoryController@showEdit');
 Route::post('/edit_category/{id_category}', 'CategoryController@edit');
+Route::get('/productsabm', 'ProductController@abm')->name('productsabm');
+Route::get('/delete_product/{id_product}', 'ProductController@deleteProduct');
+Route::view('/add_product', '/add_product');
+Route::post('/add_product', 'ProductController@addProduct');
+Route::get('/edit_product/{id_product}', 'ProductController@showEdit');
+Route::post('/edit_product/{id_product}', 'ProductController@edit');
+
 });
 //Accesible a usuarios logueados//
 Route::get('/carrito', 'CartController@index')->name('cart')->middleware('auth');
