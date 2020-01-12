@@ -43,11 +43,11 @@ countrySelect.onchange = function () {
 
 form.onsubmit = function (ev) {
   Swal.fire(
-    'Good job!',
-    'You clicked the button!',
+    'Cuenta creada con éxito',
+    'Ya podes disfrutar de nuestro e-shop',
     'success'
   )
-  console.log('se quiso hacer submit del form');
+  console.log('Se solicitó el registro de cuenta');
 }
 
 fetch(COUNTRIES_API_URL)

@@ -19,6 +19,23 @@ h1#main-title .white-about {
 }
 
 
+.carousel-title {
+	color: #fff;
+	font-family: 'Staatliches', sans-serif;
+	text-transform: uppercase;
+	font-size: 6em;
+	margin: 30px 0px 10px 0px;
+	text-decoration: none;
+	letter-spacing: 2px;
+/*	text-shadow: 2px 2px 10px black;*/ 
+}
+
+.carousel-desc {
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+
+
 #description-title {
   font-size: 0.9em;
   color: black;
@@ -50,7 +67,6 @@ h1#main-title .white-about {
   text-align: right;
   text-decoration: none;
 }
-
 
 
 /*-------------- NAVBAR --------------*/
@@ -129,12 +145,42 @@ div.imagenavatar img {
   border-radius: none;
   text-transform: uppercase;
   text-decoration: inherit;
+  margin: 10px 0px 10px 10px;
+  border: none;
+}
+
+#cat-button {
+	font-family: 'Staatliches', sans-serif;
+	background-color: #000;
+	font-size: 0.6em;
+	color: #fff;
+	padding: 7px 10px;
+	border-radius: none;
+	text-transform: uppercase;
+	text-decoration: inherit;
+	margin: 10px 0px 10px 10px;
+	border: none;	
+	vertical-align: middle;
+}
+
+
+#ghost-button {
+  font-family: 'Staatliches', sans-serif;
+  background-color: #fff;
+  font-size: 0.6em;
+  color: #000;
+  padding: 7px 10px;
+  border-radius: none;
+  text-transform: uppercase;
+  text-decoration: inherit;
   margin: 10px 0px 10px 0px;
   border: none;
 }
 
 
-#main-button:hover {
+
+
+#cat-button:hover #main-button:hover {
   background-color: #d4dc00;
   text-decoration: inherit;
   color: inherit;
@@ -164,22 +210,44 @@ div.button-send {
 	align-items: center;
 }
 
-.card {
-	box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
-	margin: 30px 25px 30px 25px;
+#main-card {
+	margin: 30px 0px 30px 0px;
 	border: none;
 }
 
 
 .card-title {
-  font-family: 'Staatliches', sans-serif;
-  font-size: 1em;
-  color: #000;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 10px 0px 10px 0px;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 1em;
+	color: #000;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 10px 0px 10px 10px;
 	line-height : 1.1em;
+	display: inline-block;
+}
+
+.prod-title {
+	font-family: 'Staatliches', sans-serif;
+	font-size: 3em;
+	color: #000;
+	background-color: none;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 20px 0px 15px 10px;
+	line-height : 1.1em;
+}
+
+.card-body {
+	text-decoration: none;
+}
+
+.button-cat {
+	margin-left: 40px;
+	display: inline-block;
+	align-items: right;
 }
 
 .card-title#people {
@@ -191,13 +259,25 @@ div.button-send {
 p.price {
 	font-family: 'Staatliches', sans-serif;
 	font-size: 0.8em;
-	color: grey;
+	color: #566573;
 	text-align: left;
 	padding: 10px 15px;
 	text-transform: uppercase;
 	text-decoration: none;
 	margin: 10px 0px 10px 0px;
 }
+
+p.price-prod {
+	font-family: 'Staatliches', sans-serif;
+	font-size: 2em;
+	color: #566573;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-left: 10px;
+	margin: 0px 0px 10px 0px;
+}
+
 
 .card-body h5 {
   top: 10%;
@@ -218,15 +298,37 @@ p.price {
 	text-transform: none;
 }
 
+a.product-category-name {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-transform: none;
+	color: #fff;
+	font-size: 0.5em;
+	line-height: 0.5em;
+}
+
+a.product-category-name:hover a.product-category-name:focus a.product-category-name:active {
+	text-decoration: none;
+}
+
+
+#error-message {
+	font-family: 'Roboto', sans-serif;
+	color: red;
+	font-weight: bold;
+	font-size: 0.5em;
+}
+
+
 .form-title {
-  font-family: 'Staatliches', sans-serif;
-  font-size: 2.8em;
-  color: #DEDEDE;
+	font-family: 'Staatliches', sans-serif;
+	font-size: 2.8em;
+	color: #DEDEDE;
 	letter-spacing: 0.05em;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 10px 0px 10px 10px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 10px 0px 10px 10px;
 	line-height : 1.1em;
 }
 
@@ -291,9 +393,30 @@ a.footer-item:hover {
 	font-size: 1em;
 }
 
+.form-check label {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.4em;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
 .col-md-6 input {
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.5em;
+}
+
+
+#textHelp {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.4em;
+	text-transform: capitalize;
+}
+
+
+#login-combo {
+	margin-top: 25px;
 }
 
 

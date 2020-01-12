@@ -18,7 +18,7 @@
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <h5 id="error-message">{{ $message }}</h5>
                                     </span>
                                 @enderror
                             </div>
@@ -32,17 +32,17 @@
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <h5 id="error-message">{{ $message }}</h5>
                                     </span>
                                 @enderror
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="remember-user">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                                    <label class="form-check-label" for="remember">
+                                    <label class="form-check" for="remember">
                                         {{ __('Recordar mi usuario') }}
                                     </label>
                                 </div>
@@ -50,7 +50,7 @@
                         </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
+                            <div class="col-md-8 offset-md-4" id="login-combo">
                                 <button type="submit" id="main-button">
                                     {{ __('Login') }}
                                 </button>

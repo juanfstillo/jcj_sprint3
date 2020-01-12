@@ -21,7 +21,7 @@ Route::get('/conocenos', function(){return view ('/conocenos');});
 Route::get('/contactanos', function(){return view ('/contactanos');});
 
 
-//Accesible solo para el administrado//
+//Accesible solo para el administrador//
 Route::group(['middleware' => 'admin'], function () {
 
 Route::get('/categoriesabm', 'CategoryController@abm');

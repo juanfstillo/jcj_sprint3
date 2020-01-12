@@ -19,7 +19,7 @@
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <h5 id="error-message">{{ $message }}</h5>
                                     </span>
                                 @enderror
                             </div>
@@ -33,7 +33,7 @@
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <h5 id="error-message">{{ $message }}</h5>
                                     </span>
                                 @enderror
                             </div>
@@ -43,7 +43,7 @@
                             <label for="country" class="col-md-4 col-form-label text-md-right">{{ __('País') }}</label>
 
                             <div class="col-md-6">
-                              <select name="country">
+                              <select name="country" class="form-control">
                                 <option value="-1">Seleccionar país</option>
                               </select>
                             </div>
@@ -61,7 +61,7 @@
 
                                 @error('file')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <h5 id="error-message">{{ $message }}</h5>
                                     </span>
                                 @enderror
                             </div>
@@ -73,9 +73,11 @@
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
+                                <small id="textHelp" class="form-text text-muted">Mínimo de 8 caracteres</small>
+
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <h5 id="error-message">{{ $message }}</h5>
                                     </span>
                                 @enderror
                             </div>
@@ -92,7 +94,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" id="main-button">
-                                    {{ __('Register') }}
+                                    {{ __('Crear cuenta') }}
                                 </button>
                             </div>
                         </div>

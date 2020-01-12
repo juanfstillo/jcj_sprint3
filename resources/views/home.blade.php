@@ -5,6 +5,11 @@
 @endsection
 
 @section('main')
+
+<div>
+	@include('carrousel')	
+</div>
+
   <div class="container py-4">
     <div class="row">
       @foreach($categories as $category)
