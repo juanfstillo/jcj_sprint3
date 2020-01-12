@@ -20,6 +20,9 @@
       </div>
       <div class="col-12 col-lg-7 bg-white">
         <p class="display-3 mt-5">${{ $product->price }}</p>
+        <p class="display-5 mt-5">{{ $product->description }}</p>
+
+
         @guest
           <a href="{{ route('login') }}" class="btn btn-dark btn-lg">Agregar al carrito</a>
         @else
