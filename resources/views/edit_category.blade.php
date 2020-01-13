@@ -52,10 +52,10 @@
             <input required name="name" type="text" value= "{{$category->name}}" class="form-control" placeholder="">
           </div>
 
-          <div class="form-group my-2 col-12 col-lg-6">
+          {{-- <div class="form-group my-2 col-12 col-lg-6">
             <label for="slug" class="ml-1 text-white"><b>Slug</b></label>
             <input name="slug" type="text" value= "{{$category->slug}}" class="form-control" placeholder="">
-          </div>
+          </div> --}}
       </div>
 
 

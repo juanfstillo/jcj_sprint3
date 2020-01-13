@@ -23,7 +23,7 @@ Route::get('/contactanos', function(){return view ('/contactanos');});
 
 //Accesible solo para el administrador//
 Route::group(['middleware' => 'admin'], function () {
-Route::view('/abmgeneral', '/abmgeneral');  
+Route::view('/abmgeneral', '/abmgeneral');
 Route::get('/categoriesabm', 'CategoryController@abm')->name('categoriesabm');
 Route::get('/categoriesabm', 'CategoryController@abm')->name('categoriesabm');
 Route::get('/delete_category/{id_category}', 'CategoryController@deleteCategory');
@@ -37,7 +37,6 @@ Route::view('/add_product', '/add_product');
 Route::post('/add_product', 'ProductController@addProduct');
 Route::get('/edit_product/{id_product}', 'ProductController@showEdit');
 Route::post('/edit_product/{id_product}', 'ProductController@edit');
-
 });
 //Accesible a usuarios logueados//
 Route::get('/carrito', 'CartController@index')->name('cart')->middleware('auth');

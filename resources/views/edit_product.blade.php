@@ -51,19 +51,21 @@
           <input required name="name" type="text" value= "{{$product->name}}" class="form-control" placeholder="">
         </div>
 
-        <div class="form-group my-2 col-12 col-lg-6">
+        {{-- <div class="form-group my-2 col-12 col-lg-6">
           <label for="slug" class="ml-1 text-white"><b>Slug</b></label>
           <input name="slug" type="text" value= "{{$product->slug}}" class="form-control" placeholder="">
-        </div>
+        </div> --}}
 
-        <div class="form-group my-2 col-12 col-lg-6">
-          <label for="slug" class="ml-1 text-white"><b>Slug</b></label>
-          <input name="slug" type="text" value= "{{$product->slug}}" class="form-control" placeholder="">
-        </div>
+
 
         <div class="form-group my-2 col-12 col-lg-6">
           <label for="price" class="ml-1 text-white"><b>Precio</b></label>
           <input name="price" type="text" value= "{{$product->price}}" class="form-control" placeholder="">
+        </div>
+
+        <div class="form-group my-2 col-12 col-lg-12">
+          <label for="description" class="ml-1 text-white"><b>Descripción</b></label>
+          <input name="description" type="text" value= "{{$product->description}}" class="form-control" placeholder="">
         </div>
 
         <div class="form-group my-2 col-12 col-lg-6">

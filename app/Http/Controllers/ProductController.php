@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Product;
+use Illuminate\Support\Str;
+
 
 class ProductController extends Controller
 {
@@ -31,8 +33,11 @@ class ProductController extends Controller
     $newProduct->imageUrl=$imageProduct;
     $newProduct->name= $req["name"];
     $newProduct->slug= $req["slug"];
+    // $newProduct->slug= $req["slug"];
     $newProduct->price= $req["price"];
+    $newProduct->description= $req["description"];
     $newProduct->category_id= $req["category_id"];
+    $newProduct->slug= Str::slug($req["name"]);
     $newProduct->save();
   return redirect ("/productsabm");
   }
@@ -53,8 +58,9 @@ class ProductController extends Controller
     }
     $product->imageUrl=$imageProduct;
     $product->name= $req["name"];
-    $product->slug= $req["slug"];
+    $product->slug= Str::slug($req["name"]);
     $product->price= $req["price"];
+    $product->description= $req["description"];
     $product->category_id= $req["category_id"];
     $product->save();
   return redirect ("/productsabm");

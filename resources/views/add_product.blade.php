@@ -48,10 +48,10 @@
             <input required name="name" type="text" value= "" class="form-control"  placeholder="">
           </div>
 
-          <div class="form-group my-2 col-6 col-lg-6 text-white">
+          {{-- <div class="form-group my-2 col-6 col-lg-6 text-white">
             <label for="slug" class="ml-1"><b class="">Slug del Producto </b></label>
             <input name="slug" type="text" value= "" class="form-control"  placeholder="">
-          </div>
+          </div> --}}
 
           <div class="form-group my-2 col-6 col-lg-6 text-white">
             <label for="description" class="ml-1"><b class="">Descripción del Producto </b></label>

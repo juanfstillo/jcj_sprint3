@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Category;
+use Illuminate\Support\Str;
+
 
 class CategoryController extends Controller
 {
@@ -30,7 +32,8 @@ class CategoryController extends Controller
     $newCategory = new Category;
     $newCategory->imageUrl=$imageCategory;
     $newCategory->name= $req["name"];
-    $newCategory->slug= $req["slug"];
+    $newCategory->slug= Str::slug($newCategory->name);
+    // $newCategory->slug= $req["slug"];
     $newCategory->save();
   return redirect ("/categoriesabm");
   }
@@ -51,7 +54,7 @@ class CategoryController extends Controller
     }
     $category->imageUrl=$imageCategory;
     $category->name= $req["name"];
-    $category->slug= $req["slug"];
+    $category->slug= Str::slug($req["name"]);
     $category->save();
   return redirect ("/categoriesabm");
   }

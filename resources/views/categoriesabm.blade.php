@@ -16,8 +16,6 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="container">
-          <div class="row">
             <table class='table'>
               <thead>
                 <tr>
@@ -42,7 +40,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+  
 
 @endsection

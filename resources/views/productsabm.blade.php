@@ -5,13 +5,17 @@
 @endsection
 
 @section('main')
+<h1 id="main-title">{{ 'Productos' }}</h1>
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1 id="main-title">{{ 'Productos' }}</h1>
+          <a href="<?= url("/add_product")?>"  class="px-3 text-danger"><i class="">Agregar Producto</i></a>
+      </div>
+    </div>
+  </div>
         <div class="container">
           <div class="row">
-            <div class="col-6">
+            <div class="col-12">
 
             <table class='table'>
               <thead>
@@ -45,12 +49,4 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
-      <a href="<?= url("/add_product")?>"  class="px-3 text-danger"><i class="">Agregar Producto</i></a>
-
-    </div>
-  </div>
 @endsection
