@@ -5,6 +5,8 @@ var ARGENTINA_CODE = '032';
 var form = document.forms[0];
 var countrySelect = form.elements[3];
 var province = document.getElementById("province")
+var formconocenos = document.getElementById("formconocenos")
+
 
 function obtenerProvincias() {
   fetch(PROVINCIAS_API_URL)
@@ -62,3 +64,12 @@ fetch(COUNTRIES_API_URL)
       countrySelect.append(option);
     }
   });
+
+  formconocenos.onsubmit = function (ev) {
+    Swal.fire(
+      'Tu mensaje ha sido enviado',
+      'Ya podes disfrutar de nuestro e-shop',
+      'success'
+    )
+    console.log('Excelente');
+  }

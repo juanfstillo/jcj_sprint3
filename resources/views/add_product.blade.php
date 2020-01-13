@@ -63,16 +63,30 @@
             <input name="price" type="text" value= "" class="form-control"  placeholder="">
           </div>
 
-          <div class="form-group my-2 col-6 col-lg-6 text-white">
+          {{-- <div class="form-group my-2 col-6 col-lg-6 text-white">
             <label for="category_id" class="ml-1"><b class="">Categoría del Producto </b></label>
             <input name="category_id" type="text" value= "" class="form-control"  placeholder="">
-          </div>
+          </div> --}}
           {{-- <div class="col-sm" id="colcarga">
                 <select name="fk_style" id="style" value="">
                     <option value=>{{$categorynewProduct->name}}</option>
                 </select>
               </div>
            --}}
+           <div class="form-group my-2 col-12 col-lg-6">
+             <label for="category_id" class="ml-1 text-white"><b>Categoria</b></label>
+
+                     <select name="category_id"  value="">
+                       <option value="1">RAQUETAS</option>
+                       <option value="2">PELOTAS</option>
+                       <option value="3">CUERDAS</option>
+                       <option value="4">BOLSOS</option>
+                       <option value="5">ACCESORIOS</option>
+
+                   </select>
+             </div>
+
+
       </div>
 
 

@@ -104,6 +104,9 @@
         </div>
     </div>
 </div>
+
+@endsection
+@section('scripts')
 <script type="text/javascript" src="{{ URL::asset('js/index.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @endsection

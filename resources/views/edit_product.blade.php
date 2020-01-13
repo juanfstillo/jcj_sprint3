@@ -19,10 +19,7 @@
 
     <div class="row">
       <div class="img-fluid col-12 form-group my-2">
-
             <img src="<?=url("{$product->imageUrl}")?>"  height="250" alt="productImage">
-
-
       </div>
 
         <div class="img-fluid col-12 form-group my-2">
@@ -51,12 +48,6 @@
           <input required name="name" type="text" value= "{{$product->name}}" class="form-control" placeholder="">
         </div>
 
-        {{-- <div class="form-group my-2 col-12 col-lg-6">
-          <label for="slug" class="ml-1 text-white"><b>Slug</b></label>
-          <input name="slug" type="text" value= "{{$product->slug}}" class="form-control" placeholder="">
-        </div> --}}
-
-
 
         <div class="form-group my-2 col-12 col-lg-6">
           <label for="price" class="ml-1 text-white"><b>Precio</b></label>
@@ -68,10 +59,24 @@
           <input name="description" type="text" value= "{{$product->description}}" class="form-control" placeholder="">
         </div>
 
-        <div class="form-group my-2 col-12 col-lg-6">
+        {{-- <div class="form-group my-2 col-12 col-lg-6">
           <label for="category_id" class="ml-1 text-white"><b>Categoria</b></label>
           <input name="category_id" type="text" value= "{{$product->category_id}}" class="form-control" placeholder="">
-        </div>
+        </div> --}}
+
+        <div class="form-group my-2 col-12 col-lg-6">
+          <p>CATEGORIA ACTUAL: {{$product->category->name}}</p>
+          <label for="category_id" class="ml-1 text-white"><b>Nueva Categoria</b></label>
+
+                  <select name="category_id"  value="{{$product->category_id}}">
+                    <option value="1">RAQUETAS</option>
+                    <option value="2">PELOTAS</option>
+                    <option value="3">CUERDAS</option>
+                    <option value="4">BOLSOS</option>
+                    <option value="5">ACCESORIOS</option>
+
+                </select>
+          </div>
 
     </div>
 
