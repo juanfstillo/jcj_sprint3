@@ -56,7 +56,6 @@ class ProductController extends Controller
       $imageProduct = "storage/" . $imageProduct;
       $product->imageUrl= $imageProduct;
     }
-    $product->imageUrl=$imageProduct;
     $product->name= $req["name"];
     $product->slug= Str::slug($req["name"]);
     $product->price= $req["price"];

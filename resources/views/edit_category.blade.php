@@ -31,7 +31,7 @@
             <label for="file" class="">Imagen de la Categoria</label>
 
             <div class="col-m">
-                <input  type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
+                <input  type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" >
 
                 @error('file')
                     <span class="invalid-feedback" role="alert">
@@ -51,11 +51,6 @@
             <label for="name" class="ml-1 text-white"><b>Nombre de la Categoria</b></label>
             <input required name="name" type="text" value= "{{$category->name}}" class="form-control" placeholder="">
           </div>
-
-          {{-- <div class="form-group my-2 col-12 col-lg-6">
-            <label for="slug" class="ml-1 text-white"><b>Slug</b></label>
-            <input name="slug" type="text" value= "{{$category->slug}}" class="form-control" placeholder="">
-          </div> --}}
       </div>
 
 

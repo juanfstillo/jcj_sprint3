@@ -52,7 +52,6 @@ class CategoryController extends Controller
       $imageCategory = "storage/" . $imageCategory;
       $category->imageUrl= $imageCategory;
     }
-    $category->imageUrl=$imageCategory;
     $category->name= $req["name"];
     $category->slug= Str::slug($req["name"]);
     $category->save();

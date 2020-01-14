@@ -24,10 +24,10 @@
 
         <div class="img-fluid col-12 form-group my-2">
 
-          <label for="file" class="">Imagen de la Producto</label>
+          <label for="file" class="">Imagen del Producto</label>
 
           <div class="col-m">
-              <input  type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
+              <input  type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" >
 
               @error('file')
                   <span class="invalid-feedback" role="alert">

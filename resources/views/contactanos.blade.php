@@ -12,7 +12,7 @@ JCJ Tenis | Conocenos
                 <div class="form-title">Contactanos</div>
 
                   <div class="card-body">
-                    <form action="" method="get">
+                    <form name="conocemosform" action="" method="post" onsubmit="return validacion()">
                     <div class="form-group row">
 
                       <label for="fullName" class="col-md-4 col-form-label text-md-right">Nombre y apellido</label>
@@ -27,7 +27,7 @@ JCJ Tenis | Conocenos
 
                       <label for="mensaje" class="col-md-4 col-form-label text-md-right">Mensaje</label>
                       <div class="col-md-6">
-                        <textarea class="form-control" placeholder="Dejanos tu Mensaje"></textarea>
+                        <textarea id='campo' class="form-control" placeholder="Dejanos tu Mensaje"></textarea>
                       </div>
                     </div>
 
@@ -46,6 +46,6 @@ JCJ Tenis | Conocenos
   </div>
 @endsection
 @section('scripts')
-  {{-- <script type="text/javascript" src="{{ URL::asset('js/index.js') }}"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script> --}}
+  <script type="text/javascript" src="{{ URL::asset('js/index.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @endsection
