@@ -15,10 +15,10 @@
     </div>
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="/images/766-slide2.jpg" alt="Pelotas de tenis">
+      <img class="d-block w-100" src="/images/766-slide2.gif" alt="Pelotas de tenis">
       <div class="carousel-caption d-none d-md-block">
-        <h3 class="carousel-title"> PELOTAS DE ALTA CALIDAD </h3>
-        <p class="carousel-desc"> Para todos los niveles </p>
+        <h3 class="carousel-title"> WOMEN POWER </h3>
+        <p class="carousel-desc"> La nueva linea de Selena </p>
       </div>
     </div>
 
