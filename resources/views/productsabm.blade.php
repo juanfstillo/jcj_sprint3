@@ -15,7 +15,7 @@
       <div class="add-cat col-12">
         <img src="images/hand.png" style="width: 120px" class="img-add">
         <h3 class="table-add">¿Necesitas agregar un nuevo producto?</h3>
-        <a href="<?= url("/add_category")?>">
+        <a href="<?= url("/add_product")?>">
           <button id="main-add" style='width:160px'>
         Agregar producto
           </button>

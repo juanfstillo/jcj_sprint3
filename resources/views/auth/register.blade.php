@@ -8,14 +8,14 @@
                 <div class="form-title">{{ __('Crea tu cuenta') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" enctype="multipart/form-data" action="{{ route('register') }}">
+                    <form id="form-registro" method="POST" enctype="multipart/form-data" action="{{ route('register') }}" onsubmit="return validateform()">
                         @csrf
 
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}"required autocomplete="name">
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -52,6 +52,8 @@
                         <div class="form-group row">
                             <label id="province" for="province" class="col-md-4 col-form-label text-md-right"></label>
                         </div>
+
+
 
                         <div class="form-group row">
                             <label for="file" class="col-md-4 col-form-label text-md-right">Foto de perfil</label>

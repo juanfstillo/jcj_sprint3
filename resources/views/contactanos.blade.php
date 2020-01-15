@@ -12,20 +12,20 @@ JCJ Tenis | Conocenos
                 <div class="form-title">Contactanos</div>
 
                   <div class="card-body">
-                    <form name="conocemosform" action="" method="post" onsubmit="return validacion()">
+                    <form name="conocemosform" action="" method="get" onsubmit="return validateForm()">
                     <div class="form-group row">
 
                       <label for="fullName" class="col-md-4 col-form-label text-md-right">Nombre y apellido</label>
                       <div class="col-md-6">
-                        <input id="fullName" type="text" class="form-control" name="fullName" required>
+                        <input id="fullName" type="text" class="form-control" name="fullName">
                       </div>
 
                       <label for="email" class="col-md-4 col-form-label text-md-right">Email</label>
                       <div class="col-md-6">
-                        <input id="email" type="email" class="form-control" name="email" required>
+                        <input id="email" type="email" class="form-control" name="email" >
                       </div>
 
-                      <label for="mensaje" class="col-md-4 col-form-label text-md-right">Mensaje</label>
+                      <label for="campo" class="col-md-4 col-form-label text-md-right">Mensaje</label>
                       <div class="col-md-6">
                         <textarea id='campo' class="form-control" placeholder="Dejanos tu Mensaje"></textarea>
                       </div>
@@ -46,6 +46,9 @@ JCJ Tenis | Conocenos
   </div>
 @endsection
 @section('scripts')
-  <script type="text/javascript" src="{{ URL::asset('js/index.js') }}"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+
+  </script>
+  <script type="text/javascript" src="{{ URL::asset('js/contactanos.js') }}"></script>
+  {{-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script> --}}
 @endsection
