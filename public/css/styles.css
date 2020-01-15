@@ -9,6 +9,9 @@
 	text-decoration: none;
 }
 
+.main-title-abm {
+	padding-left: 40px;
+}
 
 #main-title.white {
 	color: #fff;
@@ -62,6 +65,10 @@ h1#main-title .white-about {
 #form-container {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.form-control {
+	padding: 15px 0px;
 }
 
 
@@ -155,6 +162,21 @@ div.imagenavatar img {
   border: none;
 }
 
+#main-add {
+  font-family: 'Staatliches', sans-serif;
+  background-color: #000;
+  font-size: 1em;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: none;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 30px;
+  border: none;
+  display: inline;
+}
+
+
 #cat-button {
 	font-family: 'Staatliches', sans-serif;
 	background-color: #000;
@@ -204,6 +226,12 @@ div.imagenavatar img {
 	color: #fff;
 }
 
+#main-button.grey {
+	font-size: 0.8em;
+	background-color: #cecece;
+	color: #000;
+}
+
 #main-button.red {
 	font-size: 0.8em;
 	background-color: #e3342f;
@@ -219,6 +247,17 @@ div.button-send {
 #main-card {
 	margin: 30px 0px 30px 0px;
 	border: none;
+}
+
+.card-abm {
+	margin-left: 40px;
+	margin-bottom: 50px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#card-abm {
+	margin-top: 30px;
 }
 
 
@@ -350,6 +389,7 @@ a.product-category-name:hover a.product-category-name:focus a.product-category-n
 	text-align: right;
 }
 
+
 .col-md-6 select{
 	width: 100%;
 	height: 40px;
@@ -363,6 +403,7 @@ a.product-category-name:hover a.product-category-name:focus a.product-category-n
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.5em;
 }
+
 
 
 .badge-use-case {
@@ -409,9 +450,71 @@ img.icons {
 	font-size: 0.7em;
 }
 
+.table-title {
+	font-family: 'Staatliches', sans-serif;
+	font-size: 1.3em;
+	color: #000;
+}
+
+.table-item {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+	color: #000;
+}
+
+.table-add {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+	color: #000;
+	display: inline-block;
+}
+
+.row-grey {
+	background-color: #d6d6d6;
+}
+
+.add-cat {
+	margin-top: 20px;
+}
+
+.img-add {
+	display: inline-block;
+	margin-right: 20px;
+}
+
 .form-label label {
 	font-family: 'Staatliches', sans-serif;
 	font-size: 1em;
+}
+
+#add-cat-button {
+	display: inline;
+}
+
+#main-cancel {
+	font-family: 'Staatliches', sans-serif;
+	background-color: #d6d6d6;
+	font-size: 1em;
+	color: #000;
+	padding: 10px 25px;
+	border-radius: none;
+	text-transform: uppercase;
+	text-decoration: inherit;
+	margin: 10px 0px 10px 30px;
+	border: none;
+	display: inline-block;
+}
+
+.acept-cancel {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+
+.form-label-prod {
+	font-family: 'Staatliches', sans-serif;
+	font-size: 1em;
+	padding-top: 5px;
 }
 
 .form-check label {
@@ -426,6 +529,7 @@ img.icons {
 .col-md-6 input {
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.5em;
+	padding: 5px;
 }
 
 
