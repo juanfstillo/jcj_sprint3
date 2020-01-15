@@ -5,20 +5,20 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
 
+  <div class="carousel-item">
+      <img class="d-block w-100" src="/images/766-slide2.gif" alt="Pelotas de tenis">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="carousel-title"> WOMEN POWER </h3>
+        <p class="carousel-desc"> La nueva linea de Serena Williams </p>
+      </div>
+    </div>
+
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="/images/766-slide1.jpg" alt="Raqueta de tenis HEAD">
       <div class="carousel-caption d-none d-md-block">
         <h3 class="carousel-title"> BABOLAT PURE AERO </h3>
         <p class="carousel-desc"> Con tecnologia Pure Drive® </p>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/images/766-slide2.gif" alt="Pelotas de tenis">
-      <div class="carousel-caption d-none d-md-block">
-        <h3 class="carousel-title"> WOMEN POWER </h3>
-        <p class="carousel-desc"> La nueva linea de Serena Williams </p>
       </div>
     </div>
 
