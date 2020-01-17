@@ -33,7 +33,6 @@
               <td class="table-title">Precio</td>
               <td class="table-title">Categoría</td>
               <td class="table-title"></td>
-              <td class="table-title"></td>
             </tr>
           </thead>
 
@@ -42,13 +41,15 @@
             <tr>
               <td class="table-item">{{$eachproduct->name}}</td>
               {{-- <td>{{$eachproduct->slug}}</td> --}}
-              <td class="table-item"><img src="{{$eachproduct->imageUrl}}" alt="{{$eachproduct->name}}" style="width:200px"></td>
+              <td class="table-item"><img src="{{$eachproduct->imageUrl}}" alt="{{$eachproduct->name}}" style="width:150px"></td>
               {{-- <td>{{$eachproduct->description}}</td> --}}
               <td class="table-item">${{$eachproduct->price}}</td>
               <td class="table-item">{{$eachproduct->category->name}}</td>
 
-              <td class="table-item"><a href="<?= url("/edit_product/{$eachproduct->id}")?>"  class=" px-1 text-primary"><button id="main-button" class="grey" style='width:110px'>Editar</button></a></td>
-              <td><a href="<?= url("/delete_product/$eachproduct->id")?>"  class=" px-1 text-danger"><button id="main-button" class="red" style='width:110px'>Eliminar</button></a></td>
+              <td class="table-item">
+                <a href="<?= url("/edit_product/{$eachproduct->id}")?>"  class=" px-1 text-primary"><button id="main-button" class="grey" style='width:110px'>Editar</button></a>
+                <a href="<?= url("/delete_product/$eachproduct->id")?>"  class=" px-1 text-danger"><button id="main-button" class="red" style='width:110px'>Eliminar</button></a>
+              </td>
             </tr>
           </tbody>
             @endforeach

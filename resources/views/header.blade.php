@@ -21,7 +21,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             {{-- <a class="dropdown-item" href="{{ route('abmgeneral') }}">ABM </a> --}}
-            
+
             <a class="dropdown-item" href="{{ route('categoriesabm') }}">ABM de Categorías</a>
             <a class="dropdown-item" href="{{ route('productsabm') }}">ABM de Productos</a>
 

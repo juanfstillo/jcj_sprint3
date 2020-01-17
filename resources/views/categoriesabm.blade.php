@@ -5,7 +5,7 @@
 @endsection
 
 @section('main')
-  
+
 <h1 id="main-title" class="main-title-abm" style="color: white">{{ 'Categorias' }}</h1>
  <div class="card-abm" style="width:90%">
 
@@ -33,7 +33,7 @@
                   <td class="table-title"></td>
                 </tr>
               </thead>
-              
+
               <tbody>
                 @foreach ($category as $cadacategory)
                 <tr>
@@ -55,6 +55,6 @@
         </div>
       </div>
     </div>
-  
+
 
 @endsection
