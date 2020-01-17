@@ -1,6 +1,8 @@
-@extends('layouts.app')
+@extends('layout')
 
-@section('content')
+@section('title') JCJ TENIS | OLVIDE MI CONTRASENA
+
+@section('main')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

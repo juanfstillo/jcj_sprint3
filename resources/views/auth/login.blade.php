@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('title') JCJ TENIS | INGRESO
+@endsection
+
 @section('main')
 <div class="container" id="form-container">
     <div class="row justify-content-center">
@@ -59,11 +62,11 @@
                                     ¿Todavía no tenes usuario?
                                 </a>
 
-                                {{-- @if (Route::has('password.request'))
+                                @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
+                                        {{ __('Olvidaste tu contraseña?') }}
                                     </a>
-                                @endif --}}
+                                @endif
 
                             </div>
                         </div>
@@ -73,4 +76,7 @@
         </div>
     </div>
 </div>
+@endsection
+@section('scripts')
+
 @endsection
