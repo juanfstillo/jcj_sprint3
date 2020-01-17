@@ -51,8 +51,9 @@
 
                         <div class="form-group row">
                             <label for="province" id="province" class="col-md-4 col-form-label text-md-right">{{ __('Provincia') }}</label>
+                          </div>
 
-                        </div>
+                          
 
 
 
@@ -60,7 +61,7 @@
                             <label for="file" class="col-md-4 col-form-label text-md-right">Foto de perfil</label>
 
                             <div class="col-md-6">
-                                <input id="file" type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
+                                <input id="file" type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" >
 
                                 @error('file')
                                     <span class="invalid-feedback" role="alert">
