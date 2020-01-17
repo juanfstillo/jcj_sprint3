@@ -482,6 +482,14 @@ img.icons {
 	margin-right: 20px;
 }
 
+.imgProd {
+	height: 250px;
+	border: solid 1px white;
+	border-radius: 5px;
+	box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+	margin-bottom: 20px;
+}
+
 .form-label label {
 	font-family: 'Staatliches', sans-serif;
 	font-size: 1em;
@@ -511,10 +519,17 @@ img.icons {
 }
 
 
+.form-body {
+	padding:20px 10px 20px 25px;
+	margin-left: 20px;
+}
+
+
 .form-label-prod {
 	font-family: 'Staatliches', sans-serif;
 	font-size: 1em;
 	padding-top: 5px;
+	width: 300px;
 }
 
 .form-check label {

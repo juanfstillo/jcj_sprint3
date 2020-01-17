@@ -64,9 +64,9 @@ class ProductController extends Controller
     $product->save();
   return redirect ("/productsabm");
   }
+
   public function deleteProduct($id_product)  {
   $product = Product::where("id", "=", $id_product)->delete();
   return redirect ("productsabm");
   }
-
 }
