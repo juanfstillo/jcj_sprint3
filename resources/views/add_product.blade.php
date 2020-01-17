@@ -6,7 +6,7 @@
 
 <div class="card-abm" style="width:60%" id="card-abm">
   <div class="container">
-    <div class="row justify-content-left">
+    <div class="row justify-content-center">
         
     <h1 class="add-cat col-12" id="main-title" style="margin-left: 20px">Nuevo producto</h1>
 
@@ -73,8 +73,8 @@
 
     <div class="acept-cancel">
       <div class="col-md-12 justify-content-center">
+        <a href="<?=url("/productsabm")?>" id="main-cancel">Cancelar</a>
         <button type="submit" id="main-add">Agregar Producto</button>
-          <a href="<?=url("/productsabm")?>" id="main-cancel">Cancelar</a>
       </div>
     </div>
       

@@ -93,8 +93,8 @@
 
   <div class="acept-cancel">
     <div class="row justify-content-center col-12">
-      <button type="submit" id="main-add">Guardar cambios</button>
       <a href="<?=url("/productsabm")?>" id="main-cancel">Cancelar</a>
+      <button type="submit" id="main-add">Guardar cambios</button>
     </div>
   </div>
 

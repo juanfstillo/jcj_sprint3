@@ -548,6 +548,17 @@ img.icons {
 }
 
 
+#province {
+	display: none;
+}
+
+#province label {
+	
+}
+
+
+
+
 #textHelp {
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.4em;

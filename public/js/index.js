@@ -18,6 +18,7 @@ function obtenerProvincias() {
       select.setAttribute('id', 'provinceSelect');
       select.setAttribute('name', 'province');
       for (var provincia of provincias) {
+        province.setAttribute('style', 'display:inline');
         var option = document.createElement('option');
         option.setAttribute('value', provincia.id);
         option.innerHTML = provincia.nombre;
@@ -38,6 +39,8 @@ countrySelect.onchange = function () {
   var selectedValue = this.selectedOptions[0].value;
   if (selectedValue === ARGENTINA_CODE) {
     obtenerProvincias();
+
+
   } else {
     sacarProvinciasSelect();
   }
