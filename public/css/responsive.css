@@ -54,8 +54,9 @@ width: 100%;
    margin: 2px;
  }
  #main-add {
-   display: block;
+  display: block;
   margin-right: auto;
+  margin-left: auto;
 }
 #main-cancel {
 margin-right: auto;

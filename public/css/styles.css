@@ -315,6 +315,7 @@ img.cardIcons {
 	margin-bottom: 50px;
 	background-color: white;
 	border-radius: 10px;
+	display: inline-block;
 }
 
 #card-abm {
@@ -647,15 +648,6 @@ img.icons {
 #province {
 	display: none;
 }
-
-<<<<<<< HEAD
-=======
-#province label {
-
-}
-
-
->>>>>>> aa2402f6cfd3db24755e7e06788209333eee6f07
 
 
 #textHelp {
