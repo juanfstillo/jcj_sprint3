@@ -27,11 +27,6 @@ h2{
   margin-bottom: 0
 }
 
-a, a:hover {
-  font-family: 'Staatliches', sans-serif;
-  color: black;
-}
-
 #main {
   flex: 1;
 }

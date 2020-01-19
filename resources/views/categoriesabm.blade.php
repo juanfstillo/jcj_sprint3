@@ -6,7 +6,7 @@
 
 @section('main')
 
-<h1 id="main-title" class="main-title-abm" style="color: white">{{ 'Categorias' }}</h1>
+<h1 id="main-title" class="main-title-abm" style="color:white">{{ 'Categorias' }}</h1>
  <div class="card-abm" style="width:90%">
 
   <div class="container">
@@ -33,8 +33,7 @@
                   <td class="table-title"></td>
                 </tr>
               </thead>
-
-              <tbody>
+            <tbody>
                 @foreach ($category as $cadacategory)
                 <tr>
                   <td class="table-item">{{$cadacategory->name}}</td>
