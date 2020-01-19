@@ -52,7 +52,7 @@ h1#main-title .white-about {
 	margin: 30px 0px 10px 0px;
 	text-decoration: none;
 	letter-spacing: 2px;
-/*	text-shadow: 2px 2px 10px black;*/ 
+/*	text-shadow: 2px 2px 10px black;*/
 }
 
 .carousel-desc {
@@ -219,7 +219,7 @@ div.imagenavatar img {
 	text-transform: uppercase;
 	text-decoration: inherit;
 	margin: 10px 0px 10px 10px;
-	border: none;	
+	border: none;
 	vertical-align: middle;
 }
 
@@ -310,6 +310,7 @@ img.cardIcons {
 }
 
 .card-abm {
+	width:60%;
 	margin-left: 40px;
 	margin-bottom: 50px;
 	background-color: white;
@@ -318,6 +319,11 @@ img.cardIcons {
 
 #card-abm {
 	margin-top: 30px;
+}
+
+.file{
+  width: 285%;
+  margin-right: 10px;
 }
 
 
@@ -577,9 +583,7 @@ img.icons {
 .img-fluid {
 	padding: 0px;
 	margin: 10px;
-
 }
-
 
 .imgProd {
 	height: 250px;
@@ -618,17 +622,10 @@ img.icons {
 }
 
 
-.form-body {
-	padding:20px 10px 20px 25px;
-	margin-left: 20px;
-}
-
-
 .form-label-prod {
 	font-family: 'Staatliches', sans-serif;
 	font-size: 1em;
 	padding-top: 5px;
-	width: 300px;
 }
 
 .form-check label {
@@ -651,6 +648,14 @@ img.icons {
 	display: none;
 }
 
+<<<<<<< HEAD
+=======
+#province label {
+
+}
+
+
+>>>>>>> aa2402f6cfd3db24755e7e06788209333eee6f07
 
 
 #textHelp {

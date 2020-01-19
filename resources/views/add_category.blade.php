@@ -4,21 +4,25 @@
 
 @section('main')
 
-<div class="card-abm" style="width:60%" id="card-abm">
-  <div class="container">
+<div class="card-abm" id="card-abm">
+  <div class="container ">
     <div class="row justify-content-center">
-        
+
     <h1 class="add-cat col-10" id="main-title" style="text-align: left">Nueva categoría</h1>
-    
+
+<<<<<<< HEAD
+    <form id='add_categoryform'class="col-8" action="<?=url("/add_category")?>" method="POST" enctype="multipart/form-data">
+=======
     <form class="col-8" action="<?=url("/add_category")?>" method="POST" enctype="multipart/form-data">
-      
+>>>>>>> 169d401ca0aabaff28a8ac69f579539cfd846e5d
+
       @csrf
-      
+
       <div class="row justify-content-center">
         <label for="file" class="form-label-prod" style="color:#000">Imagen de la Categoria</label>
 
         <div class="col-md-8">
-          <input id="file" type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file" style="width: 300px">
+          <input id="file" type="file" class="file form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file" >
 
           @error('file')
               <span class="invalid-feedback" role="alert">
@@ -66,5 +70,6 @@
 @endsection
 
 @section('scripts')
-
+  <script type="text/javascript" src="{{ URL::asset('js/add_category.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @endsection

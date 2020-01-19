@@ -10,7 +10,7 @@
 
     <h1 class="add-cat col-12" id="main-title" style="margin-left: 20px">Nuevo producto</h1>
 
-    <form class="form-body" action="<?=url("/add_product")?>" method="POST" enctype="multipart/form-data">
+    <form id="add_productform" class="form-body" action="<?=url("/add_product")?>" method="POST" enctype="multipart/form-data">
 
     @csrf
 
@@ -86,5 +86,7 @@
 @endsection
 
 @section('scripts')
+  <script type="text/javascript" src="{{ URL::asset('js/add_product.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
 @endsection
