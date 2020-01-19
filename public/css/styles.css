@@ -206,8 +206,6 @@ div.imagenavatar img {
 }
 
 
-
-
 #cat-button:hover #main-button:hover {
   background-color: #d4dc00;
   text-decoration: inherit;
@@ -243,6 +241,17 @@ div.button-send {
 	align-content: center;
 	align-self: center;
 	align-items: center;
+}
+
+#buy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#forgetPass {
+	display: flex;
+	justify-content: flex-end;
 }
 
 #main-card {
@@ -358,8 +367,8 @@ p#price-prod {
 
 
 .card-body h5 {
-  top: 10%;
-  left: 10%;
+	top: 10%;
+	left: 10%;
 	padding: 0px;
 	height: 50px;
 }
