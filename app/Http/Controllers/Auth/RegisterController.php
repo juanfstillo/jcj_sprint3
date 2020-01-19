@@ -53,8 +53,8 @@ class RegisterController extends Controller
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'country' => ['required','string',],
-            'province'=> ['required', 'string'],
-            'file'=> ['required', 'image'],
+            // 'province'=> ['required', 'string'],
+            'file'=> ['mimes:jpg,jpeg,png', 'max:200'],
 
 
         ]);
@@ -68,8 +68,19 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+if(!empty($data['file'])) {
+
         $path = $data['file']->store("public");
         $nombre = basename($path);
+      }else {
+        $nombre = 'userdefault.png';
+      };
+
+        // if ($data['province']==-1) {
+        //   $province = null;
+        // } else {
+        //   $province = $data['province'];
+        // }
 
         return User::create([
             'name' => $data['name'],
@@ -79,5 +90,6 @@ class RegisterController extends Controller
             'province' => $data['province'],
             'avatar' => $nombre,
         ]);
+        return $user;
     }
 }

@@ -3,7 +3,7 @@
 @section('main')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-10" id="form-container">
             <div class="card">
                 <div class="form-title">{{ __('Crea tu cuenta') }}</div>
 
@@ -50,8 +50,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label id="province" for="province" class="col-md-4 col-form-label text-md-right"></label>
-                        </div>
+                            <label for="province" id="province" class="col-md-4 col-form-label text-md-right">{{ __('Provincia') }}</label>
+                          </div>
+
+                          
 
 
 
@@ -59,7 +61,7 @@
                             <label for="file" class="col-md-4 col-form-label text-md-right">Foto de perfil</label>
 
                             <div class="col-md-6">
-                                <input id="file" type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
+                                <input id="file" type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" >
 
                                 @error('file')
                                     <span class="invalid-feedback" role="alert">
@@ -94,10 +96,13 @@
                         </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-6 offset-md-4" id="buy">
                                 <button type="submit" id="main-button">
                                     {{ __('Crear cuenta') }}
                                 </button>
+                                <a class="linked" href="{{ route('login') }}">
+                                    ¿Ya tenes cuenta?
+                                </a>
                             </div>
                         </div>
                     </form>

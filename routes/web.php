@@ -48,3 +48,19 @@ Route::delete('/cart/{productId}', 'CartController@removeProduct')->name('remove
 Route::get('/{categorySlug}', 'CategoryController@index')->name('category');
 Route::get('/{categorySlug}/{productSlug}', 'ProductController@index')->name('product');
 //Todas las rutas que sean {slug}deben estar colocadas con posterioridad a las que no los sean para no ocasionar errores//
+Route::get('enviar', ['as' => 'enviar', function () {
+
+    $data = ['link' => 'http://styde.net'];
+
+    \Mail::send('emails.notificacion', $data, function ($message) {
+
+        $message->from('email@styde.net', 'Styde.Net');
+
+        $message->to('user@example.com')->subject('Notificación');
+
+    });
+
+    return "Se envío el email";
+}]);
+
+Route::view('/finalizar-compra', 'buy')->name('buy')->middleware('auth');

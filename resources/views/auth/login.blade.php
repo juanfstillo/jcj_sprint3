@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('title') JCJ TENIS | INGRESO
+@endsection
+
 @section('main')
 <div class="container" id="form-container">
     <div class="row justify-content-center">
@@ -30,6 +33,16 @@
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
 
+                            <div class="form-group row">
+                                <div class="col-12" id="forgetPass">
+                                    @if (Route::has('password.request'))
+                                        <a class="btn btn-link" href="{{ route('password.request') }}">
+                                            {{ __('Olvidaste tu contraseña?') }}
+                                        </a>
+                                    @endif
+                                </div>
+                            </div>
+
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <h5 id="error-message">{{ $message }}</h5>
@@ -49,8 +62,8 @@
                             </div>
                         </div>
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4" id="login-combo">
+                        <div class="form-group row">
+                            <div class="col-12" id="buy">
                                 <button type="submit" id="main-button">
                                     {{ __('Login') }}
                                 </button>
@@ -58,12 +71,6 @@
                                 <a class="linked" href="{{ route('register') }}">
                                     ¿Todavía no tenes usuario?
                                 </a>
-
-                                {{-- @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif --}}
 
                             </div>
                         </div>
@@ -73,4 +80,7 @@
         </div>
     </div>
 </div>
+@endsection
+@section('scripts')
+
 @endsection

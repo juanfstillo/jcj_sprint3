@@ -6,8 +6,8 @@
 
 <div class="card-abm" style="width:60%" id="card-abm">
   <div class="container">
-    <div class="row justify-content-left">
-        
+    <div class="row justify-content-center">
+
     <h1 class="add-cat col-12" id="main-title" style="margin-left: 20px">Nuevo producto</h1>
 
     <form class="form-body" action="<?=url("/add_product")?>" method="POST" enctype="multipart/form-data">
@@ -51,7 +51,7 @@
       <input required name="price" type="text" class="form-control col-md-4"  placeholder="10999">
 
       <small id="passwordHelpBlock" class="form-text text-muted">
-        Sin $ al principio ni decimales 
+        Sin $ al principio ni decimales
       </small>
     </div>
 
@@ -73,11 +73,11 @@
 
     <div class="acept-cancel">
       <div class="col-md-12 justify-content-center">
+        <a href="<?=url("/productsabm")?>" id="main-cancel">Cancelar</a>
         <button type="submit" id="main-add">Agregar Producto</button>
-          <a href="<?=url("/productsabm")?>" id="main-cancel">Cancelar</a>
       </div>
     </div>
-      
+
     </form>
     </div>
   </div>

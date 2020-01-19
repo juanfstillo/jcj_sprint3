@@ -10,8 +10,10 @@
 	@include('carrousel')	
 </div>
 
-  <div class="container py-4">
-    <div class="row">
+<h1 class="title-home">Productos</h1>
+
+  <div class="container py-4" style="padding-top: 0px">
+    <div class="row" id="category-home">
       @foreach($categories as $category)
         @include('category-card', ['category' => $category])
       @endforeach

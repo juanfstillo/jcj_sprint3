@@ -2,16 +2,24 @@ var x = document.forms["conocemosform"]["fullName"].value;
 var mail = document.forms["conocemosform"]["email"].value;
 var campo = document.forms["conocemosform"]["campo"].value;
 
-function validateForm() {
+form.onsubmit = function (ev) {
+  Swal.fire(
+    'Cuenta creada con éxito',
+    'Ya podes disfrutar de nuestro e-shop',
+    'success'
+  )
+  console.log('Se solicitó el registro de cuenta');
+}
+// function validateForm() {
 
-if (x == "") {
-  alert("[ERROR] JCJ | Tienda Online: Olvidaste poner tu nombre");
-  return false;
-}else if ( !(/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)/.test(email)) ) {
-    alert('[ERROR] JCJ | Tienda Online: Olvidaste poner tu mail');
-    return false;
-  }
-};
+// if (x == "") {
+//   alert("[ERROR] JCJ | Tienda Online: Olvidaste poner tu nombre");
+//   return false;
+// }else if ( !(/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)/.test(email)) ) {
+//     alert('[ERROR] JCJ | Tienda Online: Olvidaste poner tu mail');
+//     return false;
+//   }
+// };
 
     // function validacion() {
     //   if (condicion que debe cumplir el primer campo del formulario) {
