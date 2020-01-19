@@ -18,6 +18,12 @@
    margin-left: 20px;
    margin-right: 10px;
  }
+ .card-abm-prod{
+   padding-left: 30px;
+ }
+.form-control {
+width: 100%;
+}
  .table td, .table th {
    padding: 0px;
     display: block;
@@ -48,14 +54,15 @@
    margin: 2px;
  }
  #main-add {
-   display: block;
-  margin-left: auto;
+  display: block;
   margin-right: auto;
+  margin-left: auto;
 }
 #main-cancel {
-margin-left: auto;
 margin-right: auto;
 display: inline-block;
+justify-content: left;
+text-align: left;
 }
 
 #footer {

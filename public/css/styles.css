@@ -321,7 +321,11 @@ div.button-send {
 	margin: 20px 0px 40px 0px;
 	background-color: white;
 	border-radius: 10px;
+<<<<<<< HEAD
 
+=======
+	display: inline-block;
+>>>>>>> c144598df5cdf0dc8824c0179c48b019803a0e48
 }
 
 
@@ -667,15 +671,6 @@ img.icons {
 #province {
 	display: none;
 }
-
-<<<<<<< HEAD
-=======
-#province label {
-
-}
-
-
->>>>>>> aa2402f6cfd3db24755e7e06788209333eee6f07
 
 
 #textHelp {

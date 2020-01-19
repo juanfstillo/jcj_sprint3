@@ -9,6 +9,7 @@
 
     <div class="row justify-content-center card-cat-adm">
 
+
     <h1 class="add-cat col-10" id="main-title" style="text-align: left">Editar categoría</h1>
 
       <form  id="edit_categoryform"class="font-fira" action="<?=url("edit_category/{$category->id}")?>" method="POST" enctype="multipart/form-data">
