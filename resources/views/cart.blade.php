@@ -28,22 +28,22 @@ JCJ Tenis | Carrito de compras
             </thead>
             <tbody>
               @foreach(Auth::user()->productsInCart as $productInCart)
-                <tr>
-                  <td>
-                    <img src="{{ $productInCart->product->imageUrl }}" alt="{{ $productInCart->product->name }}" />
-                    <td>{{ $productInCart->product->name }}</td>
-                  </th>
-                  <td>{{ $productInCart->count }}</td>
-                  <td>${{ $productInCart->product->price }}</td>
-                  <td>
-                    <form action="{{ route('removeProductFromCart', ['productId' => $productInCart->product->id]) }}" method="post">
-                      {{ csrf_field() }}
-                      <input type="hidden" name="_method" value="DELETE">
-                      <input type="hidden" name="product_id" value="{{ $productInCart->product->id }}">
-                      <button id="main-button" class="red" type="submit">Eliminar</button>
-                    </form>
-                  </td>
-                </tr>
+              <tr>
+                <td>
+                  <img src="{{ $productInCart->product->imageUrl }}" alt="{{ $productInCart->product->name }}" />
+                  <td>{{ $productInCart->product->name }}</td>
+                </th>
+                <td>{{ $productInCart->count }}</td>
+                <td>${{ $productInCart->product->price }}</td>
+                <td>
+                  <form action="{{ route('removeProductFromCart', ['productId' => $productInCart->product->id]) }}" method="post">
+                    {{ csrf_field() }}
+                    <input type="hidden" name="_method" value="DELETE">
+                    <input type="hidden" name="product_id" value="{{ $productInCart->product->id }}">
+                    <button type="submit" id="main-button" class="red" style='width:110px'>Eliminar</button>
+                  </form>
+                </td>
+              </tr>
               @endforeach
                 <tr>
                   <td colspan="3" class="form-title" id="white">Total</td>
