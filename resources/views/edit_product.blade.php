@@ -4,17 +4,17 @@
 
 @section('main')
 
-<div class="card-abm" style="width:60%" id="card-abm">
+<div class="card-abm" id="card-abm">
   <div class="container">
     <div class="row justify-content-center">
-        
+
     <h1 class="add-cat col-12" id="main-title" style="margin-left: 20px">Editar producto</h1>
 
     <form class="form-body col-8" action="<?=url("edit_product/{$product->id}")?>" method="POST" enctype="multipart/form-data">
 
     @csrf
-      
-    <div class="row justify-content-left col-6">
+
+    <div class="row cat-id justify-content-left col-6">
       <label for="img" class="">Imagen actual</label>
     </div>
     <div class="row justify-content-left col-6">
@@ -37,7 +37,7 @@
 
     <br>
 
-    <div class="row justify-content-left col-6">
+    <div class="row cat-id justify-content-left col-6">
       <label for="name" class="form-label-prod">Nombre del Producto</label>
     </div>
     <div>
@@ -59,7 +59,7 @@
       <label for="description" class="form-label-prod">Descripción</label>
     </div>
     <div>
-      <textarea name="description" type="text" value= "{{$product->description}}" class="form-control justify-content-left" style="width: 100%" placeholder="{{$product->description}}" rows="6"></textarea> 
+      <textarea name="description" type="text" value= "{{$product->description}}" class="form-control justify-content-left" style="width: 100%" placeholder="{{$product->description}}" rows="6"></textarea>
     </div>
 
     <br>
@@ -71,16 +71,16 @@
       <input name="category_id" type="text" value= "{{$category->category_name}}" class="form-control" placeholder="{{$category->category_name}}">
     </div> --}}
 
-  <div class="row justify-content-left col-6">
+  <div class="row cat-id justify-content-left col-5 col-md-12">
     <label for="category_id" class="form-label-prod">Categoria actual</label>
     <h3 class="table-add">{{$product->category->name}}</h3>
   </div>
 
   <br>
 
-  <div class="row justify-content-left col-6">
+  <div class="cat-id row justify-content-left col-6 col-md-12">
     <label for="category_id" class="form-label-prod">Nueva Categoria</label>
-    <select name="category_id" class="form-control col-md-8" value="{{$product->category_id}}">     
+    <select name="category_id" class="form-control col-md-8" value="{{$product->category_id}}">
       <option value="1">RAQUETAS</option>
       <option value="2">PELOTAS</option>
       <option value="3">CUERDAS</option>
