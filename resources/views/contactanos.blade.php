@@ -39,8 +39,46 @@ JCJ Tenis | Conocenos
 
 
                   </form>
+
+                  <!--Grid column-->
+      <div class="container">
+        <div class="row mt-4">
+            <div class="col-sm ">
+                <ul class="list-unstyled mb-0">
+                  <li><img src="images/home-solid.svg" style="width:50px" align="middle" alt="Home">
+                        <p align="center">Lima 1111 <br>CABA-ARGENTINA</p>
+                    </li>
+                  </div>
+                  <div class="col-sm" >
+                      <ul class="list-unstyled mb-0">
+                        <li><img src="images/phone-solid.svg" style="width:50px" align="middle" alt="Phone">
+                              <p align="center">0810-19991-1111</p>
+                          </li>
+                        </div>
+                              <div class="col-sm">
+                                  <ul class="list-unstyled mb-0">
+                                      <li><img src="images/envelope-solid.svg" style="width:50px" align="middle" alt="Mail">
+                                          <palign="center">jcjtenis@jcjtenis.com.ar</p>
+                                      </li>
+                                    </div>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+       <!--Grid column-->
+                    <div class="map">
+
+                      <div style="width: 100%"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&height=600&hl=es&q=LIMA%201111%2CCABA%20ARGENTINA+(JCJ%20TENIS)&ie=UTF8&t=&z=15&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/calcular-ruta.html">Mapa de Ruta</a></iframe></div><br />
+                    </div>
+
                 </div>
             </div>
+
         </div>
     </div>
   </div>
