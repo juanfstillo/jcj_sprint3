@@ -4,9 +4,13 @@
 
 @section('main')
 
-<div class="card-abm" style="width:60%" id="card-abm">
+<div class="card-abm" id="card-abm">
   <div class="container">
+<<<<<<< HEAD
     <div class="row justify-content-center">
+=======
+    <div class="row justify-content-center card-cat-adm">
+>>>>>>> 169d401ca0aabaff28a8ac69f579539cfd846e5d
 
     <h1 class="add-cat col-10" id="main-title" style="text-align: left">Editar categoría</h1>
 
@@ -16,14 +20,14 @@
 
       <div class="row">
         <div class="img-fluid col-12 form-group my-2">
-          <img src="<?=url("{$category->imageUrl}")?>"  height="250" alt="productImage">
+          <img src="<?=url("{$category->imageUrl}")?>" height="250" alt="productImage">
         </div>
 
         <div class="row justify-content-center">
           <label for="file" class="form-label-prod" style="color:#000">Nueva imagen</label>
 
           <div class="col-md-8">
-            <input type="file" class="form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" >
+            <input type="file" class="file-cat form-control @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" >
 
             @error('file')
                 <span class="invalid-feedback" role="alert">

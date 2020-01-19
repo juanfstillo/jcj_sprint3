@@ -62,3 +62,5 @@ Route::get('enviar', ['as' => 'enviar', function () {
 
     return "Se envío el email";
 }]);
+
+Route::view('/finalizar-compra', 'buy')->name('buy')->middleware('auth');

@@ -52,15 +52,13 @@ JCJ Tenis | Carrito de compras
                   <br>
             </tbody>
 
-            <hr>
-
             <tr>
               <td class="table-item"></td>
               <td class="table-item"></td>
               <td class="table-item"></td>
               <td class="table-item" style="margin:0px">
 
-              
+
               {{-- P U N T O  D E  A N C L A  A  L A  H O M E --}}
 
                 <a href="<?= url("http://127.0.0.1:8000/#category-home")?>"  class="px-1 text-primary"><button id="main-button" class="grey" style='width:200px'>
@@ -68,12 +66,77 @@ JCJ Tenis | Carrito de compras
                   </button></a>
               </td>
               <td class="table-item" style="border-top: 1px solid grey">
-                <a href="<?= url("/finalizar-compra")?>"  class="px-1 text-danger" style="font-size:1.3em"><button id="main-button" style='width:200px'>
+                <a href="#payment"  class="px-1 text-danger" style="font-size:1.3em"><button id="main-button" style='width:200px'>
                   Finalizar compra
                   </button></a>
               </td>
             </tr>
           </table>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-10" id="form-container">
+      <div class="col-md-12">
+        <div class="card" style="background-color: #dedede">
+        <h3 id="main-title" class="main-title-abm" style="font-size:3em">Forma de pago</h3>
+
+        <div class="card-body">
+        <form method="POST" id="form-registro" action="{{ route('order') }} ">
+          {{ csrf_field() }}
+          
+          <div class="form-group row" id="payment">
+            <label for="fullName" class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Nombre del titular de la tarjeta</label>
+          
+            <input required type="text" id="fullName" name="fullName" class="form-control col-md-4" style="font-size:0.5em">
+          </div>
+
+          <div class="form-group row">
+            <label for="cbrand" class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Tipo</label>
+          
+            <select class="form-control col-md-4" name="cbrand" style="font-size:0.5em">
+              <option value="Mastercard">Mastercard</option>
+              <option value="Visa">Visa</option>
+              <option value="Maestro">Maestro</option>
+              <option value="American Express">American Express</option>
+            </select>
+          </div>
+
+          <div class="form-group row">
+            <label for="cnumber" class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Número de tarjeta</label>
+
+            <input required type="number" min="16" id="cnumber" name="cnumber" placeholder="1111-2222-3333-4444" class="form-control col-md-4" name="cbrand" style="font-size:0.5em">
+
+
+            <label class="col-md-4 col-form-label text-md-right" style="font-size:0.5em"></label>
+            <input type="hidden" class="form-control col-md-4"></div>
+
+          <div class="form-group row">
+            <label class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Expiración</label>
+
+            <input required type="string" min="5" id="cexpirate" name="cexp" placeholder="MM/AA" class="form-control col-md-2" name="cbrand" style="font-size:0.5em">
+          </div>
+
+          <div class="form-group row">
+            <label class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Cód. de seguridad</label>
+
+            <input required type="number" min="3" id="cvv" name="cvv" placeholder="CVV" class="form-control col-md-2" name="cbrand" style="font-size:0.5em">
+          </div>
+
+          <a href="#" id="buy">
+            <button id="main-button" class="main-button" style='font-size: 0.4em'>
+                  Comprar
+            </button>
+          </a>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
 
           @else
             <p class="about-description">No hay productos en el carrito</p>
