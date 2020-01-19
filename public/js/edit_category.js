@@ -6,5 +6,5 @@ edit_category.onsubmit = function (ev) {
     'Sigamos actualizando!',
     'success'
   )
-  console.log('Se ha editado un producto');
+  console.log('Se ha editado una categoría');
 }
