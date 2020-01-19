@@ -7,13 +7,13 @@
 <div class="card-abm" style="width:60%" id="card-abm">
   <div class="container">
     <div class="row justify-content-center">
-        
+
     <h1 class="add-cat col-10" id="main-title" style="text-align: left">Nueva categoría</h1>
-    
-    <form class="col-8" action="<?=url("/add_category")?>" method="POST" enctype="multipart/form-data">
-      
+
+    <form id='add_categoryform'class="col-8" action="<?=url("/add_category")?>" method="POST" enctype="multipart/form-data">
+
       @csrf
-      
+
       <div class="row justify-content-center">
         <label for="file" class="form-label-prod" style="color:#000">Imagen de la Categoria</label>
 
@@ -66,5 +66,6 @@
 @endsection
 
 @section('scripts')
-
+  <script type="text/javascript" src="{{ URL::asset('js/add_category.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @endsection

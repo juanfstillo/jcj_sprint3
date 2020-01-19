@@ -7,10 +7,10 @@
 <div class="card-abm" style="width:60%" id="card-abm">
   <div class="container">
     <div class="row justify-content-center">
-        
+
     <h1 class="add-cat col-10" id="main-title" style="text-align: left">Editar categoría</h1>
 
-      <form  class="font-fira" action="<?=url("edit_category/{$category->id}")?>" method="POST" enctype="multipart/form-data">
+      <form  id="edit_categoryform"class="font-fira" action="<?=url("edit_category/{$category->id}")?>" method="POST" enctype="multipart/form-data">
 
       @csrf
 
@@ -63,5 +63,7 @@
 @endsection
 
 @section('scripts')
+  <script type="text/javascript" src="{{ URL::asset('js/edit_category.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
 @endsection
