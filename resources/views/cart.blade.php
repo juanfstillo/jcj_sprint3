@@ -29,13 +29,13 @@ JCJ Tenis | Carrito de compras
             <tbody>
               @foreach(Auth::user()->productsInCart as $productInCart)
               <tr>
-                <td>
+                <td class="table-item">
                   <img src="{{ $productInCart->product->imageUrl }}" alt="{{ $productInCart->product->name }}" />
-                  <td>{{ $productInCart->product->name }}</td>
+                  <td class="table-item">{{ $productInCart->product->name }}</td>
                 </th>
-                <td>{{ $productInCart->count }}</td>
-                <td>${{ $productInCart->product->price }}</td>
-                <td>
+                <td class="table-item">{{ $productInCart->count }}</td>
+                <td class="table-item">${{ $productInCart->product->price }}</td>
+                <td class="table-item">
                   <form action="{{ route('removeProductFromCart', ['productId' => $productInCart->product->id]) }}" method="post">
                     {{ csrf_field() }}
                     <input type="hidden" name="_method" value="DELETE">
@@ -46,46 +46,34 @@ JCJ Tenis | Carrito de compras
               </tr>
               @endforeach
                 <tr>
-                  <td colspan="3" class="form-title" id="white">Total</td>
-                  <td class="form-title" id="white">${{ Auth::user()->cartTotal() }}</td>
+                  <td colspan="3" class="form-title" id="white" style="border-bottom: 1px solid grey">Total</td>
+                  <td class="form-title" id="white" style="border-bottom: 1px solid grey">${{ Auth::user()->cartTotal() }}</td>
                 </tr>
                   <br>
             </tbody>
+
+            <hr>
+
+            <tr>
+              <td class="table-item"></td>
+              <td class="table-item"></td>
+              <td class="table-item"></td>
+              <td class="table-item" style="margin:0px">
+
+              
+              {{-- P U N T O  D E  A N C L A  A  L A  H O M E --}}
+
+                <a href="<?= url("http://127.0.0.1:8000/#category-home")?>"  class="px-1 text-primary"><button id="main-button" class="grey" style='width:200px'>
+                  Seguir comprando
+                  </button></a>
+              </td>
+              <td class="table-item" style="border-top: 1px solid grey">
+                <a href="<?= url("/finalizar-compra")?>"  class="px-1 text-danger" style="font-size:1.3em"><button id="main-button" style='width:200px'>
+                  Finalizar compra
+                  </button></a>
+              </td>
+            </tr>
           </table>
-
-  <div class="container">
-      <div class="row justify-content-center">
-          <div class="col-md-12">
-              <div class="card">
-                <form action="{{ route('order') }}" method="post">
-                  {{ csrf_field() }}
-                  <div>
-                    <label>Apellido y Nombre</label>
-                    <input required type="text" id="cname" name="cname" placeholder="Tu Nombre">
-                  </div>
-
-                  <div>
-                    <select class="" name="cbrand">
-                      <option value="Mastercard">Mastercard</option>
-                      <option value="Visa">Visa</option>
-                      <option value="Maestro">Maestro</option>
-                      <option value="American Express">American Express</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label class="form-label">Número de tarjeta</label>
-                    <input required type="number" min="16" id="cnumber" name="cnumber" placeholder="1111-2222-3333-4444">
-                    <input required type="string" min="5" id="cexpirate" name="cexp" placeholder="Expiración MM/AA">
-                    <input required type="number" min="3" id="cvv" name="cvv" placeholder="CVV">
-                  </div>
-
-                  <button class="btn btn-secondary btn-lg btn-block" type="submit">Comprar</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
 
           @else
             <p class="about-description">No hay productos en el carrito</p>
