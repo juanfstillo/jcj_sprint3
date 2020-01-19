@@ -6,11 +6,9 @@
 
 <div class="card-abm" id="card-abm">
   <div class="container">
-<<<<<<< HEAD
-    <div class="row justify-content-center">
-=======
+
     <div class="row justify-content-center card-cat-adm">
->>>>>>> 169d401ca0aabaff28a8ac69f579539cfd846e5d
+
 
     <h1 class="add-cat col-10" id="main-title" style="text-align: left">Editar categoría</h1>
 

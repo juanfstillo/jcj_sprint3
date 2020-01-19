@@ -4,7 +4,7 @@
 
 @section('main')
 
-<div class="card-abm" style="width:60%" id="card-abm">
+<div class="card-abm card-abm-prod" id="card-abm">
   <div class="container">
     <div class="row justify-content-center">
 
@@ -16,7 +16,7 @@
 
     <div class="row justify-content-left">
       <label for="file" class="form-label-prod" style="color:#000">Imagen del Producto</label>
-      <input id="file" type="file" class="form-control col-md-8 @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file" style="width: 300px">
+      <input id="file" type="file" class="form-control col-md-8 @error('file') is-invalid @enderror" name="file" value="{{ old('file') }}" required autocomplete="file">
 
       @error('file')
           <span class="invalid-feedback" role="alert">
