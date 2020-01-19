@@ -9,7 +9,7 @@
 <h1 id="main-title" class="main-title-abm" style="color:white">{{ 'Categorias' }}</h1>
  <div class="card-abm" style="width:90%">
 
-  <div class="container">
+  <div class="container" style="margin-top: 25px">
     <div class="row">
 
       <div class="add-cat col-12">
