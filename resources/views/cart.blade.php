@@ -46,8 +46,8 @@ JCJ Tenis | Carrito de compras
               </tr>
               @endforeach
                 <tr>
-                  <td colspan="3" class="form-title" id="white" style="border-bottom: 1px solid grey">Total</td>
-                  <td class="form-title" id="white" style="border-bottom: 1px solid grey">${{ Auth::user()->cartTotal() }}</td>
+                  <td colspan="3" class="form-total" style="border-bottom: 1px solid grey">Total</td>
+                  <td id="pay-title" class="finalPrice" style="border-bottom: 1px solid grey">${{ Auth::user()->cartTotal() }}</td>
                 </tr>
                   <br>
             </tbody>
@@ -66,25 +66,32 @@ JCJ Tenis | Carrito de compras
                   </button></a>
               </td>
               <td class="table-item" style="border-top: 1px solid grey">
-                <a href="#payment"  class="px-1 text-danger" style="font-size:1.3em"><button id="main-button" style='width:200px'>
+                <a href="#payment" type="submit" class="px-1 text-danger" style="font-size:1.3em"><button id="main-button" style='width:200px'>
                   Finalizar compra
                   </button></a>
               </td>
             </tr>
           </table>
 
-<div class="container">
+<div class="container" id="payment">
   <div class="row justify-content-center">
-    <div class="col-md-10" id="form-container">
-      <div class="col-md-12">
+    <div class="col-10" id="form-container">
+      <div class="col-12">
         <div class="card" style="background-color: #dedede">
-        <h3 id="main-title" class="main-title-abm" style="font-size:3em">Forma de pago</h3>
+        <h3 id="pay-title" class="main-title-abm col-6">Forma de pago</h3>
+
+        <div class="cardIcons col-6">
+          <img src="/images/visa.svg" class="cardImg">
+          <img src="/images/amex.svg" class="cardImg">
+          <img src="/images/master.svg" class="cardImg">
+          <img src="/images/maestro.svg" class="cardImg">
+        </div>
 
         <div class="card-body">
         <form method="POST" id="form-registro" action="{{ route('order') }} ">
           {{ csrf_field() }}
           
-          <div class="form-group row" id="payment">
+          <div class="form-group row">
             <label for="fullName" class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Nombre del titular de la tarjeta</label>
           
             <input required type="text" id="fullName" name="fullName" class="form-control col-md-4" style="font-size:0.5em">
@@ -119,7 +126,7 @@ JCJ Tenis | Carrito de compras
           <div class="form-group row">
             <label class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Cód. de seguridad</label>
 
-            <input required type="number" min="3" id="cvv" name="cvv" placeholder="CVV" class="form-control col-md-2" name="cbrand" style="font-size:0.5em">
+            <input required type="password" min="3" id="cvv" name="cvv" placeholder="CVV" class="form-control col-md-2" name="cbrand" style="font-size:0.5em">
           </div>
 
           <a href="#" id="buy">
@@ -145,4 +152,8 @@ JCJ Tenis | Carrito de compras
     </div>
   </div>
 </div>
+@endsection
+@section('scripts')
+<script type="text/javascript" src="{{ URL::asset('js/cart.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @endsection
