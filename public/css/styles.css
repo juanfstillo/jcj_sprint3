@@ -9,9 +9,31 @@
 	text-decoration: none;
 }
 
+
+#pay-title {
+	color: black;
+	font-family: 'Staatliches', sans-serif;
+	text-transform: uppercase;
+	font-size: 3em;
+	margin: 30px 0px 40px 0px;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 30px;
+	position: relative;
+}
+
+
+.finalPrice {
+	margin: 0px;
+	padding: 0px;
+}
+
+
 .main-title-abm {
 	padding-left: 40px;
+	float: left;
 }
+
 
 #main-title.white {
 	color: #fff;
@@ -69,6 +91,16 @@ h1#main-title .white-about {
 
 .form-control {
 	padding: 15px 0px;
+}
+
+.form-total {
+	font-size: 1.6em;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: inherit;
+	margin-bottom: 20px;
+	text-align: right;
+	padding-right: 20px;
 }
 
 
@@ -248,6 +280,24 @@ div.button-send {
 	align-items: center;
 	justify-content: center;
 }
+
+
+img.cardIcons {
+	align-content: justify-content;
+  	vertical-align: middle;
+  	float: right;
+  	position: relative;
+  	display: inline-block;
+}
+
+
+.cardImg {
+	margin-right: 30px;
+	padding: 25px 0px;
+	width: 50px;
+	display: inline-block;
+}
+
 
 #forgetPass {
 	display: flex;
@@ -598,11 +648,14 @@ img.icons {
 	display: none;
 }
 
+<<<<<<< HEAD
+=======
 #province label {
 
 }
 
 
+>>>>>>> aa2402f6cfd3db24755e7e06788209333eee6f07
 
 
 #textHelp {

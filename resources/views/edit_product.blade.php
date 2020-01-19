@@ -10,7 +10,7 @@
 
     <h1 class="add-cat col-12" id="main-title" style="margin-left: 20px">Editar producto</h1>
 
-    <form class="form-body col-8" action="<?=url("edit_product/{$product->id}")?>" method="POST" enctype="multipart/form-data">
+    <form id="edit_productform"class="form-body col-8" action="<?=url("edit_product/{$product->id}")?>" method="POST" enctype="multipart/form-data">
 
     @csrf
 
@@ -107,5 +107,6 @@
 @endsection
 
 @section('scripts')
-
+  <script type="text/javascript" src="{{ URL::asset('js/edit_product.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @endsection

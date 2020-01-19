@@ -8,7 +8,10 @@
   <div class="container">
 
     <div class="row justify-content-center card-cat-adm">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0546c16bc847c9ee62b070bfe7f0ab28210b798e
 
     <h1 class="add-cat col-10" id="main-title" style="text-align: left">Editar categoría</h1>
 
