@@ -27,6 +27,13 @@
         @yield('main')
     </main>
 
+<<<<<<< HEAD
+=======
+    {{-- <footer id="newsletter">
+        @include('newsletter')
+    </footer> --}}
+
+>>>>>>> b1d0ca80433693564915c96602e7cacd37f923f7
     <footer id="footer">
         @include('footer')
     </footer>
