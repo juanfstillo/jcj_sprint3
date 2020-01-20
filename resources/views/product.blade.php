@@ -22,8 +22,11 @@
         <h3 class="card-title-prod" style="font-size: 2.3em">{{ $product->name }}</h3>
         <p id="price-prod" style="padding-left:0px">${{ $product->price }}</p>
         <p id="description-title" style="margin-bottom:50px">{{ $product->description }}</p>
+
         @guest
-          <a href="{{ route('login') }}" id="cat-button">Agregar al carrito</a>
+          <a href="{{ route('login') }}">
+            <button type="submit" id="main-button" style="font-size: 1em; width:200px">Agregar al carrito</button> 
+          </a>
         @else
           <form action="{{ route('addProductToCart', ['productId' => $product->id]) }}" method="post">
             {{ csrf_field() }}
@@ -39,7 +42,8 @@
               </select>
             </div>
 
-            <button type="submit" id="main-button" style="font-size:1em">Agregar al carrito</button>
+            <button type="submit" id="main-button" style="font-size: 1em; width:200px">Agregar al carrito</button>   
+            
           </form>
         @endguest
 

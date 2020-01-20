@@ -7,20 +7,17 @@ JCJ Tenis | Carrito de compras
 @section('main')
 
 <div>
-  <h1 id="main-title" class="main-title-abm" style="color:white">Carrito</h1>
+  <h1 id="main-title" class="main-title-abm col-12" style="color:white; display: block; padding-left:40px">Carrito</h1>
 </div>
+<br>
 
-<div class="card-abm" style="align-content: center">
 
+<div class="card-abm col-10" style="align-content: center">
   <div class="container" id="container-center">
     <div class="row">
 
       <div class="add-cat col-12" id="emptyCart">
-<<<<<<< HEAD
 
-=======
-
->>>>>>> 69ca0665a31169ecd65001003d67d020c47190ac
         @if (Auth::user()->productsInCart->isNotEmpty())
           <table class="table table-borderless products-in-cart">
             <thead class="row-grey col-12">
@@ -53,8 +50,9 @@ JCJ Tenis | Carrito de compras
 
               @endforeach
                 <tr class="totalPay">
-                  <td colspan="3" class="form-total">Total</td>
-                  <td colspan="3" id="pay-title" class="finalPrice">${{ Auth::user()->cartTotal() }}</td>
+                  <td colspan="3" class="form-total" style="padding-top:30px; border-top: 1px solid grey; border-bottom:1px solid grey;">Total</td>
+                  <td colspan="3" id="pay-title" class="finalPrice" style="border-top:1px solid grey">${{ Auth::user()->cartTotal() }}</td>
+                  <td colspan="3" id="pay-title" style="border-top:1px solid grey"></td>
                 </tr>
                   <br>
             </tbody>
@@ -81,15 +79,15 @@ JCJ Tenis | Carrito de compras
           </table>
 
 <div class="container" id="payment">
-  <div class="row justify-content-center" style="background-color: #dedede">
+  <div class="row justify-content-center">
     <div class="col-10" id="form-container">
       <div class="col-12">
         <div class="card" style="background-color: #dedede">
 
-      <div class="row col-12 pagoCard" style="padding-right: 0px">
-        <h3 id="pay-title" class="main-title-abm col-12" style="margin-top:15px">Forma de pago</h3>
+      <div class="row col-12" style="padding-right: 0px">
+        <h3 id="pay-title" class="main-title-abm col-6" style="margin-top:25px; margin-left:25px; padding-left:20px;  display: contents;">Forma de pago</h3>
 
-        <div class="cardIcons col-6" style="margin-top:20px">
+        <div class="cardIcons col-6" style="margin-bottom:20px; margin-left:170px;">
           <img src="/images/visa.svg" class="cardImg">
           <img src="/images/amex.svg" class="cardImg">
           <img src="/images/master.svg" class="cardImg">
