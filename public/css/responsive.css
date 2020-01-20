@@ -38,7 +38,8 @@ width: 100%;
    margin-left: 30px;
  }
  .img-fluid{
-   margin-left: 40px;
+   margin-left: auto;
+   margin-right: auto;
  }
  .imgProd{
    width: 300%;
@@ -48,6 +49,49 @@ width: 100%;
  }
  .table-add{
    margin-bottom: 0;
+ }
+ .card-product{
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .form-total{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 0;
+ }
+.pagoCard{
+  padding-left: 0;
+}
+.card{
+  border: none;
+}
+.col-12{
+  flex: auto;
+}
+.totalPay{
+  justify-content: center;
+  text-align: center;
+}
+.cardIcons{
+  display: flex;
+  padding-left: 0;
+}
+.cardImg{
+  margin-right: 10px;
+}
+.card-body{
+  margin-right: 20px;
+}
+.productCart{
+  border-bottom: 1px solid grey;
+}
+
+
+
+
+ #table-order{
+display: block;
  }
 
  #main-title{
@@ -64,7 +108,29 @@ display: inline-block;
 justify-content: left;
 text-align: left;
 }
-
+#container-center{
+  width: 80%;
+}
+#payment{
+  width: 110%;
+  padding: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#pay-title{
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#emptyCart{
+  padding-left: 2px;
+}
+#form-container{
+  padding: 0;
+}
 #footer {
   padding: 0;
 }
@@ -117,6 +183,19 @@ text-align: left;
 }
 .card-cat-adm{
   padding-left: 30px;
+}
+.img-fluid{
+  margin-left: auto;
+  margin-right: auto;
+}
+.products-in-cart{
+  display: inline-grid;
+}
+.form-total{
+  margin-top: 10px;
+}
+.table-titel .price{
+  margin-left: 60px;
 }
 td img{
   width: 100px;
