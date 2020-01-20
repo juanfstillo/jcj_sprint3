@@ -6,15 +6,16 @@ JCJ Tenis | Carrito de compras
 
 @section('main')
 
-<h1 id="main-title" class="main-title-abm" style="color:white">Carrito</h1>
+<div>
+  <h1 id="main-title" class="main-title-abm" style="color:white">Carrito</h1>
+</div>
 
-<div class="card-abm" style="width:90%">
+<div class="card-abm" style="align-content: center">
 
-  <div class="container">
+  <div class="container" id="container-center">
     <div class="row">
 
-      <div class="add-cat col-12">
-
+      <div class="add-cat col-12" id='emptyCart'>
         @if (Auth::user()->productsInCart->isNotEmpty())
           <table class="table table-borderless products-in-cart">
             <thead class="row-grey col-12">
@@ -47,7 +48,7 @@ JCJ Tenis | Carrito de compras
               @endforeach
                 <tr>
                   <td colspan="3" class="form-total" style="border-bottom: 1px solid grey">Total</td>
-                  <td id="pay-title" class="finalPrice" style="border-bottom: 1px solid grey">${{ Auth::user()->cartTotal() }}</td>
+                  <td colspan="3" id="pay-title" class="finalPrice">${{ Auth::user()->cartTotal() }}</td>
                 </tr>
                   <br>
             </tbody>
@@ -56,7 +57,7 @@ JCJ Tenis | Carrito de compras
               <td class="table-item"></td>
               <td class="table-item"></td>
               <td class="table-item"></td>
-              <td class="table-item" style="margin:0px">
+              <td class="table-item" style="border-top: 1px solid grey">
 
 
               {{-- P U N T O  D E  A N C L A  A  L A  H O M E --}}
@@ -78,14 +79,18 @@ JCJ Tenis | Carrito de compras
     <div class="col-10" id="form-container">
       <div class="col-12">
         <div class="card" style="background-color: #dedede">
-        <h3 id="pay-title" class="main-title-abm col-6">Forma de pago</h3>
 
-        <div class="cardIcons col-6">
+      <div class="row col-12" style="padding-right: 0px">
+        <h3 id="pay-title" class="main-title-abm col-6" style="margin-top:15px">Forma de pago</h3>
+
+        <div class="cardIcons col-6" style="margin-top:20px">
           <img src="/images/visa.svg" class="cardImg">
           <img src="/images/amex.svg" class="cardImg">
           <img src="/images/master.svg" class="cardImg">
           <img src="/images/maestro.svg" class="cardImg">
         </div>
+      </div>
+
 
         <div class="card-body">
         <form method="POST" id="form-registro" action="{{ route('order') }} ">
@@ -136,19 +141,23 @@ JCJ Tenis | Carrito de compras
           </a>
 
         </form>
+        </div>
       </div>
     </div>
   </div>
 </div>
 </div>
-</div>
 
-
-
-          @else
-            <p class="about-description">No hay productos en el carrito</p>
-          @endif
+    @else
+    <div class="card-abm" style="align-content: center">
+      <div class="col-12 justify-content-center" id="card-abm">
+        <img src="images/icon-tennis.svg" class="icon-empty" style="text-align: -webkit-center">
       </div>
+      <div>
+        <p class="about-description col-12">No hay productos en el carrito</p>
+    </div>
+    @endif
+  </div>
     </div>
   </div>
 </div>
