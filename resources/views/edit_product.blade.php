@@ -72,8 +72,8 @@
     </div> --}}
 
   <div class="row cat-id justify-content-left col-5 col-md-12">
-    <label for="category_id" class="form-label-prod">Categoria actual</label>
-    <h3 class="table-add">{{$product->category->name}}</h3>
+    <label for="category_id" class="form-label-prod col-sm-3">Categoria actual</label>
+    <h4 class=" col-sm-3">{{$product->category->name}}</h4>
   </div>
 
   <br>
