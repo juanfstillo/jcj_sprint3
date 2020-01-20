@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="province" id="province" class="col-md-4 col-form-label text-md-right">{{ __('Provincia') }}</label>
+                            <label for="province" id="province" class="col-md-10 col-form-label text-md-right">{{ __('Provincia') }}</label>
                           </div>
                         <div class="form-group row">
                             <label for="file" class="col-md-4 col-form-label text-md-right">Foto de perfil</label>
