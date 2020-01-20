@@ -11,7 +11,7 @@
                 <div class="form-title">{{ __('Iniciar sesión') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
+                    <form id='formLogin' method="POST" action="{{ route('login') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -82,5 +82,6 @@
 </div>
 @endsection
 @section('scripts')
-
+  <script type="text/javascript" src="{{ URL::asset('js/login.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @endsection

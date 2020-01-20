@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row card-product">
       <div class="col-12 col-lg-5 pr-0 bg-white">
         <img class="img-fluid p-5" src="{{ $product->imageUrl }}" alt="{{ $product->name }}" />
       </div>
@@ -36,13 +36,13 @@
                 @for ($i = 1; $i <= 10; $i++)
                   <option value="{{$i}}">{{$i}}</option>
                 @endfor
-              </select>  
+              </select>
             </div>
-            
+
             <button type="submit" id="main-button" style="font-size:1em">Agregar al carrito</button>
           </form>
         @endguest
-        
+
       </div>
     </div>
   </div>
