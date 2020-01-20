@@ -28,7 +28,7 @@
     </main>
 
     <footer id="newsletter">
-        @include('newsletter')   
+        @include('newsletter')
     </footer>
 
     <footer id="footer">

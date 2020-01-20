@@ -17,7 +17,7 @@ JCJ Tenis | Carrito de compras
 
       <div class="add-cat col-12" id="emptyCart">
 <<<<<<< HEAD
-      
+
 =======
 
 >>>>>>> 69ca0665a31169ecd65001003d67d020c47190ac
@@ -101,16 +101,16 @@ JCJ Tenis | Carrito de compras
         <div class="card-body">
         <form method="POST" id="form-registro" action="{{ route('order') }} ">
           {{ csrf_field() }}
-          
+
           <div class="form-group row">
             <label for="fullName" class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Nombre del titular de la tarjeta</label>
-          
+
             <input required type="text" id="fullName" name="fullName" class="form-control col-md-4" style="font-size:0.5em">
           </div>
 
           <div class="form-group row">
             <label for="cbrand" class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Tipo</label>
-          
+
             <select class="form-control col-md-4" name="cbrand" style="font-size:0.5em">
               <option value="Mastercard">Mastercard</option>
               <option value="Visa">Visa</option>
