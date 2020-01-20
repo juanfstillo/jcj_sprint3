@@ -21,7 +21,8 @@ function obtenerProvincias() {
       select.setAttribute('id', 'provinceSelect');
       select.setAttribute('name', 'province');
       for (var provincia of provincias) {
-        province.setAttribute('style', 'display:inline');
+        province.setAttribute('style', 'display:inline-block');
+
         var option = document.createElement('option');
         option.setAttribute('value', provincia.id);
         option.innerHTML = provincia.nombre;
@@ -49,14 +50,14 @@ countrySelect.onchange = function () {
   }
 }
 
-form.onsubmit = function (ev) {
-  Swal.fire(
-    'Cuenta creada con éxito',
-    'Ya podes disfrutar de nuestro e-shop',
-    'success'
-  )
-  console.log('Se solicitó el registro de cuenta');
-}
+// form.onsubmit = function (ev) {
+//   Swal.fire(
+//     'Cuenta creada con éxito',
+//     'Ya podes disfrutar de nuestro e-shop',
+//     'success'
+//   )
+//   console.log('Se solicitó el registro de cuenta');
+// }
 
 fetch(COUNTRIES_API_URL)
   .then(function (res) {
