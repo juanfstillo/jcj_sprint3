@@ -27,9 +27,9 @@
         @yield('main')
     </main>
 
-    <footer id="newsletter">
+    {{-- <footer id="newsletter">
         @include('newsletter')
-    </footer>
+    </footer> --}}
 
     <footer id="footer">
         @include('footer')
