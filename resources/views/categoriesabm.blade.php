@@ -40,7 +40,7 @@
                   <td class="table-item"><a href="<?= url("/edit_category/{$cadacategory->id}")?>"  class=" px-1 text-primary"><button id="main-button" class="grey" style='width:110px'>
                   Editar
                   </button></a></td>
-                  <td><a href="<?= url("/delete_category/$cadacategory->id")?>"  class=" px-1 text-danger"><button id="main-button" class="red" style='width:110px'>
+                  <td><a href="<?= url("/delete_category/$cadacategory->id")?>"  onclick="deletechart()" class=" px-1 text-danger"><button id="main-button" class="red" style='width:110px'onclick="deletechart()">
                   Eliminar
                   </button></a></td>
                 </tr>
@@ -53,5 +53,10 @@
       </div>
     </div>
 
+
+@endsection
+@section('scripts')
+  <script type="text/javascript" src="{{ URL::asset('js/abmcategory.js') }}"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 @endsection

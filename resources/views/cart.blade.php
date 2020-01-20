@@ -14,7 +14,7 @@ JCJ Tenis | Carrito de compras
     <div class="row">
 
       <div class="add-cat col-12">
-      
+
         @if (Auth::user()->productsInCart->isNotEmpty())
           <table class="table table-borderless products-in-cart">
             <thead class="row-grey col-12">
@@ -90,16 +90,16 @@ JCJ Tenis | Carrito de compras
         <div class="card-body">
         <form method="POST" id="form-registro" action="{{ route('order') }} ">
           {{ csrf_field() }}
-          
+
           <div class="form-group row">
             <label for="fullName" class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Nombre del titular de la tarjeta</label>
-          
+
             <input required type="text" id="fullName" name="fullName" class="form-control col-md-4" style="font-size:0.5em">
           </div>
 
           <div class="form-group row">
             <label for="cbrand" class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Tipo</label>
-          
+
             <select class="form-control col-md-4" name="cbrand" style="font-size:0.5em">
               <option value="Mastercard">Mastercard</option>
               <option value="Visa">Visa</option>
@@ -126,7 +126,7 @@ JCJ Tenis | Carrito de compras
           <div class="form-group row">
             <label class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Cód. de seguridad</label>
 
-            <input required type="password" min="3" id="cvv" name="cvv" placeholder="CVV" class="form-control col-md-2" name="cbrand" style="font-size:0.5em">
+            <input required type="password" max="4" id="cvv" name="cvv" placeholder="CVV" class="form-control col-md-2" name="cbrand" style="font-size:0.5em">
           </div>
 
           <a href="#" id="buy">
