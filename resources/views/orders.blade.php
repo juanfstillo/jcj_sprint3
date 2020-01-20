@@ -31,19 +31,19 @@
                   <table class="table table-borderless table-dark products-in-order">
                     <thead>
                       <tr>
-                        <th scope="col" class="items"></th>
-                        <th scope="col" class="items">Producto</th>
-                        <th scope="col" class="items">Cantidad</th>
-                        <th scope="col" class="items">Precio</th>
+                        <th scope="col" class="items" style="    color: black;"></th>
+                        <th scope="col" style="    color: black;" class="items">Producto</th>
+                        <th scope="col" style="    color: black;"class="items">Cantidad</th>
+                        <th scope="col" style="    color: black;"class="items">Precio</th>
                       </tr>
                     </thead>
                     <tbody>
                       @foreach($order->productsInOrder as $productInOrder)
                         <tr>
-                          <td><img src="{{ $productInOrder->product->imageUrl }}" alt="{{$productInOrder->product->name}}" /></td>
-                          <td>{{ $productInOrder->product->name }}</td>
-                          <td>{{ $productInOrder->count }}</td>
-                          <td>${{ $productInOrder->price }}</td>
+                          <td style="    color: black;"><img src="{{ $productInOrder->product->imageUrl }}" alt="{{$productInOrder->product->name}}" /></td>
+                          <td style="    color: black;">{{ $productInOrder->product->name }}</td>
+                          <td style="    color: black;">{{ $productInOrder->count }}</td>
+                          <td style="    color: black;">${{ $productInOrder->price }}</td>
                         </tr>
                       @endforeach
                     </tbody>
