@@ -50,12 +50,6 @@
     </div>
   </div>
 
-        {{-- <div class=" col-12 text-white">
-          <label for="imageUrl" class= "">
-          </label>
-          <input  name="imageUrl" type="file" value="" style="">
-        </div> --}}
-
     </div>
   </div>
 
