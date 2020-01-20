@@ -10,12 +10,12 @@ JCJ Tenis | Carrito de compras
   <h1 id="main-title" class="main-title-abm" style="color:white">Carrito</h1>
 </div>
 
-<div class="card-abm" style="width:90%">
+<div class="card-abm" style="align-content: center">
 
   <div class="container" id="container-center">
     <div class="row">
 
-      <div class="add-cat col-12">
+      <div class="add-cat col-12" style="align-content: center">
       
         @if (Auth::user()->productsInCart->isNotEmpty())
           <table class="table table-borderless products-in-cart">
@@ -150,20 +150,15 @@ JCJ Tenis | Carrito de compras
 </div>
 
     @else
-    <div class="card-abm" style="width:90%">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 justify-content-center" id="">
-            <img src="images/icon-tennis.svg" class="icon-empty">
-          </div>
-          <div>
-            <p class="about-description col-12">No hay productos en el carrito</p>
-        </div>
+    <div class="card-abm" style="align-content: center">
+      <div class="col-12 justify-content-center" id="card-abm">
+        <img src="images/icon-tennis.svg" class="icon-empty" style="text-align: -webkit-center">
       </div>
+      <div>
+        <p class="about-description col-12">No hay productos en el carrito</p>
     </div>
     @endif
-
-      </div>
+  </div>
     </div>
   </div>
 </div>
