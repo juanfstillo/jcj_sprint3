@@ -700,3 +700,86 @@ ul li.faq {
 	font-size: 1.2em;
 	font-family: 'Roboto', sans-serif;
 }
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Style the container for inputs */
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  color: white;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+#messageConfirm {
+  display:none;
+  color: white;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+#messageConfirm p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+.valid:before {
+  position: relative;
+  left: -35px;
+}
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+.invalid:before {
+  position: relative;
+  left: -35px;
+}
+input[type=email]{
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #333;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* This is our style for the invalid fields */
+input:invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+input:focus:invalid {
+  outline: none;
+}
+/* This is the style of our error messages */
+.error {
+  width  : 100%;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+}
+.error.active {
+  padding: 0.3em;
+}
