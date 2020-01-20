@@ -15,7 +15,7 @@ JCJ Tenis | Carrito de compras
   <div class="container" id="container-center">
     <div class="row">
 
-      <div class="add-cat col-12" style="align-content: center">
+      <div class="add-cat col-12" id="emptyCart">
       
         @if (Auth::user()->productsInCart->isNotEmpty())
           <table class="table table-borderless products-in-cart">
