@@ -27,9 +27,9 @@
 
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Email') }}</label>
-
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+                                  <span class="error" aria-live="polite"></span>
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -43,20 +43,14 @@
                             <label for="country" class="col-md-4 col-form-label text-md-right">{{ __('País') }}</label>
 
                             <div class="col-md-6">
-                              <select name="country" class="form-control">
+                              <select name="country" id="country" class="form-control">
                                 <option value="-1">Seleccionar país</option>
                               </select>
                             </div>
                         </div>
-
                         <div class="form-group row">
                             <label for="province" id="province" class="col-md-4 col-form-label text-md-right">{{ __('Provincia') }}</label>
                           </div>
-
-                          
-
-
-
                         <div class="form-group row">
                             <label for="file" class="col-md-4 col-form-label text-md-right">Foto de perfil</label>
 
@@ -76,9 +70,13 @@
 
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-
-                                <small id="textHelp" class="form-text text-muted">Mínimo de 8 caracteres</small>
-
+                                  <div id="message">
+                                    <h3 style="color:black">Tu contraseña debe contener lo siguiente:</h3>
+                                    <p id="letter" class="invalid"> una letra <b>minuscula</b> </p>
+                                    <p id="capital" class="invalid">una letra <b>mayuscula</b> </p>
+                                    <p id="number" class="invalid">un  <b>número</b></p>
+                                    <p id="length" class="invalid">Cómo mínimo <b>8 caracteres</b></p>
+                                  </div>
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <h5 id="error-message">{{ $message }}</h5>
@@ -92,6 +90,8 @@
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <p id="passConfirm" class="invalid"> Debe ser igual a <b>Contraseña</b> </p>
+
                             </div>
                         </div>
 

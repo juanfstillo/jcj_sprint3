@@ -8,7 +8,7 @@
   <div class="container">
     <div class="row justify-content-center">
 
-    <h1 class="add-cat col-12" id="main-title" style="margin-left: 20px">Nuevo producto</h1>
+    <h1 class="add-cat col-12" id="main-title" style="margin-left: 40px">Nuevo producto</h1>
 
     <form id="add_productform" class="form-body" action="<?=url("/add_product")?>" method="POST" enctype="multipart/form-data">
 

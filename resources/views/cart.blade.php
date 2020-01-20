@@ -133,7 +133,7 @@ JCJ Tenis | Carrito de compras
           <div class="form-group row">
             <label class="col-md-4 col-form-label text-md-right" style="font-size:0.5em">Cód. de seguridad</label>
 
-            <input required type="password" min="3" id="cvv" name="cvv" placeholder="CVV" class="form-control col-md-2" name="cbrand" style="font-size:0.5em">
+            <input required type="password" max="4" id="cvv" name="cvv" placeholder="CVV" class="form-control col-md-2" name="cbrand" style="font-size:0.5em">
           </div>
 
           <a href="#" id="buy">
