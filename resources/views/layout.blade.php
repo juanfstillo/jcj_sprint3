@@ -27,10 +27,6 @@
         @yield('main')
     </main>
 
-    <footer id="newsletter">
-        @include('newsletter')   
-    </footer>
-
     <footer id="footer">
         @include('footer')
     </footer>
